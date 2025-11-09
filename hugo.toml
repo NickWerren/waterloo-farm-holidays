@@ -1,4 +1,4 @@
-baseurl = "https://waterloofarmpholidays.com"
+baseurl = "https://nickwerren.github.io/waterloo-farm-holidays/"
 title = "Waterloo Farm Holidays"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"

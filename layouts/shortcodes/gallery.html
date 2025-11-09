@@ -1,5 +1,8 @@
 {{- $dir := .Get "dir" -}}
-{{- $files := readDir (printf "static/%s" $dir) -}}
+{{- $path := printf "static/%s" $dir -}}
+{{- $dirExists := fileExists $path -}}
+{{- if $dirExists -}}
+{{- $files := readDir $path -}}
 {{- if $files -}}
 <div class="gallery-container">
     <div class="gallery-grid">
@@ -68,4 +71,5 @@
 
 <!-- Initialize PhotoSwipe -->
 {{ .Page.Scratch.Set "photoswipe" true }}
+{{- end -}}
 {{- end -}}

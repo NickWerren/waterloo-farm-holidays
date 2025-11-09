@@ -1,6 +1,6 @@
 baseurl = "https://nickwerren.github.io/waterloo-farm-holidays/"
-relativeURLs = true
-canonifyURLs = true
+relativeURLs = false
+canonifyURLs = false
 title = "Waterloo Farm Holidays"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"

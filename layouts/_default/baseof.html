@@ -150,9 +150,9 @@
 // Cycle through hero images in the header
 (function() {
     const heroImages = [
-        '/img/hero/orchard_track.jpg',
-        '/img/hero/pool_view.jpg',
-        '/img/hero/winter_sunset.jpg'
+        '{{ "img/hero/orchard_track.jpg" | relURL }}',
+        '{{ "img/hero/pool_view.jpg" | relURL }}',
+        '{{ "img/hero/winter_sunset.jpg" | relURL }}'
     ];
 
     let currentIndex = 0;

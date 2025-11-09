@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{ partial "head.html" . }}
+{{ partial "nav.html" . }}
+<!-- Page Header with Cycling Background -->
+{{ block "header" .}}
+<header class="intro-header{{ if not .IsHome }} intro-header-compact{{ end }}" id="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <div class="site-heading-box">
+                        <h1>{{ .Site.Title}} </h1>
+                        <!--<hr class="small">-->
+                        <span class="subheading">{{ .Site.Params.slogan }}</span>
+                        {{ if .IsHome }}
+                        <div class="hero-cta">
+                            <a href="/accommodation/" class="hero-book-btn">View Availability & Book</a>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<style>
+/* Keep navbar consistent - don't change on scroll */
+.navbar-custom.is-fixed {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-bottom: none !important;
+}
+
+.navbar-custom.is-fixed .navbar-brand,
+.navbar-custom.is-fixed .nav li a {
+    color: #fff !important;
+}
+
+.navbar-custom.is-fixed .navbar-brand:hover,
+.navbar-custom.is-fixed .navbar-brand:focus,
+.navbar-custom.is-fixed .nav li a:hover,
+.navbar-custom.is-fixed .nav li a:focus {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.intro-header {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 1.5s ease-in-out;
+}
+
+.intro-header .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Outer container - controls vertical spacing from header edges */
+.intro-header .site-heading {
+    padding: 95px 0 70px !important;
+    text-align: center !important;
+    background: none !important;
+    border: none !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .intro-header .site-heading {
+        padding: 150px 0 !important;
+    }
+}
+
+/* Compact header for non-home pages - reduced vertical spacing */
+.intro-header-compact .site-heading {
+    padding: 50px 0 40px !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .intro-header-compact .site-heading {
+        padding: 80px 0 60px !important;
+    }
+}
+
+/* Remove any theme-applied h1 backgrounds */
+.intro-header .site-heading h1 {
+    background: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Inner box - the dark background box around the text */
+.site-heading-box {
+    background: rgba(0, 0, 0, 0.5) !important;
+    padding: 20px 30px !important;
+    border-radius: 8px !important;
+    display: inline-block !important;
+}
+
+.site-heading-box h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.5px !important;
+    font-family: Georgia, 'Times New Roman', serif !important;
+    margin: 0 0 10px 0 !important;
+    color: white !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+.site-heading-box .subheading {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
+    font-weight: 300 !important;
+    letter-spacing: 1.5px !important;
+    text-transform: uppercase !important;
+    font-size: 14px !important;
+    color: white !important;
+    display: block !important;
+}
+
+.hero-cta {
+    margin-top: 30px;
+}
+
+.hero-book-btn {
+    display: inline-block;
+    padding: 14px 35px;
+    background: rgba(255, 255, 255, 0.95);
+    color: #3d3935;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.hero-book-btn:hover {
+    background: rgba(255, 255, 255, 1);
+    transform: translateY(-1px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    color: #3d3935;
+    text-decoration: none;
+}
+</style>
+
+<script>
+// Cycle through hero images in the header
+(function() {
+    const heroImages = [
+        '/img/hero/orchard_track.jpg',
+        '/img/hero/pool_view.jpg',
+        '/img/hero/winter_sunset.jpg'
+    ];
+
+    let currentIndex = 0;
+    const header = document.getElementById('intro-header');
+
+    // Set initial image
+    header.style.backgroundImage = `url('${heroImages[0]}')`;
+
+    // Cycle images every 5 seconds
+    setInterval(function() {
+        currentIndex = (currentIndex + 1) % heroImages.length;
+        header.style.backgroundImage = `url('${heroImages[currentIndex]}')`;
+    }, 5000);
+})();
+</script>
+{{ end }}
+
+{{ block "main" . }}
+{{ end }}
+
+{{ partial "footer.html" . }}
+{{ if .Store.Get "hasMermaid" }}
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+{{ end }}
+</body>
+</html>

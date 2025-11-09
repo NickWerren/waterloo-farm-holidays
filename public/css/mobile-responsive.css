@@ -1,0 +1,424 @@
+/* Mobile Responsiveness Improvements */
+/* This file fixes critical mobile UX issues across the site */
+
+/* ==========================================================================
+   1. NAVIGATION - Touch Target Improvements
+   ========================================================================== */
+
+/* Increase navigation font size for better readability and touch targets */
+.navbar-nav li a {
+    font-size: 14px !important;  /* Increased from 12px */
+    padding: 14px 15px !important;  /* Ensure minimum 44px height */
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+/* Ensure hamburger menu button is large enough for touch */
+.navbar-toggle {
+    min-width: 48px !important;
+    min-height: 48px !important;
+    padding: 12px !important;
+}
+
+.navbar-toggle .icon-bar {
+    width: 24px !important;
+    height: 3px !important;
+}
+
+/* Mobile navigation adjustments */
+@media (max-width: 768px) {
+    .navbar-nav li a {
+        font-size: 16px !important;  /* Larger on mobile for easier tapping */
+        padding: 16px 20px !important;
+    }
+
+    .navbar-brand {
+        font-size: 18px !important;
+    }
+}
+
+/* ==========================================================================
+   2. HOMEPAGE - Responsive Images and Typography
+   ========================================================================== */
+
+/* Cottage card images - reduce height on smaller screens */
+@media (max-width: 992px) {
+    .cottage-image {
+        height: 280px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .cottage-image {
+        height: 240px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .cottage-image {
+        height: 200px !important;
+    }
+}
+
+/* Cottage card titles */
+@media (max-width: 768px) {
+    .cottage-info h3 {
+        font-size: 19px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .cottage-info h3 {
+        font-size: 17px !important;
+    }
+}
+
+/* Section headers */
+@media (max-width: 576px) {
+    .section-header h2 {
+        font-size: 28px !important;
+    }
+}
+
+/* ==========================================================================
+   3. ACCOMMODATION LISTING - Grid and Card Improvements
+   ========================================================================== */
+
+/* Reduce card image height on mobile */
+@media (max-width: 768px) {
+    .card-image {
+        height: 200px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-image {
+        height: 180px !important;
+    }
+}
+
+/* Card titles */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 19px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-title {
+        font-size: 17px !important;
+    }
+}
+
+/* Filter buttons - better mobile layout */
+@media (max-width: 768px) {
+    .filter-btn {
+        font-size: 13px !important;
+        padding: 10px 16px !important;
+        min-width: auto !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .filter-buttons {
+        flex-direction: column !important;
+    }
+
+    .filter-btn {
+        width: 100% !important;
+    }
+}
+
+/* ==========================================================================
+   4. ACTIVITIES & FOOD-DRINK - Grid Adjustments
+   ========================================================================== */
+
+/* Activity tiles - reduce minimum width for small screens */
+@media (max-width: 576px) {
+    .activity-categories {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .activity-categories {
+        grid-template-columns: 1fr !important;  /* Single column on very small screens */
+    }
+}
+
+/* Route card headers */
+@media (max-width: 768px) {
+    .route-header {
+        height: 120px !important;
+    }
+
+    .route-title {
+        font-size: 19px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .route-header {
+        height: 100px !important;
+    }
+
+    .route-title {
+        font-size: 17px !important;
+    }
+}
+
+/* Route meta spacing */
+@media (max-width: 576px) {
+    .route-meta {
+        gap: 10px !important;
+        font-size: 12px !important;
+    }
+}
+
+/* ==========================================================================
+   5. PROPERTY PAGES - Calendar and Layout Improvements
+   ========================================================================== */
+
+/* Property page titles */
+@media (max-width: 576px) {
+    .property-header h1 {
+        font-size: 22px !important;
+    }
+
+    .booking-section-title {
+        font-size: 24px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .property-header h1 {
+        font-size: 20px !important;
+    }
+
+    .booking-section-title {
+        font-size: 22px !important;
+    }
+}
+
+/* Calendar - Critical touch target improvements */
+.calendar-day {
+    min-height: 44px;  /* Minimum touch target */
+    padding: 8px 4px !important;
+}
+
+@media (max-width: 768px) {
+    .booking-calendar {
+        padding: 20px !important;
+    }
+
+    .calendar-container {
+        padding: 15px !important;
+    }
+
+    .calendar-grid {
+        gap: 4px !important;
+    }
+
+    .calendar-day {
+        font-size: 13px !important;
+        min-height: 42px;
+    }
+}
+
+@media (max-width: 576px) {
+    .booking-calendar {
+        padding: 15px !important;
+    }
+
+    .calendar-container {
+        padding: 10px !important;
+    }
+
+    .calendar-grid {
+        gap: 2px !important;
+    }
+
+    .calendar-day {
+        font-size: 12px !important;
+        min-height: 40px;
+        padding: 6px 2px !important;
+    }
+
+    .calendar-header h4 {
+        font-size: 18px !important;
+    }
+
+    .calendar-nav button {
+        padding: 6px 12px !important;
+        font-size: 12px !important;
+    }
+}
+
+/* Booking form improvements */
+@media (max-width: 576px) {
+    .booking-form h4 {
+        font-size: 19px !important;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 16px !important;  /* Prevents zoom on iOS */
+        padding: 12px !important;
+    }
+
+    .btn-submit {
+        padding: 14px 20px !important;
+        font-size: 16px !important;
+    }
+}
+
+/* Quick facts box */
+@media (max-width: 576px) {
+    .quick-fact {
+        font-size: 14px !important;
+        padding: 6px 0 !important;
+    }
+
+    .quick-fact i {
+        font-size: 16px !important;
+    }
+}
+
+/* ==========================================================================
+   6. GENERAL MOBILE IMPROVEMENTS
+   ========================================================================== */
+
+/* Reduce padding on mobile for all major containers */
+@media (max-width: 576px) {
+    .container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    /* Testimonial */
+    .testimonial-featured {
+        padding: 30px 20px !important;
+    }
+
+    .testimonial-text {
+        font-size: 16px !important;
+    }
+
+    /* Feature boxes */
+    .feature-box h3 {
+        font-size: 12px !important;
+    }
+
+    .feature-icon {
+        width: 55px !important;
+        height: 55px !important;
+    }
+
+    .feature-icon i {
+        font-size: 24px !important;
+    }
+}
+
+/* Explore cards */
+@media (max-width: 576px) {
+    .explore-card-image {
+        padding: 40px 25px !important;
+    }
+
+    .explore-card-image i {
+        font-size: 38px !important;
+    }
+
+    .explore-card-image h3 {
+        font-size: 16px !important;
+    }
+}
+
+/* ==========================================================================
+   7. EXTRA SMALL PHONES (< 400px)
+   ========================================================================== */
+
+@media (max-width: 400px) {
+    /* Further reduce font sizes for very small phones */
+    body {
+        font-size: 15px !important;
+    }
+
+    .property-header h1,
+    .booking-section-title {
+        font-size: 18px !important;
+    }
+
+    .section-header h2 {
+        font-size: 24px !important;
+    }
+
+    /* Calendar - ensure it doesn't overflow */
+    .calendar-day {
+        font-size: 11px !important;
+        min-height: 36px;
+        padding: 4px 1px !important;
+    }
+
+    .calendar-header h4 {
+        font-size: 16px !important;
+    }
+}
+
+/* ==========================================================================
+   8. LANDSCAPE ORIENTATION ON PHONES
+   ========================================================================== */
+
+@media (max-width: 768px) and (orientation: landscape) {
+    /* Reduce vertical spacing in landscape */
+    .property-header {
+        margin-bottom: 20px !important;
+    }
+
+    .booking-section-title {
+        margin-bottom: 15px !important;
+    }
+
+    .calendar-container {
+        margin-bottom: 15px !important;
+    }
+}
+
+/* ==========================================================================
+   9. TOUCH-FRIENDLY IMPROVEMENTS
+   ========================================================================== */
+
+/* Increase spacing between interactive elements */
+@media (max-width: 768px) {
+    /* Buttons and links */
+    a.cottage-card,
+    a.explore-card,
+    a.activity-tile {
+        margin-bottom: 20px !important;
+    }
+
+    /* Ensure sufficient spacing between tappable items */
+    .navbar-nav li {
+        margin-bottom: 8px;
+    }
+}
+
+/* ==========================================================================
+   10. PERFORMANCE OPTIMIZATIONS
+   ========================================================================== */
+
+/* Prevent text inflation on mobile */
+@media (max-width: 768px) {
+    html {
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+    }
+}
+
+/* Smooth scrolling for mobile */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}

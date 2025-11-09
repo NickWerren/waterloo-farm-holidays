@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Waterloo Farm Holidays">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="http://localhost:1313//img/hero/orchard_track.jpg">
+    <meta property="twitter:image" content="http://localhost:1313//img/hero/orchard_track.jpg" />
+    
+
+    
+    <meta name="title" content="Local Events Calendar" />
+    <meta property="og:title" content="Local Events Calendar" />
+    <meta property="twitter:title" content="Local Events Calendar" />
+    
+
+    
+    <meta name="description" content="Local events, festivals, and activities in Cornwall">
+    <meta property="og:description" content="Local events, festivals, and activities in Cornwall" />
+    <meta property="twitter:description" content="Local events, festivals, and activities in Cornwall" />
+    
+
+    <meta property="og:url" content="http://localhost:1313/calendar/" />
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="holiday lets, countryside accommodation, farm holidays, vacation rentals, rural retreats, family holidays, pet friendly cottages, waterloo farm, luxury cottages, self catering">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>Local Events Calendar | Waterloo Farm Holidays | Luxury Holiday Lets in the Countryside</title>
+
+    <link rel="canonical" href="/calendar/">
+
+    
+
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.min.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    <link rel="stylesheet" href="/css/mobile-responsive.css">
+
+    
+    
+    
+    <link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid" style="background: rgba(0, 0, 0, 0.5);">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Waterloo Farm Holidays</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">home</a>
+                    </li>
+                    
+
+		    
+                        <li><a href="/accommodation//">ACCOMMODATION/BOOK NOW</a></li>
+                    
+                        <li><a href="/activities//">LOCAL ACTIVITIES</a></li>
+                    
+                        <li><a href="/food-and-drink//">LOCAL FOOD &amp; DRINK</a></li>
+                    
+                        <li><a href="/calendar//">LOCAL CALENDAR</a></li>
+                    
+                        <li><a href="/contact//">CONTACT US</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+<header class="intro-header intro-header-compact" id="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <div class="site-heading-box">
+                        <h1>Waterloo Farm Holidays </h1>
+                        
+                        <span class="subheading">Escape to the Cornish Countryside</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<style>
+ 
+.navbar-custom.is-fixed {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-bottom: none !important;
+}
+
+.navbar-custom.is-fixed .navbar-brand,
+.navbar-custom.is-fixed .nav li a {
+    color: #fff !important;
+}
+
+.navbar-custom.is-fixed .navbar-brand:hover,
+.navbar-custom.is-fixed .navbar-brand:focus,
+.navbar-custom.is-fixed .nav li a:hover,
+.navbar-custom.is-fixed .nav li a:focus {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.intro-header {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 1.5s ease-in-out;
+}
+
+.intro-header .container {
+    position: relative;
+    z-index: 1;
+}
+
+ 
+.intro-header .site-heading {
+    padding: 95px 0 70px !important;
+    text-align: center !important;
+    background: none !important;
+    border: none !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .intro-header .site-heading {
+        padding: 150px 0 !important;
+    }
+}
+
+ 
+.intro-header-compact .site-heading {
+    padding: 50px 0 40px !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .intro-header-compact .site-heading {
+        padding: 80px 0 60px !important;
+    }
+}
+
+ 
+.intro-header .site-heading h1 {
+    background: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+ 
+.site-heading-box {
+    background: rgba(0, 0, 0, 0.5) !important;
+    padding: 20px 30px !important;
+    border-radius: 8px !important;
+    display: inline-block !important;
+}
+
+.site-heading-box h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.5px !important;
+    font-family: Georgia, 'Times New Roman', serif !important;
+    margin: 0 0 10px 0 !important;
+    color: white !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+.site-heading-box .subheading {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
+    font-weight: 300 !important;
+    letter-spacing: 1.5px !important;
+    text-transform: uppercase !important;
+    font-size: 14px !important;
+    color: white !important;
+    display: block !important;
+}
+
+.hero-cta {
+    margin-top: 30px;
+}
+
+.hero-book-btn {
+    display: inline-block;
+    padding: 14px 35px;
+    background: rgba(255, 255, 255, 0.95);
+    color: #3d3935;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.hero-book-btn:hover {
+    background: rgba(255, 255, 255, 1);
+    transform: translateY(-1px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    color: #3d3935;
+    text-decoration: none;
+}
+</style>
+
+<script>
+
+(function() {
+    const heroImages = [
+        '/img/hero/orchard_track.jpg',
+        '/img/hero/pool_view.jpg',
+        '/img/hero/winter_sunset.jpg'
+    ];
+
+    let currentIndex = 0;
+    const header = document.getElementById('intro-header');
+
+    
+    header.style.backgroundImage = `url('${heroImages[0]}')`;
+
+    
+    setInterval(function() {
+        currentIndex = (currentIndex + 1) % heroImages.length;
+        header.style.backgroundImage = `url('${heroImages[currentIndex]}')`;
+    }, 5000);
+})();
+</script>
+
+
+
+<article>
+    <div class="container" style="margin-top: 30px;">
+        <div class="row">
+            
+            <div class="col-lg-4 col-md-4">
+                <div class="content-sidebar">
+                    <h2 id="local-events-calendar">Local Events Calendar</h2>
+<p>Discover what&rsquo;s happening in Cornwall throughout the year. From traditional festivals to local markets and seasonal events.</p>
+<p>Use the calendar below to browse events by month. Click on any event for more details.</p>
+
+                </div>
+            </div>
+
+            
+            <div class="col-lg-8 col-md-8">
+                
+                <div class="calendar-controls">
+                    <button onclick="previousMonth()" class="btn-calendar">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <h3 id="current-month"></h3>
+                    <button onclick="nextMonth()" class="btn-calendar">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+
+                
+                <div id="calendar-container"></div>
+
+                
+                <div id="events-list">
+                    <h3>Upcoming Events</h3>
+                    <div id="upcoming-events"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+<style>
+ 
+.content-sidebar {
+    position: sticky;
+    top: 20px;
+    padding-right: 30px;
+}
+
+.calendar-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.calendar-controls h3 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 300;
+    color: #3d3935;
+    font-size: 22px;
+}
+
+.btn-calendar {
+    background: #8b9e7d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.btn-calendar:hover {
+    background: #6b7d5f;
+    transform: translateY(-1px);
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    background: #d9d3cb;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.calendar-header {
+    background: #8b9e7d;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.calendar-day {
+    background: white;
+    min-height: 100px;
+    padding: 10px;
+    position: relative;
+    transition: background 0.2s;
+}
+
+.calendar-day:hover {
+    background: #f8f6f4;
+}
+
+.calendar-day.other-month {
+    background: #f5f3f1;
+    color: #999;
+}
+
+.calendar-day.today {
+    background: #e8e2db;
+    border: 2px solid #8b9e7d;
+}
+
+.day-number {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #3d3935;
+}
+
+.calendar-day.other-month .day-number {
+    color: #ccc;
+}
+
+.day-events {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.event-item {
+    background: #e8e2db;
+    padding: 4px 8px;
+    margin: 3px 0;
+    border-radius: 4px;
+    font-size: 11px;
+    cursor: pointer;
+    border-left: 3px solid #8b9e7d;
+    word-wrap: break-word;
+    transition: all 0.2s ease;
+}
+
+.event-item:hover {
+    background: #d9d3cb;
+    transform: translateX(2px);
+}
+
+#events-list h3 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 300;
+    color: #3d3935;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.event-card {
+    background: white;
+    border: 1px solid #d9d3cb;
+    border-left: 4px solid #8b9e7d;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.event-card:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.event-date {
+    color: #8b9e7d;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.event-title {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5px 0;
+    color: #3d3935;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.event-description {
+    color: #666;
+    font-size: 14px;
+    margin: 12px 0;
+    line-height: 1.6;
+}
+
+.event-location {
+    color: #888;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.event-location i {
+    color: #8b9e7d;
+    margin-right: 5px;
+}
+
+ 
+@media (max-width: 992px) {
+    .content-sidebar {
+        position: static;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .calendar-grid {
+        font-size: 12px;
+        gap: 1px;
+    }
+
+    .calendar-day {
+        min-height: 80px;
+        padding: 5px;
+    }
+
+    .event-item {
+        font-size: 10px;
+        padding: 2px 5px;
+    }
+
+    .calendar-controls {
+        padding: 15px;
+    }
+
+    .calendar-controls h3 {
+        font-size: 18px;
+    }
+
+    .btn-calendar {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+</style>
+
+<script>
+
+const events = [
+    {
+        date: '2025-11-15',
+        title: 'Launceston Farmers Market',
+        description: 'Weekly farmers market with local produce, crafts, and street food.',
+        location: 'Town Square, Launceston',
+        type: 'market'
+    },
+    {
+        date: '2025-11-22',
+        title: 'Launceston Farmers Market',
+        description: 'Weekly farmers market with local produce, crafts, and street food.',
+        location: 'Town Square, Launceston',
+        type: 'market'
+    },
+    {
+        date: '2025-12-01',
+        title: 'Bude Christmas Market',
+        description: 'Annual Christmas market with local artisans, festive food, and entertainment.',
+        location: 'Bude',
+        type: 'festival'
+    },
+    {
+        date: '2025-12-06',
+        title: 'Launceston Christmas Lights Switch On',
+        description: 'Town Christmas lights ceremony with carol singing and Santa.',
+        location: 'Launceston Town Center',
+        type: 'festival'
+    },
+    {
+        date: '2025-12-25',
+        title: 'Christmas Day',
+        description: 'Merry Christmas!',
+        location: '',
+        type: 'holiday'
+    },
+    {
+        date: '2026-01-01',
+        title: 'New Year\'s Day',
+        description: 'Happy New Year!',
+        location: '',
+        type: 'holiday'
+    }
+];
+
+let currentDate = new Date();
+
+function renderCalendar(year, month) {
+    const firstDay = new Date(year, month, 1);
+    const lastDay = new Date(year, month + 1, 0);
+    const prevLastDay = new Date(year, month, 0);
+
+    const firstDayOfWeek = firstDay.getDay();
+    const lastDate = lastDay.getDate();
+    const prevLastDate = prevLastDay.getDate();
+
+    const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+                       'July', 'August', 'September', 'October', 'November', 'December'];
+
+    document.getElementById('current-month').textContent = `${monthNames[month]} ${year}`;
+
+    let calendarHTML = '<div class="calendar-grid">';
+
+    
+    const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    dayNames.forEach(day => {
+        calendarHTML += `<div class="calendar-header">${day}</div>`;
+    });
+
+    
+    for (let i = firstDayOfWeek - 1; i >= 0; i--) {
+        const day = prevLastDate - i;
+        calendarHTML += `<div class="calendar-day other-month">
+            <div class="day-number">${day}</div>
+        </div>`;
+    }
+
+    
+    const today = new Date();
+    for (let day = 1; day <= lastDate; day++) {
+        const currentDateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+        const isToday = today.getFullYear() === year &&
+                       today.getMonth() === month &&
+                       today.getDate() === day;
+
+        
+        const dayEvents = events.filter(e => e.date === currentDateStr);
+
+        let eventsHTML = '';
+        dayEvents.forEach(event => {
+            eventsHTML += `<div class="event-item" onclick="showEventDetails('${currentDateStr}', '${event.title.replace(/'/g, "\\'")}')">
+                ${event.title}
+            </div>`;
+        });
+
+        calendarHTML += `<div class="calendar-day ${isToday ? 'today' : ''}">
+            <div class="day-number">${day}</div>
+            <div class="day-events">${eventsHTML}</div>
+        </div>`;
+    }
+
+    
+    const remainingDays = 42 - (firstDayOfWeek + lastDate);
+    for (let day = 1; day <= remainingDays; day++) {
+        calendarHTML += `<div class="calendar-day other-month">
+            <div class="day-number">${day}</div>
+        </div>`;
+    }
+
+    calendarHTML += '</div>';
+    document.getElementById('calendar-container').innerHTML = calendarHTML;
+
+    renderUpcomingEvents(year, month);
+}
+
+function renderUpcomingEvents(year, month) {
+    const startDate = new Date(year, month, 1);
+    const endDate = new Date(year, month + 2, 0); 
+
+    const upcomingEvents = events
+        .filter(e => {
+            const eventDate = new Date(e.date);
+            return eventDate >= startDate && eventDate <= endDate;
+        })
+        .sort((a, b) => new Date(a.date) - new Date(b.date));
+
+    let eventsHTML = '';
+    if (upcomingEvents.length === 0) {
+        eventsHTML = '<p style="color: #999;">No upcoming events in this period.</p>';
+    } else {
+        upcomingEvents.forEach(event => {
+            const eventDate = new Date(event.date);
+            const dateStr = eventDate.toLocaleDateString('en-GB', {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+
+            eventsHTML += `<div class="event-card">
+                <div class="event-date">${dateStr}</div>
+                <div class="event-title">${event.title}</div>
+                <div class="event-description">${event.description}</div>
+                ${event.location ? `<div class="event-location"><i class="fas fa-map-marker-alt"></i> ${event.location}</div>` : ''}
+            </div>`;
+        });
+    }
+
+    document.getElementById('upcoming-events').innerHTML = eventsHTML;
+}
+
+function showEventDetails(date, title) {
+    const event = events.find(e => e.date === date && e.title === title);
+    if (event) {
+        alert(`${event.title}\n\n${event.description}\n\n${event.location ? 'Location: ' + event.location : ''}`);
+    }
+}
+
+function previousMonth() {
+    currentDate.setMonth(currentDate.getMonth() - 1);
+    renderCalendar(currentDate.getFullYear(), currentDate.getMonth());
+}
+
+function nextMonth() {
+    currentDate.setMonth(currentDate.getMonth() + 1);
+    renderCalendar(currentDate.getFullYear(), currentDate.getMonth());
+}
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    renderCalendar(currentDate.getFullYear(), currentDate.getMonth());
+});
+</script>
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    <li>
+                        <a href="mailto:info@waterloofarmholidays.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    <li>
+                        <a href="https://twitter.com/AEWerren">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/pages/Waterloo-Farm-Holidays/171360599549442">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+
+		            
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Waterloo Farm Holidays 2025
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow" title="' + t + '">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+
+</body>
+</html>

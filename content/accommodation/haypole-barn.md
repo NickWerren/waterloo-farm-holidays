@@ -40,7 +40,7 @@ Set in the heart of the Cornish countryside at Waterloo Farm, North Petherwin, L
 
 ### Gallery
 
-{{< gallery dir="img/properties/haypole-barn" />}}
+{{< gallery dir="img/properties/haypole-barn" >}}
 
 
 ### House Rules

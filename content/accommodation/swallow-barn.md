@@ -34,7 +34,7 @@ Set in the heart of the Cornish countryside at Waterloo Farm, North Petherwin, L
 
 ### Gallery
 
-{{< gallery dir="img/properties/swallow-barn" />}}
+{{< gallery dir="img/properties/swallow-barn" >}}
 
 
 ### House Rules

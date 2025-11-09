@@ -33,7 +33,7 @@ Set in the heart of the Cornish countryside at Waterloo Farm, North Petherwin, L
 
 ### Gallery
 
-{{< gallery dir="img/properties/saffron-cottage" />}}
+{{< gallery dir="img/properties/saffron-cottage" >}}
 
 ### House Rules
 

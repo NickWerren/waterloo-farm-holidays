@@ -40,7 +40,7 @@ Set in the heart of the Cornish countryside at Waterloo Farm, North Petherwin, L
 
 ### Gallery
 
-{{< gallery dir="img/properties/sandmartins" />}}
+{{< gallery dir="img/properties/sandmartins" >}}
 
 
 ### House Rules

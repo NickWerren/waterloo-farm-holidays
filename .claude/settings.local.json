@@ -4,7 +4,22 @@
       "Bash(hugo server:*)",
       "Bash(hugo:*)",
       "Bash(find:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(open https://github.com/NickWerren/waterloo-farm-holidays/actions)",
+      "Bash(cat:*)",
+      "Bash(git rm:*)",
+      "Bash(git submodule add:*)",
+      "Bash(git submodule:*)",
+      "Bash(git push:*)",
+      "Bash(git checkout:*)",
+      "Bash(.gitignore)",
+      "Bash(pkill:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(gh run list:*)",
+      "Bash(curl:*)",
+      "Bash(git pull:*)",
+      "Bash(open https://github.com/NickWerren/waterloo-farm-holidays/settings/pages)"
     ],
     "deny": [],
     "ask": []

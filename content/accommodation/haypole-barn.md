@@ -37,12 +37,6 @@ A spacious wheelchair accessible barn conversion, perfect for larger groups and 
 ### Location
 
 Set in the heart of the Cornish countryside at Waterloo Farm, North Petherwin, Launceston.
-
-### Gallery
-
-{{< gallery dir="img/properties/haypole-barn" >}}
-
-
 ### House Rules
 
 - Check-in: 3:00 PM or later

@@ -31,12 +31,6 @@ A modern wheelchair accessible cottage with all the comforts of home, ideal for 
 ### Location
 
 Set in the heart of the Cornish countryside at Waterloo Farm, North Petherwin, Launceston.
-
-### Gallery
-
-{{< gallery dir="img/properties/kingfisher-cottage" >}}
-
-
 ### House Rules
 
 - Check-in: 3:00 PM or later

@@ -37,12 +37,6 @@ A large wheelchair accessible property that can be combined with Haypole Barn fo
 ### Location
 
 Set in the heart of the Cornish countryside at Waterloo Farm, North Petherwin, Launceston.
-
-### Gallery
-
-{{< gallery dir="img/properties/sandmartins" >}}
-
-
 ### House Rules
 
 - Check-in: 3:00 PM or later

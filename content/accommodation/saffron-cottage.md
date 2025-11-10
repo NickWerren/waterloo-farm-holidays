@@ -31,10 +31,6 @@ A charming traditional cottage at Waterloo Farm, perfect for couples or small fa
 
 Set in the heart of the Cornish countryside at Waterloo Farm, North Petherwin, Launceston.
 
-### Gallery
-
-{{< gallery dir="img/properties/saffron-cottage" >}}
-
 ### House Rules
 
 - Check-in: 3:00 PM or later

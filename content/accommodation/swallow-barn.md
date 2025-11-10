@@ -31,12 +31,6 @@ A converted barn with character, perfect for families with dogs. Spacious living
 ### Location
 
 Set in the heart of the Cornish countryside at Waterloo Farm, North Petherwin, Launceston.
-
-### Gallery
-
-{{< gallery dir="img/properties/swallow-barn" >}}
-
-
 ### House Rules
 
 - Check-in: 3:00 PM or later

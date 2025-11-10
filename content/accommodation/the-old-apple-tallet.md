@@ -31,12 +31,6 @@ A traditional cottage where your four-legged friends are welcome. Cozy and comfo
 ### Location
 
 Set in the heart of the Cornish countryside at Waterloo Farm, North Petherwin, Launceston.
-
-### Gallery
-
-{{< gallery dir="img/properties/the-old-apple-tallet" >}}
-
-
 ### House Rules
 
 - Check-in: 3:00 PM or later

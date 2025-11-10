@@ -15,7 +15,7 @@
                         <span class="subheading">{{ .Site.Params.slogan }}</span>
                         {{ if .IsHome }}
                         <div class="hero-cta">
-                            <a href="/accommodation/" class="hero-book-btn">View Availability & Book</a>
+                            <a href="{{ "accommodation" | relURL }}" class="hero-book-btn">View Availability & Book</a>
                         </div>
                         {{ end }}
                     </div>

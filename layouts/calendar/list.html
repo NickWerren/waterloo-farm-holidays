@@ -255,53 +255,26 @@
 </style>
 
 <script>
-// Event data structure - this is where you define your events
+// Event data dynamically generated from Hugo content
 const events = [
+    {{ range .Site.Pages }}
+        {{ if and (eq .Section "calendar") (ne .File.LogicalName "_index.md") }}
     {
-        date: '2025-11-15',
-        title: 'Launceston Farmers Market',
-        description: 'Weekly farmers market with local produce, crafts, and street food.',
-        location: 'Town Square, Launceston',
-        type: 'market'
+        date: '{{ .Params.date.Format "2006-01-02" }}',
+        title: {{ .Title | jsonify }},
+        description: {{ .Params.description | jsonify }},
+        location: {{ .Params.location | jsonify }},
+        type: {{ .Params.event_type | jsonify }},
+        event_date: {{ .Params.event_date | jsonify }},
+        recurring: {{ .Params.recurring | default "false" | jsonify }},
+        featured: {{ .Params.featured | default false }}
     },
-    {
-        date: '2025-11-22',
-        title: 'Launceston Farmers Market',
-        description: 'Weekly farmers market with local produce, crafts, and street food.',
-        location: 'Town Square, Launceston',
-        type: 'market'
-    },
-    {
-        date: '2025-12-01',
-        title: 'Bude Christmas Market',
-        description: 'Annual Christmas market with local artisans, festive food, and entertainment.',
-        location: 'Bude',
-        type: 'festival'
-    },
-    {
-        date: '2025-12-06',
-        title: 'Launceston Christmas Lights Switch On',
-        description: 'Town Christmas lights ceremony with carol singing and Santa.',
-        location: 'Launceston Town Center',
-        type: 'festival'
-    },
-    {
-        date: '2025-12-25',
-        title: 'Christmas Day',
-        description: 'Merry Christmas!',
-        location: '',
-        type: 'holiday'
-    },
-    {
-        date: '2026-01-01',
-        title: 'New Year\'s Day',
-        description: 'Happy New Year!',
-        location: '',
-        type: 'holiday'
-    }
+        {{ end }}
+    {{ end }}
 ];
 
-let currentDate = new Date();
+// Start calendar at January 2026 to show upcoming events
+let currentDate = new Date(2026, 0, 1);
 
 function renderCalendar(year, month) {
     const firstDay = new Date(year, month, 1);
@@ -387,13 +360,8 @@ function renderUpcomingEvents(year, month) {
         eventsHTML = '<p style="color: #999;">No upcoming events in this period.</p>';
     } else {
         upcomingEvents.forEach(event => {
-            const eventDate = new Date(event.date);
-            const dateStr = eventDate.toLocaleDateString('en-GB', {
-                weekday: 'long',
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-            });
+            // Use event_date field for display (supports "TBC" and recurring events)
+            const dateStr = event.event_date;
 
             eventsHTML += `<div class="event-card">
                 <div class="event-date">${dateStr}</div>

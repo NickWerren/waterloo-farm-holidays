@@ -23,7 +23,3 @@ We've organized our recommendations by type to help you find exactly what you're
 **Welcoming Atmosphere** - Cornwall's food establishments are known for their friendly, welcoming service and relaxed atmosphere.
 
 **Something for Everyone** - From fine dining to food trucks, quick snacks to leisurely meals, there's excellent food to suit all tastes and budgets.
-
-### Browse by Category
-
-Click on any category below to explore our recommendations organized by type of establishment. Each listing includes location, specialties, and what makes it worth visiting.

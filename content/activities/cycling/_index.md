@@ -8,16 +8,6 @@ description: "Explore Cornwall by bike - from coastal routes to challenging moor
 
 Cornwall offers exceptional cycling for all abilities, from leisurely coastal paths to challenging moorland climbs. Quiet lanes and stunning scenery make it a premier cycling destination.
 
-### Popular Routes
-
-**The Camel Trail** - Cornwall's most famous traffic-free route. 18 miles from Padstow to Bodmin along a disused railway line. Flat, safe, and suitable for all abilities.
-
-**Coast Roads** - Spectacular sea views and gentle gradients along coastal B-roads through fishing villages.
-
-**Bodmin Moor** - Challenging climbs with dramatic landscapes and rewarding views.
-
-**The Cornish Way** - 180-mile journey from Land's End to Bude as part of the National Cycle Network, showcasing Cornwall's finest landscapes.
-
 ### Off-Road & Mountain Biking
 
 Purpose-built trails at Cardinham Woods offer graded routes from family-friendly to technical. Extensive bridleway network across moorland provides natural off-road riding.

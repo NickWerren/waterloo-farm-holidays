@@ -83,12 +83,12 @@
                 {{ partial "reward.html" . }}
                 {{ end }}
 
-                <!-- Back to Section Navigation -->
-                {{ if .Section }}
+                <!-- Back to Parent Navigation -->
+                {{ if .Parent }}
                 <hr style="margin: 40px 0 30px; border-top: 1px solid #e8e2db;">
                 <div class="back-to-section">
-                    <a href="{{ .Section | relURL }}" class="btn-back-section">
-                        <i class="fas fa-arrow-left"></i> Back to {{ .Section | humanize | title }}
+                    <a href="{{ .Parent.RelPermalink }}" class="btn-back-section">
+                        <i class="fas fa-arrow-left"></i> Back to {{ .Parent.Title }}
                     </a>
                 </div>
                 <style>

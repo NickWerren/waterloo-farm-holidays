@@ -104,19 +104,19 @@ home = ["HTML", "RSS", "Algolia"]
   
   
   [[params.additional_menus]]
-  title =  "ACCOMMODATION/BOOK NOW"
+  title =  "Accommodation"
   href =  "accommodation"
   [[params.additional_menus]]
-  title =  "LOCAL ACTIVITIES"
+  title =  "Activities"
   href =  "activities"
    [[params.additional_menus]]
-  title =  "LOCAL FOOD & DRINK"
+  title =  "Food & Drink"
   href =  "food-and-drink"
     [[params.additional_menus]]
-  title =  "LOCAL CALENDAR"
+  title =  "Calendar"
   href =  "calendar"
   [[params.additional_menus]]
-  title =  "CONTACT US"
+  title =  "Contact"
   href =  "contact"
 
 [outputFormats.Algolia]

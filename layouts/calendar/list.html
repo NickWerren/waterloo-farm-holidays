@@ -257,8 +257,8 @@
 <script>
 // Event data dynamically generated from Hugo content
 const events = [
-    {{ range .Site.Pages }}
-        {{ if and (eq .Section "calendar") (ne .File.LogicalName "_index.md") }}
+    {{ range .Site.AllPages }}
+        {{ if and (in .RelPermalink "/calendar/") (not (in .RelPermalink "/_index")) (ne .Title "Local Events Calendar") }}
     {
         date: '{{ .Params.date.Format "2006-01-02" }}',
         title: {{ .Title | jsonify }},

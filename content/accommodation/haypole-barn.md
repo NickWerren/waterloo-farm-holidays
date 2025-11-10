@@ -11,6 +11,10 @@ bathrooms: 2
 pets: false
 wheelchair_accessible: true
 price_per_night: "£150-200"
+gallery_images:
+  - "img/properties/haypole-barn/HaypoleBarn1.jpeg"
+  - "img/properties/haypole-barn/HaypoleBarn2.jpeg"
+  - "img/properties/haypole-barn/HaypoleBarn3.jpeg"
 ---
 
 ## Welcome to Haypole Barn

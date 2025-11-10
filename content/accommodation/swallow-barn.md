@@ -11,6 +11,11 @@ bathrooms: 2
 pets: true
 wheelchair_accessible: false
 price_per_night: "£130-180"
+gallery_images:
+  - "img/properties/swallow-barn/SwallowBarn2.jpeg"
+  - "img/properties/swallow-barn/SwallowBarn3.jpeg"
+  - "img/properties/swallow-barn/SwallowBarn4.jpeg"
+  - "img/properties/swallow-barn/SwallowBarn5.jpeg"
 ---
 
 ## Welcome to Swallow Barn

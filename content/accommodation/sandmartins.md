@@ -11,6 +11,10 @@ bathrooms: 2
 pets: false
 wheelchair_accessible: true
 price_per_night: "£150-200"
+gallery_images:
+  - "img/properties/sandmartins/Sandmartins1.jpeg"
+  - "img/properties/sandmartins/Sandmartins2.jpeg"
+  - "img/properties/sandmartins/Sandmartins3.jpeg"
 ---
 
 ## Welcome to Sandmartins

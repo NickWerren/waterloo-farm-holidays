@@ -11,6 +11,10 @@ bathrooms: 1
 pets: false
 wheelchair_accessible: false
 price_per_night: "£100-150"
+gallery_images:
+  - "img/properties/saffron-cottage/SaffronCottage1.jpeg"
+  - "img/properties/saffron-cottage/SaffronCottage2.jpeg"
+  - "img/properties/saffron-cottage/SAffronCottage3.jpeg"
 ---
 
 ## Welcome to Saffron Cottage

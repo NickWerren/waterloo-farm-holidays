@@ -11,6 +11,10 @@ bathrooms: 1
 pets: true
 wheelchair_accessible: false
 price_per_night: "£110-160"
+gallery_images:
+  - "img/properties/the-old-apple-tallet/OldAppleTallet1.jpeg"
+  - "img/properties/the-old-apple-tallet/OldAppleTallet2.jpeg"
+  - "img/properties/the-old-apple-tallet/OldAppleTallet3.jpeg"
 ---
 
 ## Welcome to The Old Apple Tallet

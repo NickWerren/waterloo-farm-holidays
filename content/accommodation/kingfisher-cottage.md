@@ -11,6 +11,10 @@ bathrooms: 1
 pets: false
 wheelchair_accessible: true
 price_per_night: "£120-170"
+gallery_images:
+  - "img/properties/kingfisher-cottage/KingfisherCottage1.jpeg"
+  - "img/properties/kingfisher-cottage/KingfisherCottage2.jpeg"
+  - "img/properties/kingfisher-cottage/KingfisherCottage3.jpeg"
 ---
 
 ## Welcome to Kingfisher Cottage

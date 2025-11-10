@@ -9,10 +9,10 @@
         {{- range $files -}}
             {{- if not .IsDir -}}
                 {{- $filename := .Name -}}
-                {{- $path := printf "/%s/%s" $dir $filename -}}
+                {{- $imagePath := printf "%s/%s" $dir $filename -}}
                 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                    <a href="{{ $path }}" itemprop="contentUrl" data-size="1200x800">
-                        <img src="{{ $path }}" itemprop="thumbnail" alt="Gallery image" class="gallery-image" loading="lazy" />
+                    <a href="{{ $imagePath | relURL }}" itemprop="contentUrl" data-size="1200x800">
+                        <img src="{{ $imagePath | relURL }}" itemprop="thumbnail" alt="Gallery image" class="gallery-image" loading="lazy" />
                     </a>
                 </figure>
             {{- end -}}

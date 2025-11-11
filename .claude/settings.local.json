@@ -19,7 +19,10 @@
       "Bash(gh run list:*)",
       "Bash(curl:*)",
       "Bash(git pull:*)",
-      "Bash(open https://github.com/NickWerren/waterloo-farm-holidays/settings/pages)"
+      "Bash(open https://github.com/NickWerren/waterloo-farm-holidays/settings/pages)",
+      "Bash(done)",
+      "Bash(for cottage in kingfisher-cottage haypole-barn swallow-barn sandmartins the-old-apple-tallet)",
+      "Bash(do echo $cottage: ls static/img/properties/$cottage/)"
     ],
     "deny": [],
     "ask": []

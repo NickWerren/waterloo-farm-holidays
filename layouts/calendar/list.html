@@ -257,20 +257,22 @@
 <script>
 // Event data dynamically generated from Hugo content
 const events = [
-    {{ range .Site.AllPages }}
-        {{ if and (in .RelPermalink "/calendar/") (not (in .RelPermalink "/_index")) (ne .Title "Local Events Calendar") }}
-    {
-        date: '{{ .Params.date.Format "2006-01-02" }}',
-        title: {{ .Title | jsonify }},
-        description: {{ .Params.description | jsonify }},
-        location: {{ .Params.location | jsonify }},
-        type: {{ .Params.event_type | jsonify }},
-        event_date: {{ .Params.event_date | jsonify }},
-        recurring: {{ .Params.recurring | default "false" | jsonify }},
-        featured: {{ .Params.featured | default false }}
-    },
-        {{ end }}
-    {{ end }}
+{{ range site.AllPages -}}
+    {{ if in .RelPermalink "/calendar/" -}}
+        {{ if ne .Kind "section" -}}
+{
+    date: '{{ .Date.Format "2006-01-02" }}',
+    title: {{ .Title | jsonify }},
+    description: {{ .Params.description | jsonify }},
+    location: {{ .Params.location | jsonify }},
+    type: {{ .Params.event_type | jsonify }},
+    event_date: {{ .Params.event_date | jsonify }},
+    recurring: {{ if .Params.recurring }}{{ .Params.recurring | jsonify }}{{ else }}"false"{{ end }},
+    featured: {{ if .Params.featured }}true{{ else }}false{{ end }}
+},
+        {{ end -}}
+    {{ end -}}
+{{ end -}}
 ];
 
 // Start calendar at January 2026 to show upcoming events

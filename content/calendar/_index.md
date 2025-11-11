@@ -3,6 +3,13 @@ title: "Local Events Calendar"
 date: 2025-11-07
 description: "Local events, festivals, and activities in Cornwall"
 type: "calendar"
+cascade:
+  - _target:
+      kind: "page"
+    type: "calendar"
+    build:
+      render: true
+      list: always
 ---
 
 ## Local Events Calendar

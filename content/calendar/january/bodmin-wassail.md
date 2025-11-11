@@ -5,6 +5,10 @@ event_date: "January 6, 2026"
 location: "Bodmin"
 event_type: "Traditional"
 description: "400th annual charitable singing tradition"
+type: "calendar"
+build:
+  render: true
+  list: always
 ---
 
 ## Bodmin Wassail

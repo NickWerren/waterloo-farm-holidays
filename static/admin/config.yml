@@ -135,18 +135,97 @@ collections:
       - {label: "Website", name: "website", widget: "string", required: false}
       - {label: "Content", name: "body", widget: "markdown"}
 
-  # Food & Drink - All Categories
-  - name: "food_and_drink"
-    label: "Food & Drink"
-    label_singular: "Venue"
-    folder: "content/food-and-drink/{{category}}"
+  # Food & Drink - Cafes
+  - name: "cafes"
+    label: "Cafes"
+    label_singular: "Cafe"
+    folder: "content/food-and-drink/cafes"
     create: true
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: "Location", name: "location", widget: "string"}
-      - {label: "Category Folder", name: "category", widget: "select", options: ["cafes", "pubs", "restaurants", "food-trucks", "pasties-and-bakeries", "fish-and-chips"], hint: "Type of venue"}
+      - {label: "Specialty", name: "specialty", widget: "string", hint: "What they're known for"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Website", name: "website", widget: "string", required: false}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  # Food & Drink - Pubs
+  - name: "pubs"
+    label: "Pubs"
+    label_singular: "Pub"
+    folder: "content/food-and-drink/pubs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Specialty", name: "specialty", widget: "string", hint: "What they're known for"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Website", name: "website", widget: "string", required: false}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  # Food & Drink - Restaurants
+  - name: "restaurants"
+    label: "Restaurants"
+    label_singular: "Restaurant"
+    folder: "content/food-and-drink/restaurants"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Specialty", name: "specialty", widget: "string", hint: "What they're known for"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Website", name: "website", widget: "string", required: false}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  # Food & Drink - Food Trucks
+  - name: "food_trucks"
+    label: "Food Trucks"
+    label_singular: "Food Truck"
+    folder: "content/food-and-drink/food-trucks"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Specialty", name: "specialty", widget: "string", hint: "What they're known for"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Website", name: "website", widget: "string", required: false}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  # Food & Drink - Pasties & Bakeries
+  - name: "pasties_bakeries"
+    label: "Pasties & Bakeries"
+    label_singular: "Bakery"
+    folder: "content/food-and-drink/pasties-and-bakeries"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Specialty", name: "specialty", widget: "string", hint: "What they're known for"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Website", name: "website", widget: "string", required: false}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  # Food & Drink - Fish & Chips
+  - name: "fish_and_chips"
+    label: "Fish & Chips"
+    label_singular: "Fish & Chip Shop"
+    folder: "content/food-and-drink/fish-and-chips"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Location", name: "location", widget: "string"}
       - {label: "Specialty", name: "specialty", widget: "string", hint: "What they're known for"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Website", name: "website", widget: "string", required: false}

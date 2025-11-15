@@ -1,0 +1,153 @@
+backend:
+  name: github
+  repo: NickWerren/waterloo-farm-holidays
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+# Optional: Use this for local development
+# local_backend: true
+
+media_folder: "static/img/uploads"
+public_folder: "/waterloo-farm-holidays/img/uploads"
+
+# Publish mode - require editorial workflow (drafts)
+publish_mode: editorial_workflow
+
+collections:
+  # Calendar Events - Annual Events
+  - name: "calendar_events"
+    label: "Calendar Events"
+    label_singular: "Calendar Event"
+    folder: "content/calendar/{{month}}"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string", hint: "Event name (e.g., 'Padstow May Day')"}
+      - {label: "Event Date", name: "event_date", widget: "string", hint: "Display date (e.g., 'May 1, 2026' or 'TBC August 2026')"}
+      - {label: "Date", name: "date", widget: "datetime", hint: "Actual date for calendar sorting", format: "YYYY-MM-DD"}
+      - {label: "Location", name: "location", widget: "string", hint: "Town/venue name"}
+      - {label: "Event Type", name: "event_type", widget: "select", options: ["Festival", "Market", "Traditional", "Sport/Fitness", "Music", "Food", "Seasonal", "Arts/Culture"], hint: "Category of event"}
+      - {label: "Description", name: "description", widget: "string", hint: "Short description (1 sentence)"}
+      - {label: "Featured Event", name: "featured", widget: "boolean", default: false, required: false, hint: "Highlight this event"}
+      - {label: "Month Folder", name: "month", widget: "select", options: ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"], hint: "Which month folder to save in"}
+      - {label: "Content", name: "body", widget: "markdown", hint: "Full event details"}
+
+  # Recurring Weekly Events
+  - name: "recurring_events"
+    label: "Recurring Events"
+    label_singular: "Recurring Event"
+    folder: "content/calendar/recurring"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Event Date", name: "event_date", widget: "string", hint: "e.g., 'Every Wednesday' or 'First Saturday of Month'"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", hint: "Start date for sorting"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Event Type", name: "event_type", widget: "select", options: ["Market", "Sport/Fitness", "Wellness", "Entertainment", "Dining"]}
+      - {label: "Description", name: "description", widget: "string", hint: "Short description"}
+      - {label: "Recurring Type", name: "recurring", widget: "select", options: ["weekly", "monthly", "daily"], required: false}
+      - {label: "Day of Week", name: "day_of_week", widget: "string", required: false, hint: "e.g., 'Wednesday' or 'Saturday'"}
+      - {label: "Featured", name: "featured", widget: "boolean", default: false, required: false}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  # Activities - Cycling Routes
+  - name: "cycling"
+    label: "Cycling Routes"
+    label_singular: "Cycling Route"
+    folder: "content/activities/cycling"
+    create: true
+    slug: "{{slug}}"
+    filter: {field: "type", value: "route"}
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Type", name: "type", widget: "hidden", default: "route"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Distance", name: "distance", widget: "string", hint: "e.g., '18 miles'"}
+      - {label: "Difficulty", name: "difficulty", widget: "select", options: ["Easy", "Moderate", "Challenging"]}
+      - {label: "Surface", name: "surface", widget: "string", hint: "e.g., 'Traffic-free trail'"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  # Activities - Swimming Spots
+  - name: "swimming"
+    label: "Swimming Spots"
+    label_singular: "Swimming Spot"
+    folder: "content/activities/swimming"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Location", name: "location", widget: "string", hint: "Town/area"}
+      - {label: "Type", name: "swim_type", widget: "select", options: ["Beach", "River", "Pool", "Waterfall"], hint: "Type of swimming spot"}
+      - {label: "Difficulty", name: "difficulty", widget: "select", options: ["Easy", "Moderate", "Challenging"], required: false}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  # Activities - Bird Watching
+  - name: "birdwatching"
+    label: "Bird Watching Spots"
+    label_singular: "Bird Watching Spot"
+    folder: "content/activities/bird-watching"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Habitat", name: "habitat", widget: "string", hint: "e.g., 'Estuary', 'Coastal cliffs'"}
+      - {label: "Best Season", name: "season", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  # Activities - Family Days Out
+  - name: "family_days_out"
+    label: "Family Days Out"
+    label_singular: "Family Attraction"
+    folder: "content/activities/family-days-out"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Attraction Type", name: "attraction_type", widget: "string", hint: "e.g., 'Theme park', 'Zoo', 'Discovery center'"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Website", name: "website", widget: "string", required: false, hint: "Official website URL"}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  # Activities - Historic Sites
+  - name: "historic_sites"
+    label: "Historic Sites & Landmarks"
+    label_singular: "Historic Site"
+    folder: "content/activities/historic-sites-and-landmarks"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Site Type", name: "site_type", widget: "string", hint: "e.g., 'Castle', 'Historic house', 'Garden'"}
+      - {label: "Era", name: "era", widget: "string", required: false, hint: "e.g., 'Medieval', 'Victorian'"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Website", name: "website", widget: "string", required: false}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  # Food & Drink - All Categories
+  - name: "food_and_drink"
+    label: "Food & Drink"
+    label_singular: "Venue"
+    folder: "content/food-and-drink/{{category}}"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Category Folder", name: "category", widget: "select", options: ["cafes", "pubs", "restaurants", "food-trucks", "pasties-and-bakeries", "fish-and-chips"], hint: "Type of venue"}
+      - {label: "Specialty", name: "specialty", widget: "string", hint: "What they're known for"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Website", name: "website", widget: "string", required: false}
+      - {label: "Content", name: "body", widget: "markdown"}

@@ -716,8 +716,7 @@ function initializeCalendar(containerId, propertyName) {
         ]
     };
 
-    // Get property name from container and build bookedDates object
-    const propertyName = container.getAttribute('data-property');
+    // Build bookedDates object for this property
     const bookedDates = {};
     if (propertyBookings[propertyName]) {
         propertyBookings[propertyName].forEach(date => {

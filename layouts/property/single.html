@@ -664,21 +664,66 @@ function initializeCalendar(containerId, propertyName) {
     let selectedStartDate = null;
     let selectedEndDate = null;
 
-    // Sample booked dates - REPLACE THIS with your actual booking data
-    // You can load this from a JSON file or API endpoint
-    const bookedDates = {
-        '2025-11-15': true,
-        '2025-11-16': true,
-        '2025-11-17': true,
-        '2025-11-25': true,
-        '2025-11-26': true,
-        '2025-12-20': true,
-        '2025-12-21': true,
-        '2025-12-22': true,
-        '2025-12-23': true,
-        '2025-12-24': true,
-        '2025-12-25': true,
+    // Booked dates per property (2026 bookings from calendar)
+    const propertyBookings = {
+        'swallow-barn': [
+            // Feb 27 + 3 nights
+            '2026-02-27', '2026-02-28', '2026-03-01'
+        ],
+        'the-old-apple-tallet': [
+            // Mar 28 - Apr 4 (Bradford)
+            '2026-03-28', '2026-03-29', '2026-03-30', '2026-03-31', '2026-04-01', '2026-04-02', '2026-04-03',
+            // May 23-30 (Middleditch)
+            '2026-05-23', '2026-05-24', '2026-05-25', '2026-05-26', '2026-05-27', '2026-05-28', '2026-05-29',
+            // Jun 20-27 (Gulliver/Cox)
+            '2026-06-20', '2026-06-21', '2026-06-22', '2026-06-23', '2026-06-24', '2026-06-25', '2026-06-26',
+            // Jul 4-11 (Raza)
+            '2026-07-04', '2026-07-05', '2026-07-06', '2026-07-07', '2026-07-08', '2026-07-09', '2026-07-10',
+            // Aug 1-15 (Mullder - 2 weeks)
+            '2026-08-01', '2026-08-02', '2026-08-03', '2026-08-04', '2026-08-05', '2026-08-06', '2026-08-07',
+            '2026-08-08', '2026-08-09', '2026-08-10', '2026-08-11', '2026-08-12', '2026-08-13', '2026-08-14'
+        ],
+        'kingfisher-cottage': [
+            // Jun 6-13
+            '2026-06-06', '2026-06-07', '2026-06-08', '2026-06-09', '2026-06-10', '2026-06-11', '2026-06-12'
+        ],
+        'haypole-barn': [
+            // May 11 + 2 nights (BottTC)
+            '2026-05-11', '2026-05-12', '2026-05-13',
+            // Jun 20 - Jul 4 (Lyons - 2 weeks)
+            '2026-06-20', '2026-06-21', '2026-06-22', '2026-06-23', '2026-06-24', '2026-06-25', '2026-06-26',
+            '2026-06-27', '2026-06-28', '2026-06-29', '2026-06-30', '2026-07-01', '2026-07-02', '2026-07-03',
+            // Jul 25 - Aug 1 (Ellwood)
+            '2026-07-25', '2026-07-26', '2026-07-27', '2026-07-28', '2026-07-29', '2026-07-30', '2026-07-31',
+            // Aug 22-29 (McGeehan)
+            '2026-08-22', '2026-08-23', '2026-08-24', '2026-08-25', '2026-08-26', '2026-08-27', '2026-08-28'
+        ],
+        'sandmartins': [
+            // May 23-30 (Allsop)
+            '2026-05-23', '2026-05-24', '2026-05-25', '2026-05-26', '2026-05-27', '2026-05-28', '2026-05-29',
+            // Aug 8-15 (Musson)
+            '2026-08-08', '2026-08-09', '2026-08-10', '2026-08-11', '2026-08-12', '2026-08-13', '2026-08-14',
+            // Aug 22-29 (Ellis)
+            '2026-08-22', '2026-08-23', '2026-08-24', '2026-08-25', '2026-08-26', '2026-08-27', '2026-08-28',
+            // Sep 4 + 5 nights (Nilsen)
+            '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09'
+        ],
+        'saffron-cottage': [
+            // May 23-30 (Rayner)
+            '2026-05-23', '2026-05-24', '2026-05-25', '2026-05-26', '2026-05-27', '2026-05-28', '2026-05-29',
+            // Jul 18-25 (Cutts)
+            '2026-07-18', '2026-07-19', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24'
+        ]
     };
+
+    // Get property name from container and build bookedDates object
+    const propertyName = container.getAttribute('data-property');
+    const bookedDates = {};
+    if (propertyBookings[propertyName]) {
+        propertyBookings[propertyName].forEach(date => {
+            bookedDates[date] = true;
+        });
+    }
 
     function renderCalendar() {
         const year = currentDate.getFullYear();
@@ -894,7 +939,7 @@ ${params.message}
 
         // Open default email client
         // REPLACE 'your-email@example.com' with your actual email
-        window.location.href = `mailto:werrens6@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        window.location.href = `mailto:info@waterloofarmholidays.co.uk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
         // You could also submit to a server endpoint:
         // fetch('/api/booking-enquiry', {

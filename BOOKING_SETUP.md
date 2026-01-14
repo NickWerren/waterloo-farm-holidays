@@ -27,60 +27,32 @@ Replace `your-email@example.com` with your actual email address.
 
 ### 2. Update Booked Dates
 
-The calendar currently shows sample booked dates. You need to update these for each property.
+Booked dates are stored per-property in `layouts/property/single.html` (around line 667).
 
-**File:** `layouts/property/single.html` (around line 340)
+**Properties:**
+- `swallow-barn`
+- `the-old-apple-tallet`
+- `kingfisher-cottage`
+- `haypole-barn`
+- `sandmartins`
+- `saffron-cottage`
 
-Find the `bookedDates` object:
+Find the `propertyBookings` object:
 ```javascript
-const bookedDates = {
-    '2025-11-15': true,
-    '2025-11-16': true,
-    // ... more dates
+const propertyBookings = {
+    'swallow-barn': [
+        '2026-02-27', '2026-02-28', '2026-03-01'
+    ],
+    'the-old-apple-tallet': [
+        // dates...
+    ],
+    // ... other properties
 };
 ```
 
 **To update booked dates:**
 
-#### Option A: Manual Update (Simple)
-Edit the `bookedDates` object in the layout file for each property. Add dates in `YYYY-MM-DD` format.
-
-#### Option B: JSON File (Recommended)
-1. Create a JSON file for each property in `static/data/bookings/`:
-   - `barn-bookings.json`
-   - `cottage-bookings.json`
-   - etc.
-
-2. Format:
-```json
-{
-  "booked_dates": [
-    "2025-11-15",
-    "2025-11-16",
-    "2025-11-17"
-  ]
-}
-```
-
-3. Update the JavaScript to load from JSON:
-```javascript
-// Fetch booked dates from JSON
-fetch(`/data/bookings/${propertyName}-bookings.json`)
-    .then(response => response.json())
-    .then(data => {
-        const bookedDates = {};
-        data.booked_dates.forEach(date => {
-            bookedDates[date] = true;
-        });
-        renderCalendar();
-    });
-```
-
-#### Option C: Backend Integration (Advanced)
-For a fully automated system, you can:
-1. Create a backend API endpoint (e.g., `/api/bookings/{property}`)
-2. Fetch booked dates from your booking management system
-3. Update the calendar automatically
+Add or remove dates in `YYYY-MM-DD` format for the relevant property.
 
 ### 3. Configure Booking Form Submission
 
@@ -166,7 +138,7 @@ Edit the CSS in `layouts/property/single.html`:
 
 ### Changing Minimum Stay Requirements
 
-Update in each property's markdown file (e.g., `content/accommodation/the-barn.md`):
+Update in each property's markdown file (e.g., `content/accommodation/swallow-barn.md`):
 
 ```markdown
 ### Pricing
@@ -182,7 +154,7 @@ You can also add JavaScript validation to enforce minimum stays in the calendar.
 hugo server
 ```
 
-2. Navigate to a property page (e.g., http://localhost:1313/accommodation/the-barn/)
+2. Navigate to a property page (e.g., http://localhost:1313/accommodation/swallow-barn/)
 
 3. Test the calendar:
    - Click on an available date (should highlight in blue)

@@ -19,9 +19,7 @@ gallery_images:
 
 ## Welcome to Haypole Barn
 
-A spacious wheelchair accessible barn conversion, perfect for larger groups and families. Can be combined with Sandmartins for groups up to 16 guests.
-
-<!-- Copy your property description from http://www.waterloofarmholidays.co.uk/haypole-barn/ and paste here -->
+One of our largest properties, Haypole Barn is a generous barn conversion with four bedrooms, two bathrooms, and full wheelchair accessibility throughout. The open-plan living and dining area provides plenty of space for families or groups to gather, while accessible bathroom facilities ensure everyone is comfortable. For larger parties, Haypole Barn can be combined with neighbouring Sandmartins to create a single venue for up to sixteen guests - ideal for celebrations, family reunions, or activity retreats. The farm's seasonal swimming pool and extensive grounds are shared by all guests.
 
 ### Amenities
 

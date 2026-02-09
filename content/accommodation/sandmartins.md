@@ -19,9 +19,7 @@ gallery_images:
 
 ## Welcome to Sandmartins
 
-A large wheelchair accessible property that can be combined with Haypole Barn for groups up to 16. Perfect for retreats, activity courses, and family gatherings.
-
-<!-- Copy your property description from http://www.waterloofarmholidays.co.uk/sandmartins/ and paste here -->
+A large and versatile property with four bedrooms, two bathrooms, and full wheelchair accessibility. Sandmartins offers spacious living for families or groups of up to eight, with wide doorways, level access, and accessible bathroom facilities throughout. Like its neighbour Haypole Barn, it's designed to be comfortable for everyone. The two properties can be opened up together for gatherings of up to sixteen - perfect for Christmas and New Year celebrations, group retreats, or milestone birthdays. All guests have access to the farm's seasonal swimming pool and beautiful Cornish countryside.
 
 ### Amenities
 

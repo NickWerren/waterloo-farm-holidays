@@ -19,9 +19,7 @@ gallery_images:
 
 ## Welcome to Kingfisher Cottage
 
-A modern wheelchair accessible cottage with all the comforts of home, ideal for couples or small families.
-
-<!-- Copy your property description from http://www.waterloofarmholidays.co.uk/kingfisher-cottage/ and paste here -->
+A thoughtfully designed cottage with full wheelchair accessibility throughout. Kingfisher Cottage offers two bedrooms, an accessible bathroom with shower chair available, and open-plan living that's both practical and comfortable. Wide doorways and level access make getting around easy, without compromising on the warmth and character you'd expect from a Cornish holiday let. The cottage looks out over the farm's countryside setting and is just a short distance from the seasonal swimming pool.
 
 ### Amenities
 

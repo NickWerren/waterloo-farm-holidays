@@ -20,9 +20,7 @@ gallery_images:
 
 ## Welcome to Swallow Barn
 
-A converted barn with character, perfect for families with dogs. Spacious living areas and garden space for your four-legged friends.
-
-<!-- Copy your property description from http://www.waterloofarmholidays.co.uk/swallow-barn/ and paste here -->
+A spacious barn conversion with room for the whole family - dogs included. With three bedrooms and two bathrooms, Swallow Barn comfortably accommodates up to six guests. The generous living areas retain the character of the original building while offering all the modern comforts you need. Outside, there's garden space for dogs to roam, and the farm's seasonal swimming pool is on your doorstep. From here it's a short drive to the dramatic coastline at Crackington Haven or the moors of Dartmoor.
 
 ### Amenities
 

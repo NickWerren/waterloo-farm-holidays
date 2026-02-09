@@ -19,9 +19,7 @@ gallery_images:
 
 ## Welcome to Saffron Cottage
 
-A charming traditional cottage at Waterloo Farm, perfect for couples or small families seeking a peaceful Cornish retreat.
-
-<!-- Copy your property description from http://www.waterloofarmholidays.co.uk/saffron-cottage/ and paste here -->
+A cosy traditional cottage tucked away in the heart of Waterloo Farm. With two comfortable bedrooms and a well-appointed bathroom, Saffron Cottage is ideal for couples or a small family looking for a quiet Cornish retreat. The open-plan living area features a fully equipped kitchen and inviting sitting room, while the views across rolling farmland remind you just how far you are from the everyday. Step outside and you're moments from the farm's seasonal swimming pool and the footpaths that wind through the surrounding countryside.
 
 ### Amenities
 

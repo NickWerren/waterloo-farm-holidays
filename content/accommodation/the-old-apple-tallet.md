@@ -19,9 +19,7 @@ gallery_images:
 
 ## Welcome to The Old Apple Tallet
 
-A traditional cottage where your four-legged friends are welcome. Cozy and comfortable with an enclosed garden area.
-
-<!-- Copy your property description from http://www.waterloofarmholidays.co.uk/the-old-apple-tallet/ and paste here -->
+Named after the farm's original apple store, The Old Apple Tallet has been lovingly converted into a characterful cottage for two to four guests - dogs very much included. Two bedrooms and a cosy living space make it a perfect base for exploring the Cornish coast and countryside, while the enclosed garden gives your four-legged companions a safe spot to stretch their legs after a day on the beach at Crackington Haven, just twelve miles away. The cottage sits within easy reach of the farm's swimming pool and grounds.
 
 ### Amenities
 

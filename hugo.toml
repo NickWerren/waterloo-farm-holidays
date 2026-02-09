@@ -40,7 +40,7 @@ home = ["HTML", "RSS", "Algolia"]
   leancloud_app_key = ""
 
   # algolia site search
-  algolia_search = true
+  algolia_search = false
   algolia_appId = ""
   algolia_indexName = ""
   algolia_apiKey = ""
@@ -90,7 +90,7 @@ home = ["HTML", "RSS", "Algolia"]
 
   [params.social]
   rss            = false
-  email          = "info@waterloofarmholidays.com"
+  email          = "info@waterloofarmholidays.co.uk"
   facebook       = "https://www.facebook.com/pages/Waterloo-Farm-Holidays/171360599549442"
   twitter        = "https://twitter.com/AEWerren"
   #medium        = "full profile url in medium"

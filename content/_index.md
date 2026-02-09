@@ -64,4 +64,4 @@ Converted barn with character, perfect for families with dogs
 - ✅ Swimming pool and extensive grounds
 - ✅ Perfect for couples, families, and large groups
 
-[View Our Accommodation](/accommodation/) | [Contact Us](/about/)
+[View Our Accommodation](/accommodation/) | [Contact Us](/contact/)

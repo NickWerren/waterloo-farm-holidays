@@ -145,10 +145,25 @@
                         </div>
                         <span class="rating-source">on Google</span>
                     </div>
-                    <p class="testimonial-text">"Perfect location for exploring Cornwall. The wheelchair accessibility in Haypole Barn was excellent and the pool was a real treat. We'll definitely be back!"</p>
-                    <div class="testimonial-author">
-                        <strong>David & Helen T.</strong>
-                        <span>Haypole Barn</span>
+                    <div class="testimonial-slides">
+                        <div class="testimonial-slide active">
+                            <p class="testimonial-text">"Beautiful, cosy and warm country homes situated on a working farm. A great spot to explore Devon &amp; Cornwall from, and hosted by the nicest, most hard working couple who do anything to make sure you enjoy your stay. Highly recommended, look no further."</p>
+                            <div class="testimonial-author">
+                                <strong>James Pardoe</strong>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <p class="testimonial-text">"23 of us stayed here for a week taking 5 cottages and having an absolutely fabulous time. Alison and John could not do enough to make sure our stay was top notch. It's lovely to stay at such an authentic place with helpful owners who care about their visitors having a great time."</p>
+                            <div class="testimonial-author">
+                                <strong>Kath Dawson</strong>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <p class="testimonial-text">"Really nice and comfy. Heated pool and very very clean and tidy. Rustic and old with a hint of new. Owners are super friendly and helpful. You get your own parking with your own courtyard and BBQ. Really nice place."</p>
+                            <div class="testimonial-author">
+                                <strong>Bruce Austin</strong>
+                            </div>
+                        </div>
                     </div>
                     <a href="https://www.google.com/maps/place/Waterloo+Farm+Holidays/@50.6662718,-4.4292124,19z/data=!4m8!3m7!1s0x486c7c7d849784bd:0xaec5b8fd279bea97!8m2!3d50.666257!4d-4.429149!9m1!1b1!16s%2Fg%2F1tgdhdqt" target="_blank" rel="noopener noreferrer" class="google-reviews-link">Read our reviews on Google &rarr;</a>
                 </div>
@@ -418,6 +433,25 @@
     text-decoration: none;
 }
 
+.testimonial-slides {
+    position: relative;
+    min-height: 180px;
+}
+
+.testimonial-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.testimonial-slide.active {
+    opacity: 1;
+    position: relative;
+}
+
 .testimonial-text {
     font-size: 20px;
     line-height: 1.8;
@@ -543,6 +577,10 @@
         font-size: 17px;
     }
 
+    .testimonial-slides {
+        min-height: 220px;
+    }
+
     .btn-primary-large {
         padding: 16px 35px;
         font-size: 16px;
@@ -550,5 +588,19 @@
 
 }
 </style>
+
+<script>
+// Rotate testimonial slides
+(function() {
+    var slides = document.querySelectorAll('.testimonial-slide');
+    if (slides.length <= 1) return;
+    var currentIndex = 0;
+    setInterval(function() {
+        slides[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % slides.length;
+        slides[currentIndex].classList.add('active');
+    }, 7000);
+})();
+</script>
 
 {{ end }}

@@ -38,6 +38,10 @@
                                     <i class="fas fa-children"></i>
                                     {{ else if eq .Title "Historic Sites & Landmarks" }}
                                     <i class="fas fa-landmark"></i>
+                                    {{ else if eq .Title "Beaches" }}
+                                    <i class="fas fa-umbrella-beach"></i>
+                                    {{ else if eq .Title "Gardens" }}
+                                    <i class="fas fa-leaf"></i>
                                     {{ else }}
                                     <i class="fas fa-compass"></i>
                                     {{ end }}
@@ -90,6 +94,10 @@
                                             <i class="fas fa-children"></i>
                                             {{ else if eq .Parent.Title "Historic Sites & Landmarks" }}
                                             <i class="fas fa-landmark"></i>
+                                            {{ else if eq .Parent.Title "Beaches" }}
+                                            <i class="fas fa-umbrella-beach"></i>
+                                            {{ else if eq .Parent.Title "Gardens" }}
+                                            <i class="fas fa-leaf"></i>
                                             {{ else }}
                                             <i class="fas fa-compass"></i>
                                             {{ end }}

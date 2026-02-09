@@ -25,9 +25,9 @@ home = ["HTML", "RSS", "Algolia"]
 [params]
   header_image = "img/hero/orchard_track.jpg"
   SEOTitle = "Waterloo Farm Holidays | Luxury Holiday Lets in the Countryside"
-  description = "Discover our collection of 6 beautiful holiday lets at Waterloo Farm. Perfect for couples, families, and groups seeking peaceful countryside retreats with modern comfort."
+  description = "A 5th generation family farm in Cornwall's River Ottery valley, offering 6 stylishly converted holiday cottages. 200 acres to explore, open all year. Perfect for couples, families, and groups."
   keyword = "holiday lets, countryside accommodation, farm holidays, vacation rentals, rural retreats, family holidays, pet friendly cottages, waterloo farm, luxury cottages, self catering"
-  slogan = "Escape to the Cornish Countryside"
+  slogan = "A 5th Generation Family Farm in the Cornish Countryside"
   upstreamAttribution = false
 
   image_404 = "img/404-bg.jpg"

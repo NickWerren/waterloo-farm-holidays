@@ -6,7 +6,7 @@ date: 2025-11-05
 
 ## Welcome to Waterloo Farm Holidays
 
-Set within a traditional family farm in the beautiful Cornish countryside, Waterloo Farm Holidays offers six unique holiday cottages, each with its own character and charm.
+Set in the unspoilt and quiet River Ottery valley, Waterloo Farm is a 5th generation, family run working farm offering six stylishly converted barns and cottages, each full of character and charm. With 200 acres of farmland to explore and open all year round, it's the perfect escape whatever the season.
 
 ### Stay, Relax, and Enjoy
 
@@ -14,7 +14,7 @@ Whether you're a couple wanting to get away from it all for a winter weekend, a 
 
 ### Our Location
 
-Located just **6 miles from Launceston** and the A30, and **12 miles from the nearest beach** at Crackington Haven, Waterloo Farm is not only a great destination in itself but also an excellent holiday base for visiting:
+Located just **6 miles from Launceston** and the A30, and **12 miles from the nearest beach** at Crackington Haven, Waterloo Farm is a great base for touring both Devon and Cornwall, moors and coasts:
 
 - The towns and tors of **Dartmoor**
 - The wonderful beaches and rugged scenery of **Cornwall**
@@ -51,17 +51,17 @@ Converted barn with character, perfect for families with dogs
 
 **Swimming Pool** - Relax beside our outdoor swimming pool (seasonal)
 
-**Beautiful Grounds** - Enjoy the peaceful Cornish countryside right on your doorstep
+**200 Acres of Farmland** - Explore the beautiful River Ottery valley right on your doorstep
 
 ### Why Choose Waterloo Farm?
 
-- ✅ Traditional family farm setting
+- ✅ 5th generation family farm
 - ✅ Beautiful Cornish countryside location
 - ✅ Close to beaches, moors, and attractions
 - ✅ Flexible accommodation options
 - ✅ Wheelchair accessible cottages available
 - ✅ Pet-friendly properties
-- ✅ Swimming pool and extensive grounds
+- ✅ Swimming pool and 200 acres to explore
 - ✅ Perfect for couples, families, and large groups
 
 [View Our Accommodation](/accommodation/) | [Contact Us](/contact/)

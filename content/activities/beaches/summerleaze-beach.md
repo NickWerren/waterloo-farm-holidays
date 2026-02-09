@@ -1,5 +1,5 @@
 ---
-title: "Summerleaze Beach, Bude"
+title: "Summerleaze Beach"
 date: 2025-11-05
 description: "Bude's town beach with a unique semi-natural tidal sea pool"
 distance: "30 minutes"
@@ -8,7 +8,7 @@ tags: ["beaches", "family", "sea-pool", "town-beach"]
 categories: ["activities"]
 ---
 
-## Summerleaze Beach, Bude
+## Summerleaze Beach
 
 **Distance:** 30 minutes (15 miles) | **Type:** Sandy Beach with Sea Pool
 

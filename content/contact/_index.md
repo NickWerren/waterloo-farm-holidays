@@ -41,4 +41,4 @@ We look forward to welcoming you to Waterloo Farm!
 
 ---
 
-<iframe title="Waterloo Farm location map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.8144!2d-4.4166!3d50.6833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDQxJzAwLjAiTiA0wrAyNScwMC4wIlc!5e0!3m2!1sen!2suk!4v1234567890" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<iframe title="Waterloo Farm location map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1270.4!2d-4.429149!3d50.666257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486c7c7d849784bd%3A0xaec5b8fd279bea97!2sWaterloo%20Farm%20Holidays!5e0!3m2!1sen!2suk!4v1234567890" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

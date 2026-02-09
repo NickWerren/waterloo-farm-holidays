@@ -10,7 +10,7 @@ categories: ["activities"]
 
 ## Cornish Lanes Explorer
 
-**Distance:** 15 miles | **Difficulty:** Easy | **Type:** Road
+**Distance:** 15 miles | **Type:** Road
 
 Perfect for families - quiet lanes through typical Cornish countryside.
 

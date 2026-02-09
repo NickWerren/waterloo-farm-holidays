@@ -3,9 +3,9 @@ title: "Kingfisher Cottage"
 date: 2025-11-05
 type: "property"
 layout: "single"
-description: "Modern wheelchair accessible cottage"
+description: "Characterful wheelchair accessible cottage in the former farm stables"
 featured_image: "img/cottages/kingfisher-cottage/KingfisherCottage1.jpeg"
-sleeps: 4
+sleeps: 5
 bedrooms: 2
 bathrooms: 1
 pets: false
@@ -19,16 +19,37 @@ gallery_images:
 
 ## Welcome to Kingfisher Cottage
 
-A thoughtfully designed cottage with full wheelchair accessibility throughout. Kingfisher Cottage offers two bedrooms, an accessible bathroom with shower chair available, and open-plan living that's both practical and comfortable. Wide doorways and level access make getting around easy, without compromising on the warmth and character you'd expect from a Cornish holiday let. The cottage looks out over the farm's countryside setting and is just a short distance from the seasonal swimming pool.
+Another adaptable property, this cottage offers superb accommodation for up to 5 people.
+
+The living area is open plan with a cheerful red gas Rayburn making the country style kitchen very welcoming, and of course there are all the other kitchen items you would expect to find as well, including a gas hob and microwave.
+
+Country style furnishings, soft leather sofas, rugs on the polished wood floor, all arranged around a woodburner add up to the promise of cosy evenings in, whatever the season.
+
+Being on one level, and with two entrances - one via steps through the small private garden and balcony and the other from a separate level parking area - Kingfisher Cottage is disabled friendly, including for wheelchairs.
+
+### Bedrooms
+
+- **Master bedroom:** King sized bed
+- **Second bedroom:** Two single beds on the lower level with a third single bed on the mezzanine level above. Serious family negotiating often takes place when deciding who will sleep up-top!
+
+### Bathroom
+
+The large Victorian style bathroom has a massive vintage cast iron bath and a wet room type shower. Bespoke leaded and stained glass windows, made by a local craftsman, add to the individuality of this cottage.
+
+### Character
+
+Traces of Kingfisher Cottage's former use as the farm stables remain throughout. The harness hangers are still set into the walls and the original polished oak tack cupboard makes a wonderful wardrobe!
 
 ### Amenities
 
-- Fully equipped kitchen
-- Wheelchair accessible throughout
-- Accessible bathroom with shower chair available
+- Open plan living with woodburner
+- Country kitchen with red gas Rayburn
+- Victorian bathroom with cast iron bath
+- Wheelchair accessible (single level)
+- Private garden and balcony
+- Bespoke leaded and stained glass windows
 - WiFi
 - Parking
-- Beautiful countryside views
 
 ### Location
 

@@ -10,7 +10,7 @@ categories: ["activities"]
 
 ## Launceston Castle & Town Trail
 
-**Distance:** 2 miles | **Difficulty:** Easy | **Duration:** 1 hour
+**Distance:** 2 miles | **Duration:** 1 hour
 
 Historic town walk exploring Launceston's Norman castle and medieval center.
 

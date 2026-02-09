@@ -2,7 +2,6 @@
 title: "Daymer Bay"
 date: 2025-11-10
 location: "Near Rock"
-difficulty: "Easy"
 type: "Beach"
 description: "Calm waters, rarely sees waves"
 ---

@@ -2,7 +2,6 @@
 title: "Bude Marshes"
 date: 2025-11-10
 location: "North Cornwall"
-difficulty: "Easy"
 type: "Nature reserve"
 description: "Wetland birds"
 ---

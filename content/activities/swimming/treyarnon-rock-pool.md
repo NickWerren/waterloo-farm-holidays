@@ -2,7 +2,6 @@
 title: "Treyarnon Rock Pool"
 date: 2025-11-10
 location: "Near Padstow"
-difficulty: "Easy"
 type: "Tidal pool"
 description: "Large naturally formed tidal pool"
 ---

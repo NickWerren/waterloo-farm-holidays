@@ -2,7 +2,6 @@
 title: "Baby Bay"
 date: 2025-11-10
 location: "Polzeath"
-difficulty: "Easy"
 type: "Beach"
 description: "Quieter, sheltered spot tucked into rocks"
 ---

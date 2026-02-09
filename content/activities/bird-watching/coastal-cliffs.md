@@ -2,7 +2,6 @@
 title: "Coastal Cliffs"
 date: 2025-11-10
 location: "Throughout North Cornwall"
-difficulty: "Moderate"
 type: "Cliff habitats"
 description: "Seabird colonies"
 ---

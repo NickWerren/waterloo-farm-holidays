@@ -10,7 +10,7 @@ categories: ["activities"]
 
 ## Tamar Valley Discovery Trail
 
-**Distance:** 30 miles | **Difficulty:** Easy to Moderate | **Type:** Mixed
+**Distance:** 30 miles | **Type:** Mixed
 
 Follow the beautiful Tamar Valley through historic mining landscapes and riverside trails.
 

@@ -2,7 +2,6 @@
 title: "Port Quin"
 date: 2025-11-10
 location: "Near Port Isaac"
-difficulty: "Easy"
 type: "Cove"
 description: "Small sheltered cove, natural harbour"
 ---

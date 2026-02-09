@@ -2,7 +2,6 @@
 title: "Lundy Bay"
 date: 2025-11-10
 location: "Few miles north of Polzeath"
-difficulty: "Moderate"
 type: "Cove"
 description: "Rocky cove best at low tide"
 ---

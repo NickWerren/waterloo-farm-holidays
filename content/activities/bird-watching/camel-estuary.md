@@ -2,7 +2,6 @@
 title: "Camel Estuary"
 date: 2025-11-10
 location: "Between Padstow and Wadebridge"
-difficulty: "Easy"
 type: "Estuary"
 description: "Waders, gulls, wildfowl in winter"
 ---

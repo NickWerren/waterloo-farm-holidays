@@ -2,7 +2,6 @@
 title: "Bedruthan Steps"
 date: 2025-11-10
 distance: "1-2 miles"
-difficulty: "Easy"
 type: "Coastal walk"
 description: "Giant rock stacks, National Trust managed"
 ---
@@ -13,5 +12,4 @@ Easy to moderate walk featuring giant rock stacks on the coast between Padstow a
 
 **Location:** Between Padstow and Newquay
 **Distance:** 1-2 miles
-**Difficulty:** Easy to moderate
 **Highlights:** Giant rock stacks, National Trust managed

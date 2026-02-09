@@ -2,7 +2,6 @@
 title: "St Ives Island"
 date: 2025-11-10
 location: "St Ives"
-difficulty: "Easy"
 type: "Rocky outcrop"
 description: "Excellent for seawatching"
 ---

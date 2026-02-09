@@ -66,8 +66,7 @@
                 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                     <div class="route-grid">
                         {{ range .Pages }}
-                        <div class="route-card"
-                             data-difficulty="{{ .Params.difficulty | lower }}">
+                        <div class="route-card">
                             <a href="{{ .RelPermalink }}" class="card-link">
                                 <!-- Route Header with gradient -->
                                 <div class="route-header">
@@ -97,12 +96,6 @@
                                         </div>
                                         <h3 class="route-title">{{ .Title }}</h3>
                                     </div>
-                                    <!-- Difficulty Badge -->
-                                    {{ with .Params.difficulty }}
-                                    <span class="difficulty-badge difficulty-{{ . | lower }}">
-                                        {{ . }}
-                                    </span>
-                                    {{ end }}
                                 </div>
 
                                 <!-- Route Content -->
@@ -263,33 +256,6 @@
     letter-spacing: 0.5px;
     font-family: Georgia, 'Times New Roman', serif;
     padding: 0 20px;
-}
-
-/* Difficulty Badge */
-.difficulty-badge {
-    position: absolute;
-    bottom: 12px;
-    left: 12px;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.difficulty-easy {
-    background: #4CAF50;
-    color: white;
-}
-
-.difficulty-moderate {
-    background: #FF9800;
-    color: white;
-}
-
-.difficulty-hard {
-    background: #f44336;
-    color: white;
 }
 
 /* Route Card Body */

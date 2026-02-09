@@ -10,7 +10,7 @@ categories: ["activities"]
 
 ## Golitha Falls
 
-**Distance:** 35 minutes | **Type:** River & Waterfalls | **Difficulty:** Moderate Access
+**Distance:** 35 minutes | **Type:** River & Waterfalls
 
 Spectacular waterfall swimming in ancient woodland - one of Cornwall's best wild swimming spots.
 

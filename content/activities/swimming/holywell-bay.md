@@ -2,7 +2,6 @@
 title: "Holywell Bay"
 date: 2025-11-10
 location: "Near Newquay"
-difficulty: "Easy"
 type: "Beach"
 description: "Golden sand beach, lifeguarded in summer"
 ---

@@ -2,7 +2,6 @@
 title: "St Nectan's Kieve"
 date: 2025-11-10
 location: "Near Tintagel"
-difficulty: "Moderate"
 type: "Waterfall pool"
 description: "Magical waterfall pool in fairytale woodland"
 ---

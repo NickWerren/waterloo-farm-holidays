@@ -10,7 +10,7 @@ categories: ["activities"]
 
 ## Crackington Haven Coastal Walk
 
-**Distance:** 8 miles circular | **Difficulty:** Moderate | **Duration:** 4 hours
+**Distance:** 8 miles circular | **Duration:** 4 hours
 
 One of Cornwall's most dramatic coastal walks with spectacular cliff-top views and secluded coves.
 

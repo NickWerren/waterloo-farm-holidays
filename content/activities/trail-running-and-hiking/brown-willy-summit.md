@@ -10,7 +10,7 @@ categories: ["activities"]
 
 ## Brown Willy Summit
 
-**Distance:** 5 miles circular | **Difficulty:** Moderate | **Duration:** 3 hours
+**Distance:** 5 miles circular | **Duration:** 3 hours
 
 Climb Cornwall's highest point (420m) for panoramic moorland views.
 

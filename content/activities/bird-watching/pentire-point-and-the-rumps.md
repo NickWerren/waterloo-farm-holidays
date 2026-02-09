@@ -2,7 +2,6 @@
 title: "Pentire Point & The Rumps"
 date: 2025-11-10
 location: "Near Polzeath"
-difficulty: "Moderate"
 type: "Coastal headland"
 description: "Seabirds and birds of prey"
 ---

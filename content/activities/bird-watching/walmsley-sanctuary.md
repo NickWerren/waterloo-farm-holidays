@@ -2,7 +2,6 @@
 title: "Walmsley Sanctuary"
 date: 2025-11-10
 location: "Near Wadebridge, off Camel Estuary"
-difficulty: "Easy"
 type: "Sanctuary"
 description: "First shooting-free sanctuary in UK"
 ---

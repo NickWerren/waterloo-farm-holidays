@@ -19,16 +19,32 @@ gallery_images:
 
 ## Welcome to The Old Apple Tallet
 
-Named after the farm's original apple store, The Old Apple Tallet has been lovingly converted into a characterful cottage for two to four guests - dogs very much included. Two bedrooms and a cosy living space make it a perfect base for exploring the Cornish coast and countryside, while the enclosed garden gives your four-legged companions a safe spot to stretch their legs after a day on the beach at Crackington Haven, just twelve miles away. The cottage sits within easy reach of the farm's swimming pool and grounds.
+Next door to Swallow Barn, The Old Apple Tallet is cosy and welcoming. When you kick off your sandy shoes in the porch and go inside you will find a woodburner in an inglenook fireplace, comfortable sofas and lots of other unusual added features, including a bird nesting box hidden behind the curtains in the bedroom wall and a decorative old cast iron range, happily no longer used for cooking! The kitchen equipment will provide for all your culinary needs for cooking with gas.
+
+The second floor was once the farm's apple loft, or tallet, with characterful beams and cute little windows.
+
+### Bedrooms
+
+There are two bedrooms:
+
+- **Master bedroom:** Double bed
+- **Second bedroom:** A set of bunks plus a single bed
+
+The Old Apple Tallet has a luxurious family bathroom and also a downstairs WC.
+
+### Dogs
+
+One visiting dog is welcome outside of peak season times.
 
 ### Amenities
 
-- Fully equipped kitchen
-- Comfortable living spaces
+- Woodburner in inglenook fireplace
+- Fully equipped kitchen with gas cooking
+- Characterful beams and features
 - WiFi
 - Parking
-- Beautiful countryside views
 - Enclosed garden area
+- Beautiful countryside views
 
 ### Location
 

@@ -10,7 +10,7 @@ categories: ["activities"]
 
 ## Summerleaze Beach & Sea Pool, Bude
 
-**Distance:** 30 minutes | **Type:** Beach & Tidal Sea Pool | **Difficulty:** Easy
+**Distance:** 30 minutes | **Type:** Beach & Tidal Sea Pool
 
 Unique tidal sea pool plus sandy beach - perfect for families and safe swimming.
 

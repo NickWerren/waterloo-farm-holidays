@@ -10,7 +10,7 @@ categories: ["activities"]
 
 ## Bodmin Moor Challenge
 
-**Distance:** 40 miles | **Difficulty:** Hard | **Type:** Road
+**Distance:** 40 miles | **Type:** Road
 
 A challenging ride across dramatic Bodmin Moor with stunning views and significant climbing.
 

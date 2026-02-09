@@ -2,7 +2,6 @@
 title: "The Camel Trail"
 date: 2025-11-10
 distance: "18.3 miles total"
-difficulty: "Easy"
 type: "Cycle route"
 description: "Flat, traffic-free route following old railway line from Padstow to Wenford Bridge"
 ---
@@ -32,5 +31,4 @@ Bird hide halfway between Wadebridge and Padstow
 - Padstow town car parks
 
 **Distance:** 18.3 miles total
-**Difficulty:** Easy - flat, traffic-free
 **Best for:** All abilities, wheelchairs, pushchairs

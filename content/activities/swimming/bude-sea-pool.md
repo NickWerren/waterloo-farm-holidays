@@ -2,7 +2,6 @@
 title: "Bude Sea Pool"
 date: 2025-11-10
 location: "Behind Summerleaze Beach, Bude"
-difficulty: "Easy"
 type: "Tidal pool"
 description: "Semi-natural tidal pool since 1930s"
 ---

@@ -21,7 +21,7 @@ PL15 8LL
 **Email:** [info@waterloofarmholidays.co.uk](mailto:info@waterloofarmholidays.co.uk)
 
 **Social Media:**
-- Twitter: [@AEWerren](https://twitter.com/AEWerren)
+- Instagram: [@waterloofarmhols](https://www.instagram.com/waterloofarmhols)
 - Facebook: [Waterloo Farm Holidays](https://www.facebook.com/pages/Waterloo-Farm-Holidays/171360599549442)
 
 ### Finding Us

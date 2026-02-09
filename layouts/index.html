@@ -128,24 +128,29 @@
     </div>
 </section>
 
-<!-- Social Proof - Single Featured Testimonial -->
+<!-- Social Proof - Google Reviews -->
 <section class="featured-testimonial">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <div class="testimonial-featured">
-                    <div class="testimonial-stars">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
+                    <div class="google-rating">
+                        <span class="rating-score">4.8</span>
+                        <div class="rating-stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <span class="rating-source">on Google</span>
                     </div>
                     <p class="testimonial-text">"Perfect location for exploring Cornwall. The wheelchair accessibility in Haypole Barn was excellent and the pool was a real treat. We'll definitely be back!"</p>
                     <div class="testimonial-author">
                         <strong>David & Helen T.</strong>
                         <span>Haypole Barn</span>
                     </div>
+                    <a href="https://www.google.com/maps/place/Waterloo+Farm+Holidays/@50.6662718,-4.4292124,19z/data=!4m8!3m7!1s0x486c7c7d849784bd:0xaec5b8fd279bea97!8m2!3d50.666257!4d-4.429149!9m1!1b1!16s%2Fg%2F1tgdhdqt" target="_blank" rel="noopener noreferrer" class="google-reviews-link">Read our reviews on Google &rarr;</a>
                 </div>
             </div>
         </div>
@@ -366,14 +371,51 @@
     text-align: center;
 }
 
-.testimonial-stars {
-    color: #d4a574;
-    font-size: 18px;
-    margin-bottom: 25px;
+.google-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 30px;
 }
 
-.testimonial-stars i {
-    margin-right: 3px;
+.rating-score {
+    font-size: 36px;
+    font-weight: 300;
+    color: #3d3935;
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1;
+}
+
+.rating-stars {
+    color: #d4a574;
+    font-size: 16px;
+    display: flex;
+    gap: 2px;
+}
+
+.rating-source {
+    font-size: 13px;
+    color: #888;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.google-reviews-link {
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 13px;
+    color: #8b9e7d;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    transition: color 0.2s ease;
+}
+
+.google-reviews-link:hover {
+    color: #6b7d5f;
+    text-decoration: none;
 }
 
 .testimonial-text {

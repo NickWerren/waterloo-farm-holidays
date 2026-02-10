@@ -1,0 +1,218 @@
+{{ define "main" }}
+<article>
+    <div class="container" style="margin-top: 30px;">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="guest-info-header">
+                    {{ .Content }}
+                </div>
+
+                <div class="faq-container">
+                    {{ range sort .Pages ".File.ContentBaseName" }}
+                    <div class="faq-section" id="{{ .File.ContentBaseName }}">
+                        <button class="faq-toggle" onclick="toggleFaq(this)">
+                            <span class="faq-icon"><i class="fas {{ with .Params.icon }}{{ . }}{{ else }}fa-info-circle{{ end }}"></i></span>
+                            <span class="faq-title">{{ .Title }}</span>
+                            <span class="faq-chevron"><i class="fas fa-chevron-down"></i></span>
+                        </button>
+                        <div class="faq-content">
+                            {{ .Content }}
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+
+                <div class="faq-footer">
+                    <p>Still have questions? <a href="/contact/">Get in touch</a> — we're happy to help.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+<style>
+.guest-info-header {
+    margin-bottom: 40px;
+}
+
+.guest-info-header h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 300;
+    color: #3d3935;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.guest-info-header p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.faq-container {
+    margin-bottom: 40px;
+}
+
+.faq-section {
+    border: 1px solid #e8e2db;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.faq-section:hover {
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.faq-toggle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 18px 22px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.2s ease;
+}
+
+.faq-toggle:hover {
+    background: #faf8f6;
+}
+
+.faq-icon {
+    width: 36px;
+    height: 36px;
+    background: #8b9e7d;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    flex-shrink: 0;
+    margin-right: 16px;
+}
+
+.faq-title {
+    flex: 1;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #3d3935;
+}
+
+.faq-chevron {
+    color: #8b9e7d;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+    margin-left: 16px;
+}
+
+.faq-section.open .faq-chevron {
+    transform: rotate(180deg);
+}
+
+.faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    padding: 0 22px;
+    background: #faf8f6;
+    border-top: 0 solid #e8e2db;
+}
+
+.faq-section.open .faq-content {
+    max-height: 800px;
+    padding: 20px 22px 24px;
+    border-top: 1px solid #e8e2db;
+}
+
+.faq-content p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0 0 12px;
+}
+
+.faq-content p:last-child {
+    margin-bottom: 0;
+}
+
+.faq-content ul {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0 0 12px;
+    padding-left: 20px;
+}
+
+.faq-content strong {
+    color: #3d3935;
+}
+
+.faq-footer {
+    text-align: center;
+    padding: 30px 0 50px;
+    border-top: 1px solid #e8e2db;
+    margin-top: 20px;
+}
+
+.faq-footer p {
+    color: #666;
+    font-size: 16px;
+}
+
+.faq-footer a {
+    color: #8b9e7d;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.faq-footer a:hover {
+    color: #6b7d5f;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .faq-toggle {
+        padding: 15px 16px;
+    }
+    .faq-title {
+        font-size: 16px;
+    }
+    .faq-icon {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        margin-right: 12px;
+    }
+    .faq-section.open .faq-content {
+        padding: 16px;
+    }
+}
+</style>
+
+<script>
+function toggleFaq(button) {
+    var section = button.parentElement;
+    var isOpen = section.classList.contains('open');
+
+    // Close all sections
+    var allSections = document.querySelectorAll('.faq-section');
+    allSections.forEach(function(s) { s.classList.remove('open'); });
+
+    // Open clicked section if it was closed
+    if (!isOpen) {
+        section.classList.add('open');
+    }
+}
+
+// Open first section by default
+document.addEventListener('DOMContentLoaded', function() {
+    var first = document.querySelector('.faq-section');
+    if (first) first.classList.add('open');
+});
+</script>
+{{ end }}

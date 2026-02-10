@@ -118,6 +118,9 @@ home = ["HTML", "RSS", "Algolia"]
   title =  "Calendar"
   href =  "calendar"
   [[params.additional_menus]]
+  title =  "Guest Info"
+  href =  "guest-information"
+  [[params.additional_menus]]
   title =  "Contact"
   href =  "contact"
 

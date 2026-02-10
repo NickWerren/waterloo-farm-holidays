@@ -29,7 +29,7 @@ home = ["HTML", "RSS", "Algolia"]
   keyword = "holiday lets, countryside accommodation, farm holidays, vacation rentals, rural retreats, family holidays, pet friendly cottages, waterloo farm, luxury cottages, self catering"
   slogan = "A 5th Generation Family Farm in the Cornish Countryside"
   # Google Analytics 4 - replace with your Measurement ID from analytics.google.com
-  ga4_id = ""
+  ga4_id = "G-Y64E7HRGJZ"
   upstreamAttribution = false
 
   image_404 = "img/404-bg.jpg"

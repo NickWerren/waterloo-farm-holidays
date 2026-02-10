@@ -179,6 +179,34 @@
     transform: translateY(-2px);
 }
 
+.event-card.highlighted {
+    box-shadow: 0 6px 20px rgba(139, 158, 125, 0.3);
+    border-left-color: #d4a574;
+    background: #faf8f6;
+}
+
+/* Event type border colors */
+.event-card[data-type="Food/Drink"] { border-left-color: #d4a574; }
+.event-card[data-type="Music"] { border-left-color: #7a9bb5; }
+.event-card[data-type="Music/Cultural"] { border-left-color: #7a9bb5; }
+.event-card[data-type="Arts/Music"] { border-left-color: #7a9bb5; }
+.event-card[data-type="Traditional"] { border-left-color: #b5897a; }
+.event-card[data-type="Family"] { border-left-color: #9b7ab5; }
+.event-card[data-type="Seasonal"] { border-left-color: #b57a7a; }
+
+.event-featured {
+    display: inline-block;
+    background: #d4a574;
+    color: white;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
 .event-date {
     color: #8b9e7d;
     font-weight: 600;
@@ -362,11 +390,13 @@ function renderUpcomingEvents(year, month) {
         eventsHTML = '<p style="color: #999;">No upcoming events in this period.</p>';
     } else {
         upcomingEvents.forEach(event => {
-            // Use event_date field for display (supports "TBC" and recurring events)
             const dateStr = event.event_date;
+            const cardId = 'event-' + slugify(event.date + '-' + event.title);
+            const typeAttr = event.type ? ` data-type="${event.type}"` : '';
+            const featuredBadge = event.featured ? '<span class="event-featured">Featured</span>' : '';
 
-            eventsHTML += `<div class="event-card">
-                <div class="event-date">${dateStr}</div>
+            eventsHTML += `<div class="event-card" id="${cardId}"${typeAttr}>
+                <div class="event-date">${dateStr}${featuredBadge}</div>
                 <div class="event-title">${event.title}</div>
                 <div class="event-description">${event.description}</div>
                 ${event.location ? `<div class="event-location"><i class="fas fa-map-marker-alt"></i> ${event.location}</div>` : ''}
@@ -377,10 +407,17 @@ function renderUpcomingEvents(year, month) {
     document.getElementById('upcoming-events').innerHTML = eventsHTML;
 }
 
+function slugify(str) {
+    return str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+}
+
 function showEventDetails(date, title) {
-    const event = events.find(e => e.date === date && e.title === title);
-    if (event) {
-        alert(`${event.title}\n\n${event.description}\n\n${event.location ? 'Location: ' + event.location : ''}`);
+    const cardId = 'event-' + slugify(date + '-' + title);
+    const card = document.getElementById(cardId);
+    if (card) {
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        card.classList.add('highlighted');
+        setTimeout(function() { card.classList.remove('highlighted'); }, 2000);
     }
 }
 

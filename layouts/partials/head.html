@@ -1,0 +1,312 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- start ogp -->
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:type" content="article">
+
+    {{ if .Params.thumbnail }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+    <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}" />
+    {{ else if .Params.image}}
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image }}">
+    <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.image }}" />
+    {{ else }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}/{{ .Site.Params.header_image }}">
+    <meta property="twitter:image" content="{{ .Site.BaseURL }}/{{ .Site.Params.header_image }}" />
+    {{ end }}
+
+    {{ if .Params.title }}
+    <meta name="title" content="{{ .Params.title }}" />
+    <meta property="og:title" content="{{ .Params.title }}" />
+    <meta property="twitter:title" content="{{ .Params.title }}" />
+    {{ else }}
+    <meta name="title" content="{{ .Site.Params.title }}" />
+    <meta property="og:title" content="{{ .Site.Params.title }}" />
+    <meta property="twitter:title" content="{{ .Site.Params.title }}" />
+    {{ end }}
+
+    {{ if .Params.description }}
+    <meta name="description" content="{{ .Params.description }}">
+    <meta property="og:description" content="{{ .Params.description }}" />
+    <meta property="twitter:description" content="{{ .Params.description }}" />
+    {{ else }}
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta property="og:description" content="{{ .Site.Params.description }}" />
+    <meta property="twitter:description" content="{{ .Site.Params.description }}" />
+    {{ end }}
+
+    <meta property="og:url" content="{{ .Permalink }}" />
+
+    {{ if .Params.summary }}
+    <meta property="twitter:card" content="{{ .Params.summary }}" />
+    {{ else }}
+    <meta property="twitter:card" content="summary" />
+    {{ end }}
+    <!-- end ogp -->
+
+    <meta name="keyword"  content="{{ .Site.Params.keyword }}">
+    <link rel="shortcut icon" href="{{ "img/favicon.ico" | relURL }}">
+
+    <title>{{ if .Title }}{{ .Title }} | {{ .Site.Params.SEOTitle }}{{ else }}{{ .Site.Params.SEOTitle }}{{ end }}</title>
+
+    <link rel="canonical" href="{{ .RelPermalink }}">
+
+    {{ if .Site.Params.disqus_proxy }}
+    <link rel="stylesheet" href="{{ "css/iDisqus.min.css" | relURL }}"/>
+    {{ end }}
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
+
+    <!-- Clean White theme CSS -->
+    <link rel="stylesheet" href="{{ "css/hugo-theme-cleanwhite.min.css" | relURL }}">
+
+    <!-- zangshang CSS -->
+    <link rel="stylesheet" href="{{ "css/zanshang.min.css" | relURL }}">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="{{ "css/font-awesome.all.min.css" | relURL }}">
+
+    <!-- KaTeX CSS  -->
+    {{ $noop := .WordCount }}
+    {{ if .Page.Store.Get "hasMath" -}}
+        {{ partial "math/katex-css.html" . -}}
+        {{ partial "math/katex-fonts.html" . -}}
+    {{ end -}}
+
+    <!--  Custom CSS  -->
+    {{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+    {{- end }}
+
+    <!-- jQuery -->
+    <script src="{{ "js/jquery.min.js" | relURL }}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ "js/bootstrap.min.js" | relURL }}"></script>
+
+    <!-- Hux Theme JavaScript -->
+    <script src="{{ "js/hux-blog.min.js" | relURL }}"></script>
+
+    <!-- lazy load image JavaScript -->
+    <script src="{{ "js/lazysizes.min.js" | relURL }}"></script>
+
+    <!-- Custom JS -->
+    {{ range .Site.Params.custom_js }}
+    <script src="{{ . | absURL }}"></script>
+    {{ end }}
+
+    <!-- Google Analytics 4 with Consent Mode -->
+    {{ with .Site.Params.ga4_id }}
+    <script>
+    // GA4 consent mode - default to denied
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+        'analytics_storage': 'denied'
+    });
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+    <script>
+    gtag('js', new Date());
+    gtag('config', '{{ . }}');
+    </script>
+    {{ end }}
+
+    <!-- Schema.org structured data -->
+    {{ if eq .Type "property" }}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LodgingBusiness",
+        "name": "Waterloo Farm Holidays",
+        "url": "{{ .Site.BaseURL }}",
+        "telephone": "+441566785386",
+        "email": "info@waterloofarmholidays.co.uk",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Waterloo Farm, North Petherwin",
+            "addressLocality": "Launceston",
+            "addressRegion": "Cornwall",
+            "postalCode": "PL15 8LL",
+            "addressCountry": "GB"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 50.666257,
+            "longitude": -4.429149
+        },
+        "containsPlace": {
+            "@type": "Accommodation",
+            "@id": "{{ .Permalink }}",
+            "name": "{{ .Title }}",
+            "description": "{{ .Params.description }}",
+            "occupancy": {
+                "@type": "QuantitativeValue",
+                "maxValue": {{ .Params.sleeps }}
+            },
+            "numberOfBedrooms": {{ .Params.bedrooms }},
+            "numberOfBathroomsTotal": {{ .Params.bathrooms }},
+            "petsAllowed": {{ .Params.pets }},
+            "amenityFeature": [
+                {"@type": "LocationFeatureSpecification", "name": "Free WiFi", "value": true},
+                {"@type": "LocationFeatureSpecification", "name": "Free Parking", "value": true},
+                {"@type": "LocationFeatureSpecification", "name": "Heated Swimming Pool", "value": true},
+                {"@type": "LocationFeatureSpecification", "name": "Central Heating", "value": true},
+                {"@type": "LocationFeatureSpecification", "name": "Kitchen", "value": true}
+                {{ if .Params.wheelchair_accessible }},{"@type": "LocationFeatureSpecification", "name": "Wheelchair Accessible", "value": true}{{ end }}
+            ]
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "bestRating": "5",
+            "ratingCount": "50"
+        }
+    }
+    </script>
+    {{ else if eq .Type "accommodation" }}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LodgingBusiness",
+        "name": "Waterloo Farm Holidays",
+        "description": "{{ .Site.Params.description }}",
+        "url": "{{ .Site.BaseURL }}",
+        "telephone": "+441566785386",
+        "email": "info@waterloofarmholidays.co.uk",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Waterloo Farm, North Petherwin",
+            "addressLocality": "Launceston",
+            "addressRegion": "Cornwall",
+            "postalCode": "PL15 8LL",
+            "addressCountry": "GB"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 50.666257,
+            "longitude": -4.429149
+        },
+        "priceRange": "£100-200 per night",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "bestRating": "5",
+            "ratingCount": "50"
+        },
+        "amenityFeature": [
+            {"@type": "LocationFeatureSpecification", "name": "Free WiFi", "value": true},
+            {"@type": "LocationFeatureSpecification", "name": "Free Parking", "value": true},
+            {"@type": "LocationFeatureSpecification", "name": "Heated Swimming Pool", "value": true},
+            {"@type": "LocationFeatureSpecification", "name": "Wheelchair Accessible Cottages", "value": true},
+            {"@type": "LocationFeatureSpecification", "name": "Pet Friendly Options", "value": true}
+        ]
+    }
+    </script>
+    {{ end }}
+
+</head>
+
+<!-- Cookie Consent Banner -->
+{{ with .Site.Params.ga4_id }}
+<div id="cookie-consent" style="display:none;">
+    <div class="cookie-consent-inner">
+        <p>We use cookies to understand how visitors use our site. <a href="/guest-information/">Learn more</a></p>
+        <div class="cookie-consent-buttons">
+            <button onclick="acceptCookies()" class="cookie-btn cookie-accept">Accept</button>
+            <button onclick="declineCookies()" class="cookie-btn cookie-decline">Decline</button>
+        </div>
+    </div>
+</div>
+<style>
+#cookie-consent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: rgba(61, 57, 53, 0.97);
+    padding: 16px 20px;
+    box-shadow: 0 -2px 12px rgba(0,0,0,0.15);
+}
+.cookie-consent-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#cookie-consent p {
+    color: #e8e2db;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    flex: 1;
+    min-width: 200px;
+}
+#cookie-consent a {
+    color: #d4a574;
+    text-decoration: underline;
+}
+.cookie-consent-buttons {
+    display: flex;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.cookie-btn {
+    padding: 8px 24px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
+}
+.cookie-accept {
+    background: #8b9e7d;
+    color: white;
+}
+.cookie-accept:hover {
+    background: #6b7d5f;
+}
+.cookie-decline {
+    background: transparent;
+    color: #e8e2db;
+    border: 1px solid #666;
+}
+.cookie-decline:hover {
+    background: rgba(255,255,255,0.1);
+}
+</style>
+<script>
+(function() {
+    var consent = localStorage.getItem('cookie_consent');
+    if (consent === 'accepted') {
+        gtag('consent', 'update', { 'analytics_storage': 'granted' });
+    } else if (consent !== 'declined') {
+        // Show banner if no choice made yet
+        setTimeout(function() {
+            document.getElementById('cookie-consent').style.display = 'block';
+        }, 1000);
+    }
+})();
+
+function acceptCookies() {
+    localStorage.setItem('cookie_consent', 'accepted');
+    gtag('consent', 'update', { 'analytics_storage': 'granted' });
+    document.getElementById('cookie-consent').style.display = 'none';
+}
+
+function declineCookies() {
+    localStorage.setItem('cookie_consent', 'declined');
+    document.getElementById('cookie-consent').style.display = 'none';
+}
+</script>
+{{ end }}

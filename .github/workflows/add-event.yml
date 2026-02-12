@@ -1,0 +1,129 @@
+# Adds a calendar event to the site from a simple form
+# Go to Actions > "Add Calendar Event" > "Run workflow" and fill in the fields
+name: Add Calendar Event
+
+on:
+  workflow_dispatch:
+    inputs:
+      event_name:
+        description: "Event name (e.g. Porthleven Food Festival)"
+        required: true
+        type: string
+      event_date:
+        description: "Display date (e.g. April 24-26, 2026)"
+        required: true
+        type: string
+      sort_date:
+        description: "Sort date YYYY-MM-DD (e.g. 2026-04-24)"
+        required: true
+        type: string
+      month:
+        description: "Month folder"
+        required: true
+        type: choice
+        options:
+          - january
+          - february
+          - march
+          - april
+          - may
+          - june
+          - july
+          - august
+          - september
+          - october
+          - november
+          - december
+          - recurring
+      location:
+        description: "Location (e.g. Porthleven Harbour)"
+        required: true
+        type: string
+      event_type:
+        description: "Event type"
+        required: true
+        type: choice
+        options:
+          - Family
+          - Food/Drink
+          - Music
+          - Traditional
+          - Seasonal
+      description:
+        description: "Short description (one line)"
+        required: true
+        type: string
+      body:
+        description: "Full description (a paragraph or two)"
+        required: true
+        type: string
+      featured:
+        description: "Featured event?"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  add-event:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create event file
+        run: |
+          # Generate filename from event name
+          SLUG=$(echo "${{ inputs.event_name }}" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//;s/-$//')
+          MONTH="${{ inputs.month }}"
+          FILE_PATH="content/calendar/${MONTH}/${SLUG}.md"
+
+          # Create month directory if needed
+          mkdir -p "content/calendar/${MONTH}"
+
+          # Determine featured line
+          FEATURED="${{ inputs.featured }}"
+          if [ "$FEATURED" = "true" ]; then
+            FEATURED_LINE="featured: true"
+          else
+            FEATURED_LINE="featured: false"
+          fi
+
+          # Write the markdown file
+          cat > "$FILE_PATH" << ENDOFFILE
+          ---
+          title: "${{ inputs.event_name }}"
+          date: ${{ inputs.sort_date }}
+          event_date: "${{ inputs.event_date }}"
+          location: "${{ inputs.location }}"
+          event_type: "${{ inputs.event_type }}"
+          description: "${{ inputs.description }}"
+          type: "calendar"
+          ${FEATURED_LINE}
+          ---
+
+          ## ${{ inputs.event_name }}
+
+          ${{ inputs.body }}
+
+          **Date:** ${{ inputs.event_date }}
+          **Location:** ${{ inputs.location }}
+          **Type:** ${{ inputs.event_type }}
+          ENDOFFILE
+
+          # Remove leading whitespace from heredoc
+          sed -i 's/^          //' "$FILE_PATH"
+
+          echo "Created: $FILE_PATH"
+          cat "$FILE_PATH"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          SLUG=$(echo "${{ inputs.event_name }}" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//;s/-$//')
+          git add "content/calendar/${{ inputs.month }}/${SLUG}.md"
+          git commit -m "Add calendar event: ${{ inputs.event_name }}"
+          git push

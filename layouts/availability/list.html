@@ -1,0 +1,467 @@
+{{ define "main" }}
+<article>
+    <div class="container" style="margin-top: 30px;">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+
+                <div class="availability-header">
+                    <h2>Cottage Availability</h2>
+                    <p>Check which dates are available across our six cottages. Booked dates are shown in <span class="legend-booked">red</span> and available dates in <span class="legend-available">green</span>.</p>
+
+                    <div class="availability-controls">
+                        <button class="month-nav" onclick="changeMonth(-1)"><i class="fas fa-chevron-left"></i></button>
+                        <span class="month-label" id="monthLabel"></span>
+                        <button class="month-nav" onclick="changeMonth(1)"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+
+                <div class="availability-legend">
+                    <span class="legend-item"><span class="legend-swatch available"></span> Available</span>
+                    <span class="legend-item"><span class="legend-swatch booked"></span> Booked</span>
+                    <span class="legend-item"><span class="legend-swatch past"></span> Past</span>
+                </div>
+
+                <div id="availabilityGrid" class="availability-grid">
+                    <div class="loading-message">
+                        <i class="fas fa-spinner fa-spin"></i> Loading availability...
+                    </div>
+                </div>
+
+                <div id="noDataMessage" class="no-data-message" style="display: none;">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Availability data is not yet configured. Please check back soon or <a href="{{ "contact" | relURL }}">contact us</a> to check availability.</p>
+                </div>
+
+                <div class="availability-footer">
+                    <p>Changeover day is <strong>Saturday</strong>. Check-in from <strong>3:00 PM</strong>, check-out by <strong>10:00 AM</strong>.</p>
+                    <p>For booking enquiries, please <a href="{{ "contact" | relURL }}">contact us</a> or call <a href="tel:01566785386">01566 785386</a>.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<style>
+.availability-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.availability-header h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #3d3935;
+    margin-bottom: 10px;
+}
+
+.availability-header p {
+    color: #666;
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 600px;
+    margin: 0 auto 25px;
+    line-height: 1.6;
+}
+
+.legend-booked { color: #c0392b; font-weight: 600; }
+.legend-available { color: #8b9e7d; font-weight: 600; }
+
+.availability-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.month-nav {
+    background: #e8e2db;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    color: #3d3935;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.month-nav:hover {
+    background: #8b9e7d;
+    color: #fff;
+}
+
+.month-label {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #3d3935;
+    min-width: 200px;
+    text-align: center;
+}
+
+.availability-legend {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+    font-size: 13px;
+    color: #666;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.legend-swatch {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.legend-swatch.available { background: #8b9e7d; }
+.legend-swatch.booked { background: #c0392b; }
+.legend-swatch.past { background: #ddd; }
+
+/* Grid */
+.availability-grid {
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+.loading-message {
+    text-align: center;
+    padding: 60px 20px;
+    color: #888;
+    font-size: 16px;
+}
+
+.loading-message i {
+    margin-right: 8px;
+}
+
+.no-data-message {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f8f5f0;
+    border-radius: 8px;
+    color: #666;
+}
+
+.no-data-message i {
+    font-size: 24px;
+    color: #8b9e7d;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.no-data-message a {
+    color: #8b9e7d;
+    font-weight: 600;
+}
+
+.availability-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    min-width: 700px;
+}
+
+.availability-table th {
+    background: #3d3935;
+    color: #e8e2db;
+    padding: 10px 4px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.availability-table th:first-child {
+    text-align: left;
+    padding-left: 15px;
+    min-width: 150px;
+    font-size: 13px;
+}
+
+.availability-table td {
+    text-align: center;
+    padding: 8px 2px;
+    border-bottom: 1px solid #eee;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.availability-table td:first-child {
+    text-align: left;
+    padding-left: 15px;
+    font-weight: 400;
+    color: #3d3935;
+    font-size: 14px;
+}
+
+.availability-table tr:hover td {
+    background: #faf8f5;
+}
+
+.availability-table tr:hover td:first-child {
+    background: transparent;
+}
+
+.day-cell {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    transition: transform 0.15s ease;
+}
+
+.day-cell.available {
+    background: #8b9e7d;
+    color: #fff;
+}
+
+.day-cell.booked {
+    background: #c0392b;
+    color: #fff;
+}
+
+.day-cell.past {
+    background: #e8e4e0;
+    color: #aaa;
+}
+
+.day-cell.empty {
+    background: transparent;
+}
+
+.day-cell.today {
+    box-shadow: 0 0 0 2px #d4a574;
+}
+
+.day-sat {
+    font-weight: 600;
+}
+
+/* Footer */
+.availability-footer {
+    text-align: center;
+    padding: 25px;
+    background: #f8f5f0;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.availability-footer p {
+    margin: 0 0 8px 0;
+    color: #666;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.availability-footer p:last-child {
+    margin-bottom: 0;
+}
+
+.availability-footer a {
+    color: #8b9e7d;
+    font-weight: 600;
+}
+
+/* Cottage link in table */
+.cottage-name-link {
+    color: #3d3935;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.cottage-name-link:hover {
+    color: #8b9e7d;
+}
+
+@media (max-width: 767px) {
+    .availability-header h2 { font-size: 26px; }
+    .month-label { font-size: 18px; min-width: 160px; }
+    .availability-legend { gap: 15px; font-size: 12px; }
+    .day-cell { width: 24px; height: 24px; font-size: 10px; }
+}
+</style>
+
+<script>
+(function() {
+    // Google Sheet published CSV URL — replace with your own
+    // To get this: Google Sheet > File > Share > Publish to web > CSV
+    var SHEET_CSV_URL = '{{ with .Site.Params.availability_sheet_url }}{{ . }}{{ end }}';
+
+    var COTTAGES = [
+        { name: 'Haypole Barn', slug: 'haypole-barn' },
+        { name: 'Sandmartins', slug: 'sandmartins' },
+        { name: 'Kingfisher Cottage', slug: 'kingfisher-cottage' },
+        { name: 'Saffron Cottage', slug: 'saffron-cottage' },
+        { name: 'Swallow Barn', slug: 'swallow-barn' },
+        { name: 'The Old Apple Tallet', slug: 'the-old-apple-tallet' }
+    ];
+
+    var currentDate = new Date();
+    var currentMonth = currentDate.getMonth();
+    var currentYear = currentDate.getFullYear();
+    var bookings = [];
+
+    window.changeMonth = function(delta) {
+        currentMonth += delta;
+        if (currentMonth > 11) { currentMonth = 0; currentYear++; }
+        if (currentMonth < 0) { currentMonth = 11; currentYear--; }
+        renderCalendar();
+    };
+
+    function parseCSV(text) {
+        var lines = text.split('\n');
+        var results = [];
+        for (var i = 1; i < lines.length; i++) {
+            var line = lines[i].trim();
+            if (!line) continue;
+
+            // Simple CSV parse handling quoted fields
+            var fields = [];
+            var current = '';
+            var inQuotes = false;
+            for (var j = 0; j < line.length; j++) {
+                var ch = line[j];
+                if (ch === '"') {
+                    inQuotes = !inQuotes;
+                } else if (ch === ',' && !inQuotes) {
+                    fields.push(current.trim());
+                    current = '';
+                } else {
+                    current += ch;
+                }
+            }
+            fields.push(current.trim());
+
+            if (fields.length >= 3) {
+                results.push({
+                    cottage: fields[0],
+                    checkIn: parseDate(fields[1]),
+                    checkOut: parseDate(fields[2]),
+                    guest: fields[3] || ''
+                });
+            }
+        }
+        return results;
+    }
+
+    function parseDate(str) {
+        if (!str) return null;
+        // Handle DD/MM/YYYY (UK format from Google Sheets)
+        var parts = str.split('/');
+        if (parts.length === 3) {
+            var day = parseInt(parts[0], 10);
+            var month = parseInt(parts[1], 10) - 1;
+            var year = parseInt(parts[2], 10);
+            if (year < 100) year += 2000;
+            return new Date(year, month, day);
+        }
+        // Fallback to standard parse
+        var d = new Date(str);
+        return isNaN(d.getTime()) ? null : d;
+    }
+
+    function isBooked(cottageName, date) {
+        for (var i = 0; i < bookings.length; i++) {
+            var b = bookings[i];
+            if (b.cottage.toLowerCase() === cottageName.toLowerCase() &&
+                b.checkIn && b.checkOut &&
+                date >= b.checkIn && date < b.checkOut) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    function renderCalendar() {
+        var grid = document.getElementById('availabilityGrid');
+        var label = document.getElementById('monthLabel');
+        var months = ['January','February','March','April','May','June',
+                      'July','August','September','October','November','December'];
+
+        label.textContent = months[currentMonth] + ' ' + currentYear;
+
+        var daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+        var today = new Date();
+        today.setHours(0, 0, 0, 0);
+
+        var html = '<table class="availability-table">';
+        html += '<thead><tr><th>Cottage</th>';
+        for (var d = 1; d <= daysInMonth; d++) {
+            var dayDate = new Date(currentYear, currentMonth, d);
+            var dayName = ['S','M','T','W','T','F','S'][dayDate.getDay()];
+            var isSat = dayDate.getDay() === 6;
+            html += '<th' + (isSat ? ' class="day-sat"' : '') + '>' + dayName + '<br>' + d + '</th>';
+        }
+        html += '</tr></thead><tbody>';
+
+        for (var c = 0; c < COTTAGES.length; c++) {
+            var cottage = COTTAGES[c];
+            html += '<tr>';
+            html += '<td><a href="/accommodation/' + cottage.slug + '/" class="cottage-name-link">' + cottage.name + '</a></td>';
+
+            for (var d = 1; d <= daysInMonth; d++) {
+                var date = new Date(currentYear, currentMonth, d);
+                date.setHours(0, 0, 0, 0);
+                var isSat = date.getDay() === 6;
+                var isPast = date < today;
+                var booked = isBooked(cottage.name, date);
+                var isToday = date.getTime() === today.getTime();
+
+                var cls = 'day-cell';
+                if (isPast) {
+                    cls += ' past';
+                } else if (booked) {
+                    cls += ' booked';
+                } else {
+                    cls += ' available';
+                }
+                if (isToday) cls += ' today';
+                if (isSat) cls += ' day-sat';
+
+                html += '<td><span class="' + cls + '">' + d + '</span></td>';
+            }
+            html += '</tr>';
+        }
+
+        html += '</tbody></table>';
+        grid.innerHTML = html;
+    }
+
+    // Load data
+    if (SHEET_CSV_URL) {
+        fetch(SHEET_CSV_URL)
+            .then(function(r) { return r.text(); })
+            .then(function(csv) {
+                bookings = parseCSV(csv);
+                renderCalendar();
+            })
+            .catch(function() {
+                // Show calendar with all dates available
+                renderCalendar();
+            });
+    } else {
+        // No sheet URL configured — show message
+        document.getElementById('availabilityGrid').innerHTML = '';
+        document.getElementById('noDataMessage').style.display = 'block';
+        renderCalendar();
+    }
+})();
+</script>
+
+{{ end }}

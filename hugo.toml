@@ -31,6 +31,9 @@ home = ["HTML", "RSS", "Algolia"]
   # Google Analytics 4 - replace with your Measurement ID from analytics.google.com
   ga4_id = "G-Y64E7HRGJZ"
   upstreamAttribution = false
+  # Google Sheet CSV URL for availability calendar
+  # Publish your Google Sheet: File > Share > Publish to web > Sheet1 > CSV
+  availability_sheet_url = ""
 
   image_404 = "img/404-bg.jpg"
   title_404 = "Page Not Found"
@@ -117,6 +120,9 @@ home = ["HTML", "RSS", "Algolia"]
   title =  "Food & Drink"
   href =  "food-and-drink"
     [[params.additional_menus]]
+  title =  "Availability"
+  href =  "availability"
+  [[params.additional_menus]]
   title =  "Calendar"
   href =  "calendar"
   [[params.additional_menus]]

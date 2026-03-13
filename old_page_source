@@ -1,0 +1,2424 @@
+<!doctype html>
+<html class="no-js grve-responsive" lang="en-GB">
+<head>
+    <script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    window.addEventListener('DOMContentLoaded', function() {
+        var v = archive_analytics.values;
+        v.service = 'wb';
+        v.server_name = 'wwwb-app217.us.archive.org';
+        v.server_ms = 296;
+        archive_analytics.send_pageview({});
+    });
+    </script>
+    <script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+    <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+    <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.RufflePlayer.config = {
+        "autoplay": "on",
+        "unmuteOverlay": "hidden",
+        "showSwfDownload": true
+    };
+    </script>
+    <script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+    <script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+    __wm.wombat("https://www.waterloofarmholidays.co.uk/sandmartins/", "20240723165628", "https://web.archive.org/", "web", "https://web-static.archive.org/_static/",
+    "1721753788");
+    </script>
+    <link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3"/>
+    <link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"/>
+    <!-- End Wayback Rewrite JS Include -->
+
+    <meta charset="UTF-8">
+    <title> Sandmartins | Waterloo Farm Holidays</title>
+
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- allow pinned sites -->
+    <meta name="application-name" content="Waterloo Farm Holidays"/>
+
+    <link href="https://web.archive.org/web/20240723165628im_/http://www.waterloofarmholidays.co.uk/wp-content/uploads/2015/03/fav.png" rel="icon" type="image/x-icon">
+
+    <link rel="pingback" href="https://www.waterloofarmholidays.co.uk/xmlrpc.php">
+
+    <meta name="robots" content="max-image-preview:large"/>
+    <link rel="dns-prefetch" href="//web.archive.org/web/20240723165628/https://s.w.org/"/>
+    <link rel="alternate" type="application/rss+xml" title="Waterloo Farm Holidays » Feed" href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/feed/"/>
+    <link rel="alternate" type="application/rss+xml" title="Waterloo Farm Holidays » Comments Feed" href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/comments/feed/"/>
+    <!-- This site uses the Google Analytics by ExactMetrics plugin v7.10.0 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+    <!-- Note: ExactMetrics is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the ExactMetrics settings panel. -->
+    <!-- No UA code set -->
+    <!-- / Google Analytics by ExactMetrics -->
+    <script type="text/javascript">
+    window._wpemojiSettings = {
+        "baseUrl": "https:\/\/web.archive.org\/web\/20240723165628\/https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/",
+        "ext": ".png",
+        "svgUrl": "https:\/\/web.archive.org\/web\/20240723165628\/https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/",
+        "svgExt": ".svg",
+        "source": {
+            "concatemoji": "https:\/\/web.archive.org\/web\/20240723165628\/https:\/\/www.waterloofarmholidays.co.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.12"
+        }
+    };
+    !function(e, a, t) {
+        var n,
+            r,
+            o,
+            i = a.createElement("canvas"),
+            p = i.getContext && i.getContext("2d");
+        function s(e, t) {
+            var a = String.fromCharCode;
+            p.clearRect(0, 0, i.width, i.height),
+            p.fillText(a.apply(this, e), 0, 0);
+            e = i.toDataURL();
+            return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+        }
+        function c(e) {
+            var t = a.createElement("script");
+            t.src = e,
+            t.defer = t.type = "text/javascript",
+            a.getElementsByTagName("head")[0].appendChild(t)
+        }
+        for (o = Array("flag", "emoji"), t.supports = {
+            everything: !0,
+            everythingExceptFlag: !0
+        }, r = 0; r < o.length; r++)
+            t.supports[o[r]] = function(e) {
+                if (!p || !p.fillText)
+                    return !1;
+                switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+                case "flag":
+                    return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]);
+                case "emoji":
+                    return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212])
+                }
+                return !1
+            }(o[r]),
+            t.supports.everything = t.supports.everything && t.supports[o[r]],
+            "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+        t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag,
+        t.DOMReady = !1,
+        t.readyCallback = function() {
+            t.DOMReady = !0
+        },
+        t.supports.everything || (n = function() {
+            t.readyCallback()
+        }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+            "complete" === a.readyState && t.readyCallback()
+        })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji)))
+    }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+    img.wp-smiley, img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 .07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+    }
+    </style>
+    <link rel="stylesheet" id="wp-block-library-css" href="https://web.archive.org/web/20240723165628cs_/https://www.waterloofarmholidays.co.uk/wp-includes/css/dist/block-library/style.min.css?ver=5.7.12" type="text/css" media="all"/>
+    <link rel="stylesheet" id="contact-form-7-css" href="https://web.archive.org/web/20240723165628cs_/https://www.waterloofarmholidays.co.uk/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.6.1" type="text/css" media="all"/>
+    <link rel="stylesheet" id="rs-plugin-settings-css" href="https://web.archive.org/web/20240723165628cs_/https://www.waterloofarmholidays.co.uk/wp-content/plugins/revslider/rs-plugin/css/settings.css?ver=4.6.5" type="text/css" media="all"/>
+    <style id="rs-plugin-settings-inline-css" type="text/css">
+    .tp-caption a {
+        color: #ff7302;
+        text-shadow: none;
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        -ms-transition:all 0.2s ease-out
+    }
+
+    .tp-caption a:hover {
+        color: #ffa902
+    }
+    </style>
+    <link rel="stylesheet" id="wpsbc-style-css" href="https://web.archive.org/web/20240723165628cs_/https://www.waterloofarmholidays.co.uk/wp-content/plugins/wp-simple-booking-calendar-premium/assets/css/style-front-end.min.css?ver=8.3.9" type="text/css" media="all"/>
+    <link rel="stylesheet" id="dashicons-css" href="https://web.archive.org/web/20240723165628cs_/https://www.waterloofarmholidays.co.uk/wp-includes/css/dashicons.min.css?ver=5.7.12" type="text/css" media="all"/>
+    <link rel="stylesheet" id="grve-awsome-fonts-css" href="https://web.archive.org/web/20240723165628cs_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/css/font-awesome.min.css?ver=4.3.0" type="text/css" media="all"/>
+    <link rel="stylesheet" id="grve-plugins-css" href="https://web.archive.org/web/20240723165628cs_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/css/plugins.css?ver=1.4.0" type="text/css" media="all"/>
+    <link rel="stylesheet" id="grve-basic-css" href="https://web.archive.org/web/20240723165628cs_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/css/basic.css?ver=1.4.0" type="text/css" media="all"/>
+    <link rel="stylesheet" id="grve-theme-style-css" href="https://web.archive.org/web/20240723165628cs_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/css/theme-style.css?ver=1.4.0" type="text/css" media="all"/>
+    <link rel="stylesheet" id="grve-grid-css" href="https://web.archive.org/web/20240723165628cs_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/css/grid.css?ver=1.4.0" type="text/css" media="all"/>
+    <link rel="stylesheet" id="grve-elements-css" href="https://web.archive.org/web/20240723165628cs_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/css/elements.css?ver=1.4.0" type="text/css" media="all"/>
+    <link rel="stylesheet" id="js_composer_front-css" href="https://web.archive.org/web/20240723165628cs_/https://www.waterloofarmholidays.co.uk/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.9.0" type="text/css" media="all"/>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-includes/js/jquery/jquery.min.js?ver=3.5.1" id="jquery-core-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?ver=4.6.5" id="tp-tools-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=4.6.5" id="revmin-js"></script>
+    <link rel="https://api.w.org/" href="https://www.waterloofarmholidays.co.uk/wp-json/"/>
+    <link rel="alternate" type="application/json" href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/wp-json/wp/v2/pages/1196"/>
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.waterloofarmholidays.co.uk/xmlrpc.php?rsd"/>
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.waterloofarmholidays.co.uk/wp-includes/wlwmanifest.xml"/>
+    <meta name="generator" content="WordPress 5.7.12"/>
+    <link rel="canonical" href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/sandmartins/"/>
+    <link rel="shortlink" href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/?p=1196"/>
+    <link rel="alternate" type="application/json+oembed" href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.waterloofarmholidays.co.uk%2Fsandmartins%2F"/>
+    <link rel="alternate" type="text/xml+oembed" href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.waterloofarmholidays.co.uk%2Fsandmartins%2F&amp;format=xml"/>
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+        // CUSTOM AJAX CONTENT LOADING FUNCTION
+        var ajaxRevslider = function(obj) {
+
+            // obj.type : Post Type
+            // obj.id : ID of Content to Load
+            // obj.aspectratio : The Aspect Ratio of the Container / Media
+            // obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+
+            var content = "";
+
+            data = {};
+
+            data.action = 'revslider_ajax_call_front';
+            data.client_action = 'get_slider_html';
+            data.token = 'd218089ab4';
+            data.type = obj.type;
+            data.id = obj.id;
+            data.aspectratio = obj.aspectratio;
+
+            // SYNC AJAX REQUEST
+            jQuery.ajax({
+                type: "post",
+                url: "https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/wp-admin/admin-ajax.php",
+                dataType: 'json',
+                data: data,
+                async: false,
+                success: function(ret, textStatus, XMLHttpRequest) {
+                    if (ret.success == true)
+                        content = ret.data;
+                },
+                error: function(e) {
+                    console.log(e);
+                }
+            });
+
+            // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+            return content;
+        };
+
+        // CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+        var ajaxRemoveRevslider = function(obj) {
+            return jQuery(obj.selector + " .rev_slider").revkill();
+        };
+
+        // EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+        var extendessential = setInterval(function() {
+            if (jQuery.fn.tpessential != undefined) {
+                clearInterval(extendessential);
+                if (typeof (jQuery.fn.tpessential.defaults) !== 'undefined') {
+                    jQuery.fn.tpessential.defaults.ajaxTypes.push({
+                        type: "revslider",
+                        func: ajaxRevslider,
+                        killfunc: ajaxRemoveRevslider,
+                        openAnimationSpeed: 0.3
+                    });
+
+
+
+
+                }
+            }
+        }, // type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+        // func: the Function Name which is Called once the Item with the Post Type has been clicked
+        // killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+        // openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+        30);
+    });
+    </script>
+    <noscript>
+        <style>
+        .vce-row-container .vcv-lozad {
+            display: none
+        }
+        </style>
+    </noscript>
+    <meta name="generator" content="Powered by Visual Composer Website Builder - fast and easy-to-use drag and drop visual editor for WordPress."/>
+    <!-- Dynamic css -->
+    <style type="text/css">
+    body {
+        font-size: 15px;
+        font-family: Source Sans Pro Regular;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    .grve-btn, input[type='submit'], #grve-search-modal input[type='text'] {
+        font-family: Source Sans Pro Regular;
+    }
+
+    .grve-horizontal-menu > ul > li > a, .grve-vertical-menu > ul > li > a {
+        font-size: 18px;
+    }
+
+    .grve-horizontal-menu a, .grve-vertical-menu a {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    .grve-testimonial-content p {
+        font-family: Source Sans Pro ExtraLight;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    .grve-slogan p {
+        font-family: Source Sans Pro Light;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    .grve-light-text {
+        font-family: Source Sans Pro Light;
+        font-style: normal;
+        font-weight: 200;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 32px;
+    }
+
+    h5 {
+        font-size: 24px;
+    }
+
+    h6 {
+        font-size: 20px;
+    }
+    </style>
+    <!-- Dynamic css -->
+    <style type="text/css">
+    #grve-header {
+        line-height: 120px;
+    }
+
+    #grve-header .grve-logo img {
+        max-height: 120px;
+    }
+
+    #grve-header, #grve-feature-section, .grve-mask, body {
+        background-color: #1c2730;
+    }
+
+    #grve-header .grve-page-title .grve-title, #grve-header .grve-page-title .grve-sub-title, #grve-header .grve-page-title .grve-post-meta, #grve-header .grve-page-title .grve-post-meta a:hover {
+        color: #ffffff;
+    }
+
+    .grve-slider-caption .grve-title {
+        color: #ffffff;
+    }
+
+    .grve-slider-caption .grve-subtitle {
+        color: #24d1c4;
+    }
+
+    .grve-slider-caption .grve-btn.grve-btn-line {
+        color: #ffffff;
+        border-color: #ffffff;
+    }
+
+    .grve-vertical-menu a, .grve-horizontal-menu a, .grve-horizontal-menu .grve-mainmenu-btn:before {
+        color: #ffffff;
+    }
+
+    .grve-vertical-menu a:hover, .grve-vertical-menu .active > a, .grve-vertical-menu .grve-current > a, .grve-horizontal-menu a:hover, .grve-horizontal-menu .active > a, .grve-horizontal-menu .grve-current > a, .current-menu-item > a, .current-menu-ancestor > a {
+        color: #24d1c4;
+    }
+
+    .grve-horizontal-menu, .grve-horizontal-menu .sub-menu, .grve-horizontal-menu .children {
+        background-color: #1c2730;
+    }
+
+    #grve-theme-body {
+        background-color: #fcfcfc;
+    }
+
+    .grve-main-content h1, .grve-main-content h2, .grve-main-content h3, .grve-main-content h4, .grve-main-content h5, .grve-main-content h6, .grve-sidebar h1, .grve-sidebar h2, .grve-sidebar h3, .grve-sidebar h4, .grve-sidebar h5, .grve-sidebar h6, .grve-post-title, .grve-box-title, #grve-main-title-section .grve-title, .grve-portfolio-title a, .grve-blog-label a .grve-post-title, .grve-accordion.grve-style-1 .grve-title.active, .grve-team-content .grve-team-name, .grve-smallteam-item .grve-team-name, strong, dt {
+        color: #000000;
+    }
+
+    .grve-light-color h1, .grve-light-color h2, .grve-light-color h3, .grve-light-color h4, .grve-light-color h5, .grve-light-color h6 {
+        color: #ffffff !important;
+    }
+
+    .grve-dark-color h1, .grve-dark-color h2, .grve-dark-color h3, .grve-dark-color h4, .grve-dark-color h5, .grve-dark-color h6 {
+        color: #000000 !important;
+    }
+
+    .grve-primary-color h1, .grve-primary-color h2, .grve-primary-color h3, .grve-primary-color h4, .grve-primary-color h5, .grve-primary-color h6 {
+        color: #24d1c4 !important;
+    }
+
+    body, .grve-pagination li a, .grve-pagination li .page-numbers, .grve-single-post .grve-post-meta a, .grve-custom-nav ul li a, .grve-latest-news li:before, .grve-search-btn, .grve-archives a, .tagcloud a, .grve-categories a, .grve-portfolio-nav li a, .grve-blog-label a .grve-post-date, .grve-smallteam-item .grve-team-description, .grve-smallteam-item .grve-smallteam-social li a, #grve-theme-body .grve-social li a, .grve-post-quote .grve-post-content a, .grve-post-link .grve-post-content a, blockquote.grve-style-2:before {
+        color: #666666;
+    }
+
+    .grve-tabs-title li, .grve-pagination li a, .grve-pagination li .page-numbers, .grve-latest-news li, .grve-latest-news .grve-post-format:after, .grve-popular-post li, .grve-second-menu li, .grve-custom-nav ul li, .grve-custom-nav .submenu, .tagcloud a, .grve-horizontal-tab .grve-tabs-title, .grve-social li a, .grve-search-btn, .grve-archives li, .grve-categories li, .grve-contact-info li, .grve-widget.grve-comments li, .grve-blog-masonry .grve-post-content, .grve-blog-label .grve-post-wraper, .grve-blog-label .grve-post-content, .grve-filter li, .grve-callout, .grve-pricing-table ul li, .grve-fields .grve-fields-title, .grve-header-style-2 .grve-menu, .grve-header-style-3 .grve-menu, .grve-portfolio-nav, .grve-portfolio-nav li, .grve-menu-responsive .grve-menu li, .grve-accordion.grve-style-2 .grve-title, .grve-about-author, .grve-comment-content, .grve-blog-label .grve-post-format, .grve-related-post .grve-filter, .grve-image-hover-icon, #grve-topbar-responsive #grve-topbar-left, #grve-topbar-responsive #grve-topbar-right, .grve-post-quote .grve-post-content, .grve-post-link .grve-post-content, .grve-toggle.grve-style-2 .grve-title, .grve-pricing-table, .grve-team-social, .grve-team-item .grve-team-description, .grve-team-content, .grve-smallteam-item, .grve-smallteam-item .grve-smallteam-content, .grve-smallteam-item .grve-smallteam-social, .grve-icon-box:hover .grve-icon:after, .grve-bar, .grve-title-line:after, .grve-title-line:before, .grve-title-double-line:after, .grve-title-double-line:before, .grve-icon-box .grve-icon, .sticky .grve-post-content, .grve-search-page .grve-search-item-content, hr, code, pre, table, tr, th, td, .grve-header-search, input[type='text'], input[type='input'], input[type='password'], input[type='email'], input[type='number'], input[type='url'], input[type='tel'], input[type='search'], textarea, .widget_nav_menu ul li a, .widget_meta ul li, .widget_archive ul li, .widget_links li, .widget_pages ul li a, .widget_categories ul li, #recentcomments li, .widget_recent_entries ul li, select {
+        border-color: #e4e4e4 !important;
+    }
+
+    .grve-btn.grve-primary, input[type='submit'], .grve-btn.grve-secondary:hover, .grve-icon-box.grve-white-box .grve-icon {
+        border-color: #24d1c4;
+    }
+
+    .grve-btn.grve-primary:hover, input[type='submit']:hover, .grve-btn.grve-secondary {
+        border-color: #1c2730 !important;
+    }
+
+    .grve-primary, .grve-primary-overlay:before, .grve-btn.grve-secondary:hover, input[type='submit'], .grve-tabs-title li.active, .grve-tabs-title li.active:hover, .grve-pagination li a.current, .grve-pagination li .page-numbers.current, .grve-accordion.grve-style-1 .grve-title.active:before, .grve-toggle.grve-style-1 .grve-title.active:before, .grve-accordion.grve-style-2 .grve-title.active, .grve-toggle.grve-style-2 .grve-title.active, .grve-filter li.selected, .grve-filter li.selected:hover, .grve-search-btn:hover, .grve-callout:before, .grve-style-2 th, .grve-mobile .grve-style-2 td:first-child, .grve-pricing-feature .grve-pricing-header, .grve-icon-box.grve-white-box .grve-icon, .grve-team-content:after, .grve-menu > li > a:after, .grve-icon-box:after, blockquote:before, .grve-page-title-primary-bg, .grve-menu-btn, .grve-close-btn, .grve-carousel-btn, .grve-slider .flex-direction-nav li a, #wp-calendar #today, .tp-rightarrow.default, .tp-leftarrow.default {
+        background-color: #24d1c4 !important;
+        color: #fff;
+    }
+
+    ::selection {
+        background-color: #24d1c4;
+        color: #fff;
+    }
+
+    ::-moz-selection {
+        background-color: #24d1c4;
+        color: #fff;
+    }
+
+    .grve-secondary, .grve-secondary-overlay:before, .grve-carousel figcaption, .grve-carousel-item.portfolio, .grve-btn.grve-primary:hover, input[type='submit']:hover, .tagcloud a:hover, .grve-social li a:hover, .grve-tabs-title li:hover, .grve-blog-label .grve-post-wraper:hover .grve-post-format:after, .grve-pagination li a:hover {
+        background-color: #1c2730 !important;
+        color: #fff !important;
+    }
+
+    a, .grve-post-title:hover, a .grve-box-title:hover, .grve-blog-label-filter li.selected i, .grve-blockquote:before, .grve-latest-news .grve-title:hover, .grve-popular-post .grve-title:hover, .grve-second-menu li a:hover, .grve-single-post .grve-post-meta a:hover, .grve-custom-nav ul li a:hover, .grve-portfolio-title a:hover, .grve-list li:before, .grve-archives a:hover, .grve-categories a:hover, .grve-portfolio-nav li a:hover, .grve-filter li:hover, .grve-related-post .grve-filter li.selected, .grve-related-post .grve-filter li:hover.selected, .grve-page-title .grve-post-meta span:before, .grve-fields .grve-fields-title:before, .grve-team-social li a, .grve-smallteam-item .grve-smallteam-social li a:hover, .grve-btn.grve-btn-line:hover, #grve-search-modal .grve-search-btn, .grve-hover-item a .grve-hover-title:before, .grve-icon-box .grve-icon, .grve-icon-box-small .grve-icon, .grve-icon-box:hover .grve-box-title, .grve-counter .grve-icon, .grve-post-quote .grve-post-content a:hover, .grve-post-link .grve-post-content a:hover, .grve-icon-box-small:hover .grve-box-title, q:before, q:after {
+        color: #24d1c4;
+    }
+
+    .grve-highlight, .grve-social.grve-social-large li a:hover, #grve-share-modal .grve-social li a:hover {
+        color: #24d1c4 !important;
+    }
+
+    a:hover, .grve-team-social li a:hover {
+        color: #1c2730;
+    }
+
+    .grve-tabs-title li, .grve-accordion.grve-style-1 .grve-title:before, .grve-toggle.grve-style-1 .grve-title:before, .grve-accordion.grve-style-2 .grve-title, .grve-toggle.grve-style-2 .grve-title, .grve-bar, .grve-comment-content, .grve-post-quote .grve-post-content, .grve-post-link .grve-post-content, .grve-price, .grve-fields .grve-fields-content, .grve-portfolio-nav li a:hover, .grve-related-post .grve-filter, .grve-menu-responsive .grve-menu ul.sub-menu, .grve-latest-news .grve-post-format:after, .tagcloud a, .grve-social li a, .grve-filter li, .grve-blog-label .grve-post-wraper, .grve-smallteam-item, .grve-pagination li a, .grve-mobile td:first-child, tbody tr:hover, pre, input[type='text'], input[type='input'], input[type='password'], input[type='email'], input[type='number'], input[type='url'], input[type='tel'], input[type='search'], textarea {
+        background-color: #fff;
+    }
+
+    .grve-team-social {
+        background-color: #F6F6F6;
+    }
+
+    .grve-white-overlay:before {
+        background-color: #fff;
+    }
+
+    .grve-black-overlay:before {
+        background-color: #000;
+    }
+
+    #grve-footer {
+        background-color: #111010;
+        color: #ffffff;
+    }
+
+    #grve-footer h1, #grve-footer h2, #grve-footer h3, #grve-footer h4, #grve-footer h5, #grve-footer h6 {
+        color: #ffffff;
+    }
+
+    #grve-footer a:hover, #grve-footer .grve-latest-news .grve-title, #grve-footer .grve-second-menu li a, #grve-footer .grve-popular-post .grve-title, #grve-footer .tagcloud a, #grve-footer .grve-latest-news li:before, #grve-footer .grve-widget.grve-social li a, #grve-footer .grve-archives a, #grve-footer .grve-categories a {
+        color: #ffffff !important;
+    }
+
+    #grve-footer a, #grve-footer .grve-latest-news .grve-title:hover, #grve-footer .grve-second-menu li a:hover, #grve-footer .grve-popular-post .grve-title:hover, #grve-footer .grve-archives a:hover, #grve-footer .grve-categories a:hover {
+        color: #24d1c4 !important;
+    }
+
+    #grve-footer .tagcloud a:hover, #grve-footer .grve-social li a:hover {
+        background-color: #24d1c4 !important;
+        color: #fff;
+        opacity: 1;
+    }
+
+    #grve-footer .grve-latest-news li, #grve-footer .grve-latest-news .grve-post-format:after, #grve-footer .grve-popular-post li, #grve-footer .grve-second-menu li, #grve-footer .grve-custom-nav ul li, #grve-footer .grve-custom-nav .submenu, #grve-footer .tagcloud a, #grve-footer .grve-social li a, #grve-footer .grve-search-btn, #grve-footer .grve-archives li, #grve-footer .grve-categories li, #grve-footer .grve-contact-info li, #grve-footer .grve-widget.grve-comments li, #grve-footer .widget_nav_menu ul li a, #grve-footer .widget_meta ul li, #grve-footer .widget_archive ul li, #grve-footer .widget_links li, #grve-footer .widget_pages ul li a, #grve-footer .widget_categories ul li, #grve-footer #recentcomments li, #grve-footer .widget_recent_entries ul li, #grve-footer hr, #grve-footer code, #grve-footer pre, #grve-footer table, #grve-footer tr, #grve-footer th, #grve-footer td, .grve-header-search, #grve-footer input[type='text'], #grve-footer input[type='input'], #grve-footer input[type='password'], #grve-footer input[type='email'], #grve-footer input[type='number'], #grve-footer input[type='url'], #grve-footer input[type='tel'], #grve-footer input[type='search'], #grve-footer textarea, #grve-footer select, #grve-footer .grve-tabs-title {
+        border-color: #222222 !important;
+    }
+
+    #grve-footer .grve-latest-news .grve-post-format:after, #grve-footer .tagcloud a, #grve-footer .grve-social li a, #grve-footer .grve-tabs-title li {
+        background-color: rgba(255, 255, 255, 0.04);
+    }
+
+    #grve-footer .grve-footer-bar, .grve-wrapper {
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    .compose-mode .vc_element .grve-row {
+        margin-top: 30px;
+    }
+
+    .compose-mode .vc_vc_column .wpb_column {
+        width: 100% !important;
+        margin-bottom: 30px;
+        border: 1px dashed rgba(125, 125, 125, 0.4);
+    }
+
+    .compose-mode .vc_controls > .vc_controls-out-tl {
+        left: 15px;
+    }
+
+    .compose-mode .vc_controls > .vc_controls-bc {
+        bottom: 15px;
+    }
+
+    .compose-mode .vc_welcome .vc_buttons {
+        margin-top: 60px;
+    }
+
+    .compose-mode .grve-image img {
+        opacity: 1;
+    }
+
+    .compose-mode #grve-inner-header {
+        top: 0 !important;
+    }
+
+    .compose-mode .vc_controls > div {
+        z-index: 9;
+    }
+
+    .compose-mode .grve-bg-image {
+        opacity: 1;
+    }
+
+    .compose-mode #grve-theme-wrapper .grve-section[data-section-type='fullwidth-background'], .compose-mode #grve-theme-wrapper .grve-section[data-section-type='fullwidth-element'] {
+        visibility: visible;
+    }
+
+    .compose-mode .grve-animated-item {
+        opacity: 1;
+    }
+    </style>
+    <!-- Dynamic css -->
+    <style type="text/css">
+    #grve-header h1.grve-logo {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    #grve-share-modal .grve-social li i {
+        font-size: 35px !important;
+    }
+
+    #grve-share-modal .grve-social li a {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        border: medium none;
+        color: #fff;
+        height: 50px;
+        text-align: center;
+        width: 48px;
+        line-height: 0px;
+    }
+
+    #grve-share-modal .grve-social li {
+        line-height: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    #grve-share-modal {
+        display: block !important;
+        float: right;
+        margin: 42px 0 0;
+    }
+
+    .grve-social {
+        line-height: 53px;
+    }
+
+    .grve-header-share-btn {
+        display: none !important;
+    }
+
+    @media screen and (max-width: 767px) {
+        #grve-share-modal {
+            display: block !important;
+            float: right;
+            margin: -53px 0 0;
+        }
+    }
+
+    .monthpicker, .yearpicker {
+        border: 1px solid #ccc !important;
+        width: 125px;
+    }
+
+    .pickerbutton {
+        border: 1px solid #ccc;
+        cursor: pointer;
+        height: 33px !important;
+        position: relative;
+        text-transform: uppercase;
+    }
+
+    table.month tr:first-child {
+        background: transparent none repeat scroll 0 0 !important;
+    }
+
+    #loader {
+        left: calc(50% - 68px);
+        position: absolute;
+        top: calc(50% - 7px);
+        width: 100%;
+        z-index: 999;
+    }
+
+    .calender_container {
+        position: relative;
+    }
+
+    td .eventcontent {
+        display: none;
+    }
+
+    td .eventcontent:first-child {
+        border: 1px solid #ccc;
+        display: block;
+        text-align: center;
+    }
+    </style>
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-70726607-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://web.archive.org/web/20240723165628/https://ssl' : 'https://web.archive.org/web/20240723165628/http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+    <style type="text/css">
+    .recentcomments a {
+        display: inline !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    </style>
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+    <style type="text/css" id="wp-custom-css">
+    .calender_container {
+        display: none;
+    }
+
+    .grve-element {
+        -webkit-perspective: none !important;
+    }
+    </style>
+    <noscript>
+        <style>
+        .wpb_animate_when_almost_visible {
+            opacity: 1;
+        }
+        </style>
+    </noscript>
+    <script src="https://web.archive.org/web/20240723165628js_/https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+<body id="grve-body" class="page-template page-template-accommodation page-template-accommodation-php page page-id-1196 vcwb wpb-js-composer js-comp-ver-6.9.0 vc_responsive">
+    <!-- BEGIN WAYBACK TOOLBAR INSERT -->
+    <script>
+    __wm.rw(0);
+    </script>
+    <div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;" toolbar-mode="auto">
+        <div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+            <div id="donato" style="position:relative;width:100%;height:0;">
+                <div id="donato-base">
+                    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20240723165628/https%3A//www.waterloofarmholidays.co.uk/sandmartins/" scrolling="no" frameborder="0" style="width:100%; height:100%"></iframe>
+                </div>
+            </div>
+            <div id="wm-ipp-inside">
+                <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;" nav="async">
+                    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+                        <a href="/web/" title="Wayback Machine home page">
+                            <img src="https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-100.png, https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0"/>
+                        </a>
+                    </div>
+                    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+                        <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb">
+                            <input type="text" name="url" id="wmtbURL" value="https://www.waterloofarmholidays.co.uk/sandmartins/" onfocus="this.focus();this.select();" style="flex:1;"/>
+                            <input type="hidden" name="type" value="replay"/>
+                            <input type="hidden" name="date" value="20240723165628"/>
+                            <input type="submit" value="Go"/>
+                        </form>
+                        <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                            <div class="s" id="wm-nav-captures" style="flex:1;">
+                                <a class="t" href="/web/20240723165628*/https://www.waterloofarmholidays.co.uk/sandmartins/" title="See a list of every capture for this URL">34 captures</a>
+                                <div class="r" title="Timespan for captures of this URL">21 Dec 2016 - 12 Dec 2025</div>
+                            </div>
+                            <div class="k">
+                                <a href="" id="wm-graph-anchor">
+                                    <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+                                        <canvas id="wm-sparkline-canvas" width="775" height="27" border="0">
+                                        </canvas>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="n">
+                        <table>
+                            <tbody>
+                                <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+                                <tr class="m">
+                                    <td class="b" nowrap="nowrap">Jun</td>
+                                    <td class="c" id="displayMonthEl" title="You are here: 16:56:28 Jul 23, 2024">JUL</td>
+                                    <td class="f" nowrap="nowrap">Aug</td>
+                                </tr>
+                                <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+                                <tr class="d">
+                                    <td class="b" nowrap="nowrap">
+                                        <span class="ta"></span>
+                                    </td>
+                                    <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 16:56:28 Jul 23, 2024">23</td>
+                                    <td class="f" nowrap="nowrap">
+                                        <span class="ta"></span>
+                                    </td>
+                                </tr>
+                                <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+                                <tr class="y">
+                                    <td class="b" nowrap="nowrap">2023</td>
+                                    <td class="c" id="displayYearEl" title="You are here: 16:56:28 Jul 23, 2024">2024</td>
+                                    <td class="f" nowrap="nowrap">2025</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+                        <div id="wm-btns" style="text-align:right;height:23px;">
+                            <span class="xxs">
+                                <div id="wm-save-snapshot-success">success</div>
+                                <div id="wm-save-snapshot-fail">fail</div>
+                                <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive">
+                                    <span class="iconochive-web"></span>
+                                </a>
+                                <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+                                    <span class="iconochive-person"></span>
+                                </a>
+                                <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+                            </span>
+                            <a class="xxs" href="https://help.archive.org/help/category/the-wayback-machine/" title="Get some help using the Wayback Machine" style="top:-6px;">
+                                <span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span>
+                            </a>
+                            <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar">
+                                <span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span>
+                            </a>
+                        </div>
+                        <div id="wm-share" class="xxs">
+                            <a href="/web/20240723165628/http://web.archive.org/screenshot/https://www.waterloofarmholidays.co.uk/sandmartins/" id="wm-screenshot" title="screenshot">
+                                <span class="wm-icon-screen-shot"></span>
+                            </a>
+                            <a href="#" id="wm-video" title="video">
+                                <span class="iconochive-movies"></span>
+                            </a>
+                            <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/sandmartins/" title="Share on Facebook" style="margin-right:5px;" target="_blank">
+                                <span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span>
+                            </a>
+                            <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/sandmartins/" title="Share on Twitter" style="margin-right:5px;" target="_blank">
+                                <span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span>
+                            </a>
+                        </div>
+                        <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+                            <a id="wm-expand" class="wm-btn wm-closed" href="#expand">
+                                <span id="wm-expand-icon" class="iconochive-down-solid"></span>
+                                <span class="xxs" style="font-size:80%;">About this capture</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+                    <div id="wm-capinfo-notice" source="api"></div>
+                    <div id="wm-capinfo-collected-by">
+                        <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center;padding:2px 0;">COLLECTED BY</div>
+                        <div style="padding:3px;position:relative" id="wm-collected-by-content">
+                            <div style="display:inline-block;vertical-align:top;width:49%;">
+                                <span class="c-logo" style="background-image:url(https://archive.org/services/img/commoncrawl)"></span>
+                                <div>
+                                    Collection: 
+                                    <a style="color:#33f;" href="https://archive.org/details/commoncrawl" target="_new">
+                                        <span class="wm-title">Common Crawl</span>
+                                    </a>
+                                </div>
+                                <div style="max-height:75px;overflow:hidden;position:relative;">
+                                    <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+
+                                    	  Web crawl data from Common Crawl.
+                                    	
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="wm-capinfo-timestamps">
+                        <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center;padding:2px 0;" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+                        <div>
+                            <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+                            <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none">
+                                <img src="https://web-static.archive.org/_static/images/loading.gif" alt="loading"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/sandmartins/</div>
+    <script type="text/javascript">
+    //<![CDATA[
+    __wm.bt(775, 27, 25, 2, "web", "https://www.waterloofarmholidays.co.uk/sandmartins/", "20240723165628", 1996, "https://web-static.archive.org/_static/", ["https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3", "https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"], false);
+    __wm.rw(1);
+    //]]>
+    </script>
+    <!-- END WAYBACK TOOLBAR INSERT -->
+
+    <div id="grve-wrapper">
+
+        <div id="grve-theme-body">
+
+            <header id="grve-header" class="grve-style-2 grve-header-light" data-height="120">
+                <div class="grve-container">
+                    <h1 class="grve-logo">
+                        <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/">
+                            <img src="https://web.archive.org/web/20240723165628im_/http://www.waterloofarmholidays.co.uk/wp-content/uploads/2015/04/Waterloo-Brand-01.png" alt="Waterloo Farm Holidays" title="Waterloo Farm Holidays" width="440" height="60" data-at2x="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/wp-content/uploads/2015/04/Waterloo-Brand-01.png">
+                        </a>
+                        <span>Waterloo Farm Holidays</span>
+                    </h1>
+
+                    <ul class="grve-header-options">
+                        <li>
+                            <a class="grve-header-contact-btn grve-header-options-popup" href="#grve-contact-modal">
+                                <img src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/images/graphics/contact-button.svg" alt="Contact Form">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="grve-header-search-btn grve-header-options-popup" href="#grve-search-modal">
+                                <img src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/images/graphics/search-button.svg" alt="Search">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="grve-header-share-btn grve-header-options-popup" href="#grve-share-modal">
+                                <img src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/images/graphics/share-button.svg" alt="Social Share">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="grve-menu-btn">
+                                <img src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/images/graphics/menu-button.svg" alt="Main Menu">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div id="grve-share-modal" class="grve-header-modal mfp-hide">
+                        <div class="grve-social">
+                            <ul>
+                                <li>
+                                    <a href="https://web.archive.org/web/20240723165628/https://twitter.com/AEWerren" target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://web.archive.org/web/20240723165628/https://www.facebook.com/pages/Waterloo-Farm-Holidays/171360599549442" target="_blank">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <nav class="grve-horizontal-menu">
+                        <ul id="menu-main-menu" class="grve-menu">
+                            <li id="menu-item-823" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-823">
+                                <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/">Home</a>
+                            </li>
+                            <li id="menu-item-851" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-851">
+                                <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/accommodation/">Accommodation</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-885" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-885">
+                                        <a href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/saffron-cottage/">Saffron Cottage</a>
+                                    </li>
+                                    <li id="menu-item-906" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-906">
+                                        <a href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/haypole-barn/">
+                                            <i class="fa fa-wheelchair"></i>
+                                             Haypole Barn
+                                        </a>
+                                    </li>
+                                    <li id="menu-item-916" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-916">
+                                        <a href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/kingfisher-cottage/">
+                                            <i class="fa fa-wheelchair"></i>
+                                             Kingfisher Cottage
+                                        </a>
+                                    </li>
+                                    <li id="menu-item-929" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-929">
+                                        <a href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/sandmartins/" aria-current="page">
+                                            <i class="fa fa-wheelchair"></i>
+                                             Sandmartins
+                                        </a>
+                                    </li>
+                                    <li id="menu-item-931" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-931">
+                                        <a href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/the-old-apple-tallet/">
+                                            <i class="fa fa-paw"></i>
+                                             The Old Apple Tallet
+                                        </a>
+                                    </li>
+                                    <li id="menu-item-933" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-933">
+                                        <a href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/swallow-barn/">
+                                            <i class="fa fa-paw"></i>
+                                             Swallow Barn
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-1112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1112">
+                                <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/for-your-convenience/">Further information</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-1093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1093">
+                                        <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/accommodation/dog-owners/">
+                                            <i class="fa fa-paw"></i>
+                                             Dog Owners
+                                        </a>
+                                    </li>
+                                    <li id="menu-item-1553" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1553">
+                                        <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/on-your-arrival/">On your arrival</a>
+                                    </li>
+                                    <li id="menu-item-1560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1560">
+                                        <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/information-folder/">Information Folders</a>
+                                    </li>
+                                    <li id="menu-item-1556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1556">
+                                        <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/groceries-and-shopping/">Groceries and shopping</a>
+                                    </li>
+                                    <li id="menu-item-1563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1563">
+                                        <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/wi-fi/">Wi-Fi</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-828" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-828">
+                                <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/activities/">Activities</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-1549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1549">
+                                        <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/classic-bikes/">Classic Bikes</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-1094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1094">
+                                <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/book-now/">Book Now</a>
+                            </li>
+                            <li id="menu-item-834" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-834">
+                                <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/contact-us-2/">Contact Us</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-841" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-841">
+                                        <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/about-us/">About Us</a>
+                                    </li>
+                                    <li id="menu-item-1096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1096">
+                                        <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/about-us/guest-reviews/">Guest reviews</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="grve-search-modal" class="grve-header-modal mfp-hide">
+                    <form role="search" class="grve-search" method="get" action="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/">
+                        <button type="submit" class="grve-search-btn">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        <input type="text" class="grve-search-textfield" id="grve_search_669fe0bc6932e" value="" name="s" placeholder="Search for ..."/>
+                    </form>
+                </div>
+
+                <div id="grve-contact-modal" class="grve-header-modal mfp-hide">
+
+                    <!-- Form -->
+                    <form class="grve-element grve-form">
+                        <input type="hidden" name="grve_form_id" value="id_669fe0bc69399"/>
+                        <div class="grve-form-input">
+                            <i class="fa fa-user"></i>
+                            <input type="text" class="grve-form-name" name="name" placeholder="Name (required)">
+                        </div>
+                        <div class="grve-form-input">
+                            <i class="fa fa-envelope"></i>
+                            <input type="text" class="grve-form-email" name="email" placeholder="E-mail (required)">
+                        </div>
+                        <div class="grve-form-input">
+                            <i class="fa fa-pencil"></i>
+                            <input type="text" name="subject" placeholder="Subject">
+                        </div>
+                        <div class="grve-form-textarea">
+                            <textarea name="message"></textarea>
+                        </div>
+                        <a class="grve-btn grve-primary grve-btn-medium grve-form-button">Send Message</a>
+                        <div class="grve-form-result"></div>
+                    </form>
+                    <!-- End Form -->
+
+                </div>
+
+            </header>
+
+            <div id="grve-main-title-section" class="grve-section">
+                <div class="grve-container">
+                    <div class="grve-page-title">
+                        <h2 class="grve-title">
+                            <h2 class="grve-title">
+                                <i class="fa fa-wheelchair"></i>
+                                 Sandmartins
+                            </h2>
+                        </h2>
+                        <div class="grve-sub-title">
+                            <span>(Sleeps 8 + cot)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grve-section">
+                <div class="grve-container ">
+
+                    <!-- Content -->
+                    <div id="page-1196" class="grve-main-content post-1196 page type-page status-publish hentry">
+
+                        <div class="grve-section">
+                            <div class="grve-row">
+                                <div class="wpb_column grve-column-1">
+
+                                    <div class="grve-element grve-tab grve-horizontal-tab" style="">
+                                        <ul class="grve-tabs-title">
+                                            <li data-rel="#tab-1430688924067-2">Photographs</li>
+                                            <li data-rel="#tab-1430689034882-2-3">Further Information</li>
+                                            <li data-rel="#tab-1430688924368-8">Prices and Availability</li>
+                                        </ul>
+
+                                        <div class="grve-tabs-wrapper">
+
+                                            <div id="tab-1430688924067-2" class="grve-tab-content ">
+                                                <div class="grve-element grve-slider  " style=" " data-slider-speed="3500">
+                                                    <ul class="slides">
+                                                        <li>
+                                                            <img src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2015/03/Sandmartins-Ext.jpg" alt="" width="848" height="636">
+                                                        </li>
+                                                        <li>
+                                                            <img src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2015/03/Sandmartins-dwnstrs.jpg" alt="" width="848" height="636">
+                                                        </li>
+                                                        <li>
+                                                            <img src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2015/03/Sandmartins-living-1.jpg" alt="" width="848" height="636">
+                                                        </li>
+                                                        <li>
+                                                            <img src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2015/03/Sandmartins-bedroom-3.jpg" alt="" width="848" height="636">
+                                                        </li>
+                                                        <li>
+                                                            <img src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2015/03/Sandmartins-bedroom-4.jpg" alt="" width="848" height="636">
+                                                        </li>
+                                                        <li>
+                                                            <img src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2015/05/IMG_4730webpic.jpg" alt="" width="640" height="427">
+                                                        </li>
+                                                        <li>
+                                                            <img src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2015/05/IMG_4734webpic.jpg" alt="" width="640" height="427">
+                                                        </li>
+                                                        <li>
+                                                            <img src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2015/05/P1040185webpic.jpg" alt="" width="640" height="480">
+                                                        </li>
+                                                        <li>
+                                                            <img src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2015/03/Sandmartins-dwnst-bedroom.jpg" alt="" width="848" height="636">
+                                                        </li>
+                                                        <li>
+                                                            <img src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2015/05/P1040154webpic.jpg" alt="" width="640" height="480">
+                                                        </li>
+                                                        <li>
+                                                            <img src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2015/05/June-evening2webpic.jpg" alt="" width="640" height="480">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                            <div id="tab-1430689034882-2-3" class="grve-tab-content ">
+                                                <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="wpb_column grve-column-1-1">
+                                                            <div class="grve-element grve-accordion grve-style-2" style="">
+                                                                <ul class="grve-accordion-wrapper">
+                                                                    <li class="">
+                                                                        <div class="grve-title"> Arrival and Departure</div>
+                                                                        <div class="grve-content">
+                                                                            <div class="grve-element grve-text">
+                                                                                <p>
+                                                                                    Arrivals should be at 3pm or later
+                                                                                    <br>
+
+                                                                                    Departures should be by 10am
+                                                                                    <br>
+
+                                                                                    Changeover day is Saturday during peak season, but short breaks are available at other times of year.&nbsp; Please ask for details.
+                                                                                </p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="">
+                                                                        <div class="grve-title"> Security Deposit</div>
+                                                                        <div class="grve-content">
+                                                                            <div class="grve-element grve-text">
+                                                                                <p>Paid on arrival, this applies to Haypole Barn and Sandmartins £100/cottage which will be returned within 7 days of departure pending checks.</p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="">
+                                                                        <div class="grve-title"> Groceries and shopping </div>
+                                                                        <div class="grve-content">
+                                                                            <div class="grve-element grve-text">
+                                                                                <p>
+                                                                                    Launceston has some wonderful shops for fresh meat, fish, greengroceries and bakeries.
+                                                                                    <br>
+
+                                                                                    Supermarkets&nbsp; Asda, Waitrose and Tesco deliver from online orders.
+                                                                                </p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="">
+                                                                        <div class="grve-title"> Linen </div>
+                                                                        <div class="grve-content">
+                                                                            <div class="grve-element grve-text">
+                                                                                <p>
+                                                                                    All bed linen provided.
+                                                                                    <br>
+
+                                                                                    Both feather and hollowfill pillows available.
+                                                                                    <br>
+
+                                                                                    Tea towels provided, the number depends on size of cottage.
+                                                                                    <br>
+
+                                                                                    Oven gloves provided.
+                                                                                </p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="">
+                                                                        <div class="grve-title"> Bathroom Towels </div>
+                                                                        <div class="grve-content">
+                                                                            <div class="grve-element grve-text">
+                                                                                <p>
+                                                                                    Optional bath sheet and hand towel set can be hired for £5/week.
+                                                                                    <br>
+
+                                                                                    Please do not take them to the beach or the swimming pool!
+                                                                                    <br>
+
+                                                                                    Extra disability equipment &nbsp;&nbsp;&nbsp; &nbsp;Shower chairs can be reserved at the time of booking for use in Kingfisher Cottage, Haypole Barn or Sandmartins.
+                                                                                </p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="">
+                                                                        <div class="grve-title"> In the Laundry room</div>
+                                                                        <div class="grve-content">
+                                                                            <div class="grve-element grve-text">
+                                                                                <p>
+                                                                                    There are washing machines and a tumble drier on a £1 meter.
+                                                                                    <br>
+
+                                                                                    A pay phone with freephone to doctor.
+                                                                                    <br>
+
+                                                                                    (NB. Mobile signal can be variable, for info, refer to your network coverage checker.)
+                                                                                    <br>
+
+                                                                                    A deep freeze full of Callestick Icecream&nbsp; and lollies. Payment&nbsp; into an honesty box.
+                                                                                </p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="">
+                                                                        <div class="grve-title"> For babies</div>
+                                                                        <div class="grve-content">
+                                                                            <div class="grve-element grve-text">
+                                                                                <p>
+                                                                                    One travel cot and high chair in each cottage, if more are required, please ask.
+                                                                                    <br>
+
+                                                                                    No cot bedding is supplied.
+                                                                                    <br>
+
+                                                                                    All cottages with stairs have fitted stair gates top and bottom.
+                                                                                    <br>
+
+                                                                                    Baby cutlery and tableware in all cottages.
+                                                                                </p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="">
+                                                                        <div class="grve-title"> WiFi </div>
+                                                                        <div class="grve-content">
+                                                                            <div class="grve-element grve-text">
+                                                                                <p>All cottages have separate wifi as standard. No charge. WEP code secure.</p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="">
+                                                                        <div class="grve-title"> Barbecues</div>
+                                                                        <div class="grve-content">
+                                                                            <div class="grve-element grve-text">
+                                                                                <p>A selection of barbecues are available for your use, both gas and charcoal.</p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="">
+                                                                        <div class="grve-title"> Information Folder</div>
+                                                                        <div class="grve-content">
+                                                                            <div class="grve-element grve-text">
+                                                                                <p>
+                                                                                    There will be a full inventory in the information folder in each cottage.
+                                                                                    <br>
+
+                                                                                    Also, information about our recycling regime, which we hope you will do your best with, even though you are on holiday!
+                                                                                    <br>
+
+                                                                                    Suggestions about places to go and things to do.
+                                                                                    <br>
+
+                                                                                    A list of emergency phone numbers.
+                                                                                    <br>
+
+                                                                                    The very important rules and regulations regarding use of the swimming pool.
+                                                                                    <br>
+
+                                                                                    Fire safety information.
+                                                                                </p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="">
+                                                                        <div class="grve-title"> Catering picture of food</div>
+                                                                        <div class="grve-content">
+                                                                            <div class="grve-element grve-text">
+                                                                                <p>For those wanting to return to their cottage after a day out, to a no fuss, no preparation meal, then we can organise a local chef to make your meal and bring it to the cottage ready for you to pop in the oven.&nbsp; Please request details at time of booking.</p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="">
+                                                                        <div class="grve-title"> Dogs</div>
+                                                                        <div class="grve-content">
+                                                                            <div class="grve-element grve-text">
+                                                                                <p>One dog welcome in The Old Apple Tallet and in Swallow Barn in low season weeks. £20/week/dog.</p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div id="tab-1430688924368-8" class="grve-tab-content ">
+                                                <div class="grve-element grve-text">
+                                                    <h4>Sandmartins £570 &#8211; £1,570 /week</h4>
+                                                    <p>If you would like prices and availability for a specific week please contact us by phone or email or using the contact form below.</p>
+                                                    <h5 class="grve-element grve-align-left grve-title-striped">Contact us</h5>
+                                                    <p>
+                                                        Telephone: 0(+44)1566 785 386
+                                                        <br/>
+
+                                                        Email: 
+                                                        <a href="https://web.archive.org/web/20240723165628/mailto:info@waterloofarmholidays.co.uk">info@waterloofarmholidays.co.uk</a>
+                                                    </p>
+                                                    <h5 class="grve-element grve-align-left grve-title-striped">Send a message</h5>
+                                                    <div role="form" class="wpcf7" id="wpcf7-f1359-p1196-o1" lang="en-US" dir="ltr">
+                                                        <div class="screen-reader-response">
+                                                            <p role="status" aria-live="polite" aria-atomic="true"></p>
+                                                            <ul></ul>
+                                                        </div>
+                                                        <form action="/web/20240723165628/https://www.waterloofarmholidays.co.uk/sandmartins/#wpcf7-f1359-p1196-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+                                                            <div style="display: none;">
+                                                                <input type="hidden" name="_wpcf7" value="1359"/>
+                                                                <input type="hidden" name="_wpcf7_version" value="5.5.6.1"/>
+                                                                <input type="hidden" name="_wpcf7_locale" value="en_US"/>
+                                                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1359-p1196-o1"/>
+                                                                <input type="hidden" name="_wpcf7_container_post" value="1196"/>
+                                                                <input type="hidden" name="_wpcf7_posted_data_hash" value=""/>
+                                                            </div>
+                                                            <p>
+                                                                Your Name (required)
+                                                                <br/>
+                                                                <span class="wpcf7-form-control-wrap your-name">
+                                                                    <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"/>
+                                                                </span>
+                                                            </p>
+                                                            <p>
+                                                                Your Email (required)
+                                                                <br/>
+                                                                <span class="wpcf7-form-control-wrap your-email">
+                                                                    <input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false"/>
+                                                                </span>
+                                                            </p>
+                                                            <p>
+                                                                Your Telephone Number (required)
+                                                                <br/>
+                                                                <span class="wpcf7-form-control-wrap tel-875">
+                                                                    <input type="tel" name="tel-875" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false"/>
+                                                                </span>
+                                                            </p>
+                                                            <p>
+                                                                Booking enquiry for Sandmartins (Sleeps 5)
+                                                                <br/>
+                                                                <span class="wpcf7-form-control-wrap Sandmartins-Dates">
+                                                                    <input type="text" name="Sandmartins-Dates" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Please give us your required arrival and departure dates"/>
+                                                                </span>
+                                                            </p>
+                                                            <p>
+                                                                Your Message and any special requirements
+                                                                <br/>
+                                                                <span class="wpcf7-form-control-wrap your-message">
+                                                                    <textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea>
+                                                                </span>
+                                                            </p>
+                                                            <p>
+                                                                Please input this code below
+                                                                <br/>
+                                                                <input type="hidden" name="_wpcf7_captcha_challenge_captcha-750" value="761559123"/>
+                                                                <img class="wpcf7-form-control wpcf7-captchac wpcf7-captcha-captcha-750" width="72" height="24" alt="captcha" src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/wpcf7_captcha/761559123.png"/>
+                                                                <br/>
+                                                                <span class="wpcf7-form-control-wrap captcha-750">
+                                                                    <input type="text" name="captcha-750" value="" size="40" class="wpcf7-form-control wpcf7-captchar" autocomplete="off" aria-invalid="false"/>
+                                                                </span>
+                                                            </p>
+                                                            <p>
+                                                                <input type="submit" value="Send" class="wpcf7-form-control has-spinner wpcf7-submit"/>
+                                                            </p>
+                                                            <p style="display: none !important;">
+                                                                <label>
+                                                                    &#916;
+                                                                    <textarea name="_wpcf7_ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea>
+                                                                </label>
+                                                                <input type="hidden" id="ak_js_1" name="_wpcf7_ak_js" value="74"/>
+                                                                <script>
+                                                                document.getElementById("ak_js_1").setAttribute("value", (new Date()).getTime());
+                                                                </script>
+                                                            </p>
+                                                            <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                                        </form>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grve-section">
+                            <div class="grve-row">
+                                <div class="wpb_column grve-column-1">
+                                    <div class="grve-element grve-text">
+                                        <div class="grve-post-content">
+                                            <p>Another large cottage with an airy and light open plan living area. French doors open out onto a private, sunny patio which is perfect for barbecuing and al fresco eating.</p>
+                                            <p>There are 4 bedrooms in Sandmartins:</p>
+                                            <p>Upstairs: Two pretty double rooms, both with en suite shower rooms plus a bunks room with another bathroom close by.</p>
+                                            <p>Downstairs: A comfortable double bedroom with en suite wet room, also suitable for those with mobility problems.</p>
+                                            <p>The kitchen has everything you will need for your holiday catering and includes a  range cooker, microwave plus all our standard fixtures and fittings.</p>
+                                            <p>
+                                                This cottage can be opened up on the ground floor to link through to 
+                                                <a title="Haypole Barn" href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/haypole-barn/">
+                                                    <strong>Haypole Barn </strong>
+                                                </a>
+                                                next door, creating a 16 person holiday barn.
+                                            </p>
+                                            <h5>Your arrival welcome package includes:</h5>
+                                            <ul>
+                                                <li>Beautiful fresh flowers</li>
+                                                <li>Milk and teabags for that essential cuppa!</li>
+                                                <li>Local apple juice</li>
+                                                <li>Cornish biscuits</li>
+                                                <li>Washing up liquid, dish cloth and scourer</li>
+                                                <li>Dishwasher powder</li>
+                                                <li>1x Guest soap and 1x toilet roll in each bathroom</li>
+                                                <li>Bathmats in each bathroom</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grve-section">
+                            <div class="grve-row">
+                                <div class="wpb_column grve-column-1">
+                                    <hr class="grve-element grve-striped-divider  " style="padding-top: 10px;padding-bottom: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grve-section">
+                            <div class="grve-row">
+                                <div class="wpb_column grve-column-1-3">
+                                    <div class="grve-element grve-image grve-align-left" style="">
+                                        <img alt="" src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2014/03/saffron-cottage.jpg" width="370" height="231">
+                                    </div>
+                                    <div class="grve-element grve-image grve-align-left" style="">
+                                        <a href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/sandmartins/" target="_self">
+                                            <img alt="" src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2014/03/sandmartins-grey.jpg" width="370" height="231">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="wpb_column grve-column-1-3">
+                                    <div class="grve-element grve-image grve-align-left" style="">
+                                        <a href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/haypole-barn/" target="_self">
+                                            <img alt="" src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2014/03/haypole-barn.jpg" width="370" height="231">
+                                        </a>
+                                    </div>
+                                    <div class="grve-element grve-image grve-align-left" style="">
+                                        <a href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/the-old-apple-tallet/" target="_self">
+                                            <img alt="" src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2014/03/old-apple-tallet.jpg" width="370" height="231">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="wpb_column grve-column-1-3">
+                                    <div class="grve-element grve-image grve-align-left" style="">
+                                        <a href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/kingfisher-cottage/" target="_self">
+                                            <img alt="" src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2014/03/kingfisher-cottage.jpg" width="370" height="231">
+                                        </a>
+                                    </div>
+                                    <div class="grve-element grve-image grve-align-left" style="">
+                                        <a href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/swallow-barn/" target="_self">
+                                            <img alt="" src="https://web.archive.org/web/20240723165628im_/https://www.waterloofarmholidays.co.uk/wp-content/uploads/2014/03/swallow-barn.jpg" width="370" height="231">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grve-section">
+                            <div class="grve-row">
+                                <div class="wpb_column grve-column-1">
+                                    <div class="grve-element grve-text">
+                                        <div class="wpsbc-container wpsbc-calendar-5" data-id="5" data-show_title="1" data-months_to_show="1" data-start_weekday="1" data-show_legend="1" data-legend_position="side" data-show_button_navigation="1" data-show_selector_navigation="1" data-show_week_numbers="0" data-current_year="2024" data-current_month="7" data-jump_months="0" data-highlight_today="0" data-history="1" data-show_tooltip="1" data-language="en" data-min_width="200" data-max_width="380">
+                                            <h2>Availability of Sandmartins</h2>
+                                            <div class="wpsbc-calendars-wrapper wpsbc-legend-position-side">
+                                                <div class="wpsbc-legend">
+                                                    <div class="wpsbc-legend-item">
+                                                        <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                            <div class="wpsbc-legend-item-icon-color"></div>
+                                                            <div class="wpsbc-legend-item-icon-color"></div>
+                                                        </div>
+                                                        <span class="wpsbc-legend-item-name">Available</span>
+                                                    </div>
+                                                    <div class="wpsbc-legend-item">
+                                                        <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-23" data-type="single">
+                                                            <div class="wpsbc-legend-item-icon-color"></div>
+                                                            <div class="wpsbc-legend-item-icon-color"></div>
+                                                        </div>
+                                                        <span class="wpsbc-legend-item-name">Booked</span>
+                                                    </div>
+                                                    <div class="wpsbc-legend-item">
+                                                        <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-26" data-type="single">
+                                                            <div class="wpsbc-legend-item-icon-color"></div>
+                                                            <div class="wpsbc-legend-item-icon-color"></div>
+                                                        </div>
+                                                        <span class="wpsbc-legend-item-name">Closed</span>
+                                                    </div>
+                                                </div>
+                                                <div class="wpsbc-calendars">
+                                                    <div class="wpsbc-calendar">
+                                                        <div class="wpsbc-calendar-header wpsbc-heading">
+                                                            <div class="wpsbc-calendar-header-navigation">
+                                                                <a href="#" class="wpsbc-prev" aria-label="Navigate to Previous Month">
+                                                                    <span class="wpsbc-arrow"></span>
+                                                                </a>
+                                                                <div class="wpsbc-select-container">
+                                                                    <select aria-label="Month Selector">
+                                                                        <option value="1713139200">April 2024</option>
+                                                                        <option value="1715731200">May 2024</option>
+                                                                        <option value="1718409600">June 2024</option>
+                                                                        <option value="1721001600" selected="selected">July 2024</option>
+                                                                        <option value="1723680000">August 2024</option>
+                                                                        <option value="1726358400">September 2024</option>
+                                                                        <option value="1728950400">October 2024</option>
+                                                                        <option value="1731628800">November 2024</option>
+                                                                        <option value="1734220800">December 2024</option>
+                                                                        <option value="1736899200">January 2025</option>
+                                                                        <option value="1739577600">February 2025</option>
+                                                                        <option value="1741996800">March 2025</option>
+                                                                        <option value="1744675200">April 2025</option>
+                                                                        <option value="1747267200">May 2025</option>
+                                                                        <option value="1749945600">June 2025</option>
+                                                                        <option value="1752537600">July 2025</option>
+                                                                    </select>
+                                                                </div>
+                                                                <a href="#" class="wpsbc-next" aria-label="Navigate to Next Month">
+                                                                    <span class="wpsbc-arrow"></span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="wpsbc-calendar-wrapper">
+                                                            <table>
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>M</th>
+                                                                        <th>T</th>
+                                                                        <th>W</th>
+                                                                        <th>T</th>
+                                                                        <th>F</th>
+                                                                        <th>S</th>
+                                                                        <th>S</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="1">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">1</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="2">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">2</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="3">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">3</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="4">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">4</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="5">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">5</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="6">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">6</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="7">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">7</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="8">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">8</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="9">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">9</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="10">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">10</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="11">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">11</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="12">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">12</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="13">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">13</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="14">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">14</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="15">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">15</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="16">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">16</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="17">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">17</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="18">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">18</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="19">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">19</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="20">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">20</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="21">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">21</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="22">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">22</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="23">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">23</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="24">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">24</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="25">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">25</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="26">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">26</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="27">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">27</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="28">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">28</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="29">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">29</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="30">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">30</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date wpsbc-legend-item-22   " data-year="2024" data-month="7" data-day="31">
+                                                                                <div class="wpsbc-legend-item-icon wpsbc-legend-item-icon-22" data-type="single">
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                    <div class="wpsbc-legend-item-icon-color"></div>
+                                                                                </div>
+                                                                                <div class="wpsbc-date-inner">
+                                                                                    <span class="wpsbc-date-number">31</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date   wpsbc-gap ">
+                                                                                <div class="wpsbc-date-inner"></div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date   wpsbc-gap ">
+                                                                                <div class="wpsbc-date-inner"></div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date   wpsbc-gap ">
+                                                                                <div class="wpsbc-date-inner"></div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="wpsbc-date   wpsbc-gap ">
+                                                                                <div class="wpsbc-date-inner"></div>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <style>
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-22 div:first-of-type {
+                                                background-color: #ddffcc !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-22 div:nth-of-type(2) {
+                                                background-color: transparent !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-22 div:first-of-type svg {
+                                                fill: #ddffcc !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-22 div:nth-of-type(2) svg {
+                                                fill: transparent !important;
+                                            }
+
+                                            .wpsbc-ical-changeover .wpsbc-legend-item-icon:after {
+                                                background-color: #ddffcc;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-23 div:first-of-type {
+                                                background-color: #ffc0bd !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-23 div:nth-of-type(2) {
+                                                background-color: transparent !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-23 div:first-of-type svg {
+                                                fill: #ffc0bd !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-23 div:nth-of-type(2) svg {
+                                                fill: transparent !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-24 div:first-of-type {
+                                                background-color: #ddffcc !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-24 div:nth-of-type(2) {
+                                                background-color: #ffc0bd !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-24 div:first-of-type svg {
+                                                fill: #ddffcc !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-24 div:nth-of-type(2) svg {
+                                                fill: #ffc0bd !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-25 div:first-of-type {
+                                                background-color: #ffc0bd !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-25 div:nth-of-type(2) {
+                                                background-color: #ddffcc !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-25 div:first-of-type svg {
+                                                fill: #ffc0bd !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-25 div:nth-of-type(2) svg {
+                                                fill: #ddffcc !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-26 div:first-of-type {
+                                                background-color: #fee2a0 !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-26 div:nth-of-type(2) {
+                                                background-color: transparent !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-26 div:first-of-type svg {
+                                                fill: #fee2a0 !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-26 div:nth-of-type(2) svg {
+                                                fill: transparent !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-date-today .wpsbc-legend-item-icon {
+                                                border: 4px solid rgba(33, 150, 243, .9) !important;
+                                            }
+
+                                            .wpsbc-container.wpsbc-calendar-5 .wpsbc-legend-item-icon-0 div:first-of-type {
+                                                background-color: #e1e1e1 !important;
+                                            }
+                                            </style>
+                                            <div class="wpsbc-container-loaded" data-just-loaded="1"></div>
+                                        </div>
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="calender_container">
+                            <h2 class="grve-title">Availability</h2>
+                            <table class="month">
+                                <tr>
+                                    <td class="monthname" colspan="7">July 2024</td>
+                                </tr>
+                                <tr>
+                                    <td class="datepicker" colspan="7">
+                                        <form name="datepickerform" class="datepickerform" action="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/sandmartins/" method="get" onsubmit="return false">
+                                            <input type="hidden" name="postid" value="1196"/>
+                                            <select name="monthID" class="monthpicker">
+                                                <option value="1">January</option>
+                                                <option value="2">February</option>
+                                                <option value="3">March</option>
+                                                <option value="4">April</option>
+                                                <option value="5">May</option>
+                                                <option value="6">June</option>
+                                                <option value="7" selected="selected">July</option>
+                                                <option value="8">August</option>
+                                                <option value="9">September</option>
+                                                <option value="10">October</option>
+                                                <option value="11">November</option>
+                                                <option value="12">December</option>
+                                            </select>
+                                            <select name="yearID" class="yearpicker">
+                                                <option value="2024" selected="selected">2024</option>
+                                                <option value="2025">2025</option>
+                                                <option value="2026">2026</option>
+                                                <option value="2027">2027</option>
+                                                <option value="2028">2028</option>
+                                                <option value="2029">2029</option>
+                                            </select>
+                                            <input type="button" value="Go" class="pickerbutton">
+                                            </input>
+                                        </form>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dayname">Mon</td>
+                                    <td class="dayname">Tue</td>
+                                    <td class="dayname">Wed</td>
+                                    <td class="dayname">Thu</td>
+                                    <td class="dayname">Fri</td>
+                                    <td class="dayname">Sat</td>
+                                    <td class="dayname">Sun</td>
+                                </tr>
+                                <tr>
+                                    <td class="monthday">1</td>
+                                    <td class="monthday">2</td>
+                                    <td class="monthday">3</td>
+                                    <td class="monthday">4</td>
+                                    <td class="monthday">5</td>
+                                    <td class="saturday">6</td>
+                                    <td class="sunday">7</td>
+                                </tr>
+                                <tr>
+                                    <td class="monthday">8</td>
+                                    <td class="monthday">9</td>
+                                    <td class="monthday">10</td>
+                                    <td class="monthday">11</td>
+                                    <td class="monthday">12</td>
+                                    <td class="saturday">13</td>
+                                    <td class="sunday">14</td>
+                                </tr>
+                                <tr>
+                                    <td class="monthday">15</td>
+                                    <td class="monthday">16</td>
+                                    <td class="monthday">17</td>
+                                    <td class="monthday">18</td>
+                                    <td class="monthday">19</td>
+                                    <td class="saturday">20</td>
+                                    <td class="sunday">21</td>
+                                </tr>
+                                <tr>
+                                    <td class="monthday">22</td>
+                                    <td class="today">23</td>
+                                    <td class="monthday">24</td>
+                                    <td class="monthday">25</td>
+                                    <td class="monthday">26</td>
+                                    <td class="saturday">27</td>
+                                    <td class="sunday">28</td>
+                                </tr>
+                                <tr>
+                                    <td class="monthday">29</td>
+                                    <td class="monthday">30</td>
+                                    <td class="monthday">31</td>
+                                    <td class="nomonthday"></td>
+                                    <td class="nomonthday"></td>
+                                    <td class="nomonthday"></td>
+                                    <td class="nomonthday"></td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </div>
+                    <!-- End Content -->
+
+                </div>
+            </div>
+            <footer id="grve-footer" class="grve-section">
+
+                <div class="grve-container">
+                    <div class="grve-row">
+                        <div class="grve-column-1-2 ">
+                            <div id="text-13" class="grve-widget widget widget_text">
+                                <div class="textwidget">
+                                    <div class="grve-element grve-pricing-table" style="">
+                                        <div class="grve-pricing-header">
+                                            <h6 class="grve-pricing-title">
+                                                <i class="fa fa-paw"></i>
+                                                 Old Apple Tallet
+                                            </h6>
+                                            <h6 class="grve-price">
+                                                £350 - £950
+                                                <span>/week</span>
+                                            </h6>
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <strong>Sleeps 5 </strong>
+                                            </li>
+                                            <li>
+                                                <strong>
+                                                    <a class="grve-btn grve-btn-large grve-orange-color" href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/book-the-old-apple-tallet/" data-hover="Book Now" target="_self" style="" rel="noopener">
+                                                        <span>Book Now</span>
+                                                    </a>
+                                                </strong>
+                                            </li>
+                                            <li>
+                                                <strong>
+                                                    <a class="grve-btn grve-btn-small grve-blue-color" href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/book-now/" data-hover="Compare" target="_self" style="" rel="noopener">
+                                                        <span>Compare</span>
+                                                    </a>
+                                                </strong>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="text-8" class="grve-widget widget widget_text">
+                                <div class="textwidget">
+                                    <div class="grve-widget grve-social">
+                                        <ul>
+
+                                            <li>
+                                                <a href="https://web.archive.org/web/20240723165628/https://www.facebook.com/pages/Waterloo-Farm-Holidays/171360599549442" title="Saffron Cottage" class="grve-social-share-facebook">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://web.archive.org/web/20240723165628/https://twitter.com/AEWerren" title="Saffron Cottage" class="grve-social-share-twitter">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <ul class="grve-fields">
+                                        <li class="grve-fields-title">2x Bedrooms</li>
+                                        <li class="grve-fields-title">Central heating</li>
+                                        <li class="grve-fields-title">Family Bathroom</li>
+                                        <li class="grve-fields-title">Fridge and freezer</li>
+                                        <li class="grve-fields-title">Parking</li>
+                                        <li class="grve-fields-title">Patio Furniture</li>
+                                        <li class="grve-fields-title">WEP secure WiFi</li>
+                                        <li class="grve-fields-title">Woodburner</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grve-column-1-2 ">
+                            <div id="text-14" class="grve-widget widget widget_text">
+                                <div class="textwidget">
+                                    <div class="grve-element grve-pricing-table" style="">
+                                        <div class="grve-pricing-header">
+                                            <h6 class="grve-pricing-title">
+                                                <i class="fa fa-paw"></i>
+                                                 Swallow Barn
+                                            </h6>
+                                            <h6 class="grve-price">
+                                                £368 - £1022 
+                                                <span>/week</span>
+                                            </h6>
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <strong>Sleeps 5</strong>
+                                            </li>
+                                            <li>
+                                                <strong>
+                                                    <a class="grve-btn grve-btn-large grve-orange-color" href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/book-swallow-barn/" data-hover="Book Now" target="_self" style="" rel="noopener">
+                                                        <span>Book Now</span>
+                                                    </a>
+                                                </strong>
+                                            </li>
+                                            <li>
+                                                <strong>
+                                                    <a class="grve-btn grve-btn-small grve-blue-color" href="https://web.archive.org/web/20240723165628/http://www.waterloofarmholidays.co.uk/book-now/" data-hover="Compare" target="_self" style="" rel="noopener">
+                                                        <span>Compare</span>
+                                                    </a>
+                                                </strong>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="text-9" class="grve-widget widget widget_text">
+                                <div class="textwidget">
+                                    <div class="grve-widget grve-social">
+                                        <ul>
+
+                                            <li>
+                                                <a href="https://web.archive.org/web/20240723165628/https://www.facebook.com/pages/Waterloo-Farm-Holidays/171360599549442" title="Saffron Cottage" class="grve-social-share-facebook">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://web.archive.org/web/20240723165628/https://twitter.com/AEWerren" title="Saffron Cottage" class="grve-social-share-twitter">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <ul class="grve-fields">
+                                        <li class="grve-fields-title">2x Bedrooms</li>
+                                        <li class="grve-fields-title">Central heating</li>
+                                        <li class="grve-fields-title">Family Bathroom</li>
+                                        <li class="grve-fields-title">Fridge and freezer</li>
+                                        <li class="grve-fields-title">Parking</li>
+                                        <li class="grve-fields-title">Patio Furniture</li>
+                                        <li class="grve-fields-title">TV with freeview</li>
+                                        <li class="grve-fields-title">WEP secure WiFi</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grve-footer-bar">
+                    <div class="grve-container">
+                        <div class="grve-row">
+
+                            <div class="grve-column-1-2">
+                                <div class="grve-copyright">
+                                						Copyright 2015 - All Rights Reserved.					</div>
+                            </div>
+                            <div class="grve-column-1-2">
+                                <div class="grve-second-menu">
+                                    <ul id="menu-bottom-menu" class="menu">
+                                        <li id="menu-item-837" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-837">
+                                            <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/">Home</a>
+                                        </li>
+                                        <li id="menu-item-1105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1105">
+                                            <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/accommodation/">Accommodation</a>
+                                        </li>
+                                        <li id="menu-item-1106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1106">
+                                            <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/book-now/">Book Now</a>
+                                        </li>
+                                        <li id="menu-item-1103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1103">
+                                            <a href="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/contact-us-2/">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+
+        </div>
+        <!-- end #grve-theme-body -->
+    </div>
+    <!-- end #grve-wrapper -->
+
+    <script type="text/html" id="wpb-modifications"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4" id="wp-polyfill-js"></script>
+    <script type="text/javascript" id="wp-polyfill-js-after">
+    ('fetch' in window) || document.write('<script src="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>');
+    (document.contains) || document.write('<script src="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>');
+    (window.DOMRect) || document.write('<script src="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>');
+    (window.URL && window.URL.prototype && window.URLSearchParams) || document.write('<script src="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>');
+    (window.FormData && window.FormData.prototype.keys) || document.write('<script src="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>');
+    (Element.prototype.matches && Element.prototype.closest) || document.write('<script src="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>');
+    ('objectFit' in document.documentElement.style) || document.write('<script src="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4"></scr' + 'ipt>');
+    </script>
+    <script type="text/javascript" id="contact-form-7-js-extra">
+    /* <![CDATA[ */
+    var wpcf7 = {
+        "api": {
+            "root": "https:\/\/web.archive.org\/web\/20240723165628\/https:\/\/www.waterloofarmholidays.co.uk\/wp-json\/",
+            "namespace": "contact-form-7\/v1"
+        }
+    };
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.5.6.1" id="contact-form-7-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1" id="jquery-ui-core-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.12.1" id="jquery-ui-datepicker-js"></script>
+    <script type="text/javascript" id="jquery-ui-datepicker-js-after">
+    jQuery(document).ready(function(jQuery) {
+        jQuery.datepicker.setDefaults({
+            "closeText": "Close",
+            "currentText": "Today",
+            "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+            "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            "nextText": "Next",
+            "prevText": "Previous",
+            "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+            "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
+            "dateFormat": "dS MM yy",
+            "firstDay": 1,
+            "isRTL": false
+        });
+    });
+    </script>
+    <script type="text/javascript" id="wpsbc-script-js-extra">
+    /* <![CDATA[ */
+    var wpsbc = {
+        "ajax_url": "https:\/\/web.archive.org\/web\/20240723165628\/https:\/\/www.waterloofarmholidays.co.uk\/wp-admin\/admin-ajax.php",
+        "search_form_nonce": "6b6c2ca57d",
+        "search_date_format": "d MM yy",
+        "calendar_months_to_jump": ""
+    };
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/plugins/wp-simple-booking-calendar-premium/assets/js/script-front-end.min.js?ver=8.3.9" id="wpsbc-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/modernizr.custom.js?ver=2.6.2" id="grve-modernizr-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/jquery.easing.1.3.js?ver=1.3.0" id="grve-jquery-easing-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/jquery.appear.js?ver=20140204" id="grve-jquery-appear-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/smartresize.js?ver=1.0.0" id="grve-smartresize-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/imagesloaded.pkgd.min.js?ver=3.0.4" id="grve-imagesloaded-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/jquery.carouFredSel-6.2.1.js?ver=6.2.1" id="grve-jquery-carouFredSel-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/countUp.min.js?ver=1.3.2" id="grve-count-up-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/jquery.touchSwipe.min.js?ver=20140215" id="grve-jquery-touchSwipe-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/jquery.flexslider.js?ver=2.2.0" id="grve-jquery-flexslider-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/jquery.fitvids.js?ver=1.0.0" id="grve-jquery-fitvids-script-js"></script>
+    <script type="text/javascript" id="grve-retina-script-js-extra">
+    /* <![CDATA[ */
+    var grve_plugins_data = {
+        "retina_support": "default"
+    };
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/retina.min.js?ver=1.4.0" id="grve-retina-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/jquery.hoverdir.js?ver=1.1.0" id="grve-jquery-hoverdir-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/jquery.isotope.min.js?ver=1.5.25" id="grve-jquery-isotope-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/jquery.magnific-popup.min.js?ver=0.9.9" id="grve-jquery-magnific-popup-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/jquery.parallax.min.js?ver=20140316" id="grve-jquery-parallax-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/jquery.transit.js?ver=0.9.9" id="grve-jquery-transit-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/jquery.sticky.js?ver=1.0.0" id="grve-jquery-sticky-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/jquery.stellar.min.js?ver=0.6.2" id="grve-jquery-stellar-js"></script>
+    <script type="text/javascript" id="grve-main-script-js-extra">
+    /* <![CDATA[ */
+    var grve_form_data = {
+        "siteurl": "https:\/\/web.archive.org\/web\/20240723165628\/https:\/\/www.waterloofarmholidays.co.uk\/wp-content\/themes\/reload",
+        "ajaxurl": "https:\/\/web.archive.org\/web\/20240723165628\/https:\/\/www.waterloofarmholidays.co.uk\/wp-admin\/admin-ajax.php",
+        "send_label": "Send",
+        "sending_label": "Sending ...",
+        "name_required_error": "Name field is required!",
+        "email_validation_error": "Enter a valid email address!",
+        "success": "Message sent Successfully!",
+        "failed": "Message failed. Please try again later!"
+    };
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/js/main.js?ver=1.4.0" id="grve-main-script-js"></script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-includes/js/wp-embed.min.js?ver=5.7.12" id="wp-embed-js"></script>
+    <script type="text/javascript" id="wpb_composer_front_js-js-extra">
+    /* <![CDATA[ */
+    var vcData = {
+        "currentTheme": {
+            "slug": "reload"
+        }
+    };
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://web.archive.org/web/20240723165628js_/https://www.waterloofarmholidays.co.uk/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.9.0" id="wpb_composer_front_js-js"></script>
+
+</body>
+
+</html>
+
+<script>
+$(document).on('click', '.pickerbutton', function() {
+    $.ajax({
+        url: 'https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/ajaxcalender.php',
+        type: 'get',
+        dataType: 'html',
+        data: $('.datepickerform').serialize(),
+        beforeSend: function() {
+            $('.calender_container').append('<div id="loader"><img src="https://web.archive.org/web/20240723165628/https://www.waterloofarmholidays.co.uk/wp-content/themes/reload/images/ajax-loader.gif" alt="loading..." /></div>');
+            $('table.month').css({
+                'opacity': '0.2'
+            });
+        },
+        success: function(html, textStatus, jqXHR) {
+            $('.calender_container').html(html);
+            $('#loader').remove();
+            $('.table.month').css({
+                'opacity': '1'
+            });
+        }
+    });
+});
+</script>
+
+<!--
+     FILE ARCHIVED ON 16:56:28 Jul 23, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:22:05 Feb 10, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.549
+  exclusion.robots: 0.048
+  exclusion.robots.policy: 0.036
+  esindex: 0.028
+  cdx.remote: 17.573
+  LoadShardBlock: 106.029 (3)
+  PetaboxLoader3.datanode: 124.123 (4)
+  load_resource: 136.812
+  PetaboxLoader3.resolve: 33.584
+  nav: 0.169 (6)
+-->

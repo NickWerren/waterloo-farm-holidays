@@ -33,7 +33,7 @@ home = ["HTML", "RSS", "Algolia"]
   upstreamAttribution = false
   # Google Sheet CSV URL for availability calendar
   # Publish your Google Sheet: File > Share > Publish to web > Sheet1 > CSV
-  availability_sheet_url = ""
+  availability_sheet_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vREf_bZt18vibGui4OzNtS-otQZriwpCyQhKRwDkHFoRBvWQdFTpLQebdH5ofPHjqv2LxzCRktmj25z/pub?gid=884674849&single=true&output=csv"
 
   image_404 = "img/404-bg.jpg"
   title_404 = "Page Not Found"

@@ -664,64 +664,76 @@ function initializeCalendar(containerId, propertyName) {
     let selectedStartDate = null;
     let selectedEndDate = null;
 
-    // Booked dates per property (2026 bookings from calendar)
-    const propertyBookings = {
-        'swallow-barn': [
-            // Feb 27 + 3 nights
-            '2026-02-27', '2026-02-28', '2026-03-01'
-        ],
-        'the-old-apple-tallet': [
-            // Mar 28 - Apr 4 (Bradford)
-            '2026-03-28', '2026-03-29', '2026-03-30', '2026-03-31', '2026-04-01', '2026-04-02', '2026-04-03',
-            // May 23-30 (Middleditch)
-            '2026-05-23', '2026-05-24', '2026-05-25', '2026-05-26', '2026-05-27', '2026-05-28', '2026-05-29',
-            // Jun 20-27 (Gulliver/Cox)
-            '2026-06-20', '2026-06-21', '2026-06-22', '2026-06-23', '2026-06-24', '2026-06-25', '2026-06-26',
-            // Jul 4-11 (Raza)
-            '2026-07-04', '2026-07-05', '2026-07-06', '2026-07-07', '2026-07-08', '2026-07-09', '2026-07-10',
-            // Aug 1-15 (Mullder - 2 weeks)
-            '2026-08-01', '2026-08-02', '2026-08-03', '2026-08-04', '2026-08-05', '2026-08-06', '2026-08-07',
-            '2026-08-08', '2026-08-09', '2026-08-10', '2026-08-11', '2026-08-12', '2026-08-13', '2026-08-14'
-        ],
-        'kingfisher-cottage': [
-            // Jun 6-13
-            '2026-06-06', '2026-06-07', '2026-06-08', '2026-06-09', '2026-06-10', '2026-06-11', '2026-06-12'
-        ],
-        'haypole-barn': [
-            // May 11 + 2 nights (BottTC)
-            '2026-05-11', '2026-05-12', '2026-05-13',
-            // Jun 20 - Jul 4 (Lyons - 2 weeks)
-            '2026-06-20', '2026-06-21', '2026-06-22', '2026-06-23', '2026-06-24', '2026-06-25', '2026-06-26',
-            '2026-06-27', '2026-06-28', '2026-06-29', '2026-06-30', '2026-07-01', '2026-07-02', '2026-07-03',
-            // Jul 25 - Aug 1 (Ellwood)
-            '2026-07-25', '2026-07-26', '2026-07-27', '2026-07-28', '2026-07-29', '2026-07-30', '2026-07-31',
-            // Aug 22-29 (McGeehan)
-            '2026-08-22', '2026-08-23', '2026-08-24', '2026-08-25', '2026-08-26', '2026-08-27', '2026-08-28'
-        ],
-        'sandmartins': [
-            // May 23-30 (Allsop)
-            '2026-05-23', '2026-05-24', '2026-05-25', '2026-05-26', '2026-05-27', '2026-05-28', '2026-05-29',
-            // Aug 8-15 (Musson)
-            '2026-08-08', '2026-08-09', '2026-08-10', '2026-08-11', '2026-08-12', '2026-08-13', '2026-08-14',
-            // Aug 22-29 (Ellis)
-            '2026-08-22', '2026-08-23', '2026-08-24', '2026-08-25', '2026-08-26', '2026-08-27', '2026-08-28',
-            // Sep 4 + 5 nights (Nilsen)
-            '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09'
-        ],
-        'saffron-cottage': [
-            // May 23-30 (Rayner)
-            '2026-05-23', '2026-05-24', '2026-05-25', '2026-05-26', '2026-05-27', '2026-05-28', '2026-05-29',
-            // Jul 18-25 (Cutts)
-            '2026-07-18', '2026-07-19', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24'
-        ]
+    // Booked dates populated from Google Sheet
+    const bookedDates = {};
+
+    // Slug-to-name mapping for matching CSV cottage names
+    const slugToNames = {
+        'haypole-barn': 'haypole barn',
+        'sandmartins': 'sandmartins',
+        'kingfisher-cottage': 'kingfisher cottage',
+        'saffron-cottage': 'saffron cottage',
+        'swallow-barn': 'swallow barn',
+        'the-old-apple-tallet': 'the old apple tallet'
     };
 
-    // Build bookedDates object for this property
-    const bookedDates = {};
-    if (propertyBookings[propertyName]) {
-        propertyBookings[propertyName].forEach(date => {
-            bookedDates[date] = true;
-        });
+    // Fetch bookings from Google Sheet CSV
+    var sheetUrl = '{{ with .Site.Params.availability_sheet_url }}{{ . }}{{ end }}';
+    if (sheetUrl) {
+        fetch(sheetUrl)
+            .then(function(r) { return r.text(); })
+            .then(function(csv) {
+                var lines = csv.split('\n');
+                var matchName = (slugToNames[propertyName] || propertyName).toLowerCase();
+                for (var i = 1; i < lines.length; i++) {
+                    var line = lines[i].trim();
+                    if (!line) continue;
+                    // Simple CSV parse handling quoted fields
+                    var fields = [];
+                    var current = '';
+                    var inQuotes = false;
+                    for (var j = 0; j < line.length; j++) {
+                        var ch = line[j];
+                        if (ch === '"') { inQuotes = !inQuotes; }
+                        else if (ch === ',' && !inQuotes) { fields.push(current.trim()); current = ''; }
+                        else { current += ch; }
+                    }
+                    fields.push(current.trim());
+
+                    if (fields.length < 3) continue;
+                    if (fields[0].toLowerCase() !== matchName) continue;
+
+                    // Parse DD/MM/YYYY dates
+                    var checkIn = parseUKDate(fields[1]);
+                    var checkOut = parseUKDate(fields[2]);
+                    if (!checkIn || !checkOut) continue;
+
+                    // Mark each day from check-in to check-out (exclusive) as booked
+                    var d = new Date(checkIn);
+                    while (d < checkOut) {
+                        bookedDates[d.toISOString().split('T')[0]] = true;
+                        d.setDate(d.getDate() + 1);
+                    }
+                }
+                renderCalendar();
+            })
+            .catch(function() {
+                renderCalendar();
+            });
+    }
+
+    function parseUKDate(str) {
+        if (!str) return null;
+        var parts = str.split('/');
+        if (parts.length === 3) {
+            var day = parseInt(parts[0], 10);
+            var month = parseInt(parts[1], 10) - 1;
+            var year = parseInt(parts[2], 10);
+            if (year < 100) year += 2000;
+            return new Date(year, month, day);
+        }
+        var d = new Date(str);
+        return isNaN(d.getTime()) ? null : d;
     }
 
     function renderCalendar() {

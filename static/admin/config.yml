@@ -1,15 +1,12 @@
 backend:
-  name: github
-  repo: NickWerren/waterloo-farm-holidays
+  name: git-gateway
   branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
 
 # Optional: Use this for local development
 # local_backend: true
 
 media_folder: "static/img/uploads"
-public_folder: "/waterloo-farm-holidays/img/uploads"
+public_folder: "/img/uploads"
 
 # Publish mode - require editorial workflow (drafts)
 publish_mode: editorial_workflow

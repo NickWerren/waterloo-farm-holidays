@@ -362,13 +362,18 @@
 
     function parseDate(str) {
         if (!str) return null;
-        // Handle DD/MM/YYYY (UK format from Google Sheets)
         var parts = str.split('/');
         if (parts.length === 3) {
-            var day = parseInt(parts[0], 10);
-            var month = parseInt(parts[1], 10) - 1;
+            var a = parseInt(parts[0], 10);
+            var b = parseInt(parts[1], 10);
             var year = parseInt(parts[2], 10);
             if (year < 100) year += 2000;
+            // Google Sheets CSV exports M/D/YYYY (US format)
+            // Detect: if second part > 12 it must be DD/MM/YYYY, otherwise assume M/D/YYYY
+            var day, month;
+            if (b > 12) { day = b; month = a - 1; }
+            else if (a > 12) { day = a; month = b - 1; }
+            else { month = a - 1; day = b; } // default to M/D/YYYY
             return new Date(year, month, day);
         }
         // Fallback to standard parse
